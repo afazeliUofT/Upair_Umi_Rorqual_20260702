@@ -259,3 +259,21 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [OPTUNA] exported best params: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_deep_d320_b6_r2_best_params.json
 [OPTUNA-ISO] starting stage=B trial=1 trial_id=2 params={'batch_size_train': 8, 'batch_size_eval': 8, 'learning_rate_schedule': 'constant', 'learning_rate': 0.0004836255912377222, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.05, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 1.1922049279863218e-07, 'nmse_loss_weight': 0.4274172298450684, 'grad_clip_norm': 0.5, 'dropout': 0.07659517324155471, 'residual_scale': 0.26986053908682783}
 [OPTUNA-ISO] launching worker trial=1 pid=<pending> params={'batch_size_train': 8, 'batch_size_eval': 8, 'learning_rate_schedule': 'constant', 'learning_rate': 0.0004836255912377222, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.05, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 1.1922049279863218e-07, 'nmse_loss_weight': 0.4274172298450684, 'grad_clip_norm': 0.5, 'dropout': 0.07659517324155471, 'residual_scale': 0.26986053908682783}
+2026-07-02 16:56:24.634921: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-02 16:56:24.721417: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-02 16:57:34.508343: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[OPTUNA-WORKER] start trial=1 pid=3111493 TF_GPU_ALLOCATOR=cuda_malloc_async TF_FORCE_GPU_ALLOW_GROWTH=true
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+[TRAIN] optimizer lr_schedule=constant learning_rate=0.000483626 weight_decay=1.1922e-07
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-07-02 17:43:41.505917: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783028636.412869 3224597 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.18952 nmse_prop=0.11765 nmse_ls=0.11765 lr=4.836e-04 step_time=41.442s steps_per_s=0.024 gpu_mem=0.14GiB peak=3.35GiB
+[TRAIN] step=00100 loss=-0.95063 nmse_prop=0.13352 nmse_ls=0.13593 lr=4.836e-04 step_time=0.373s steps_per_s=0.905 gpu_mem=0.16GiB peak=3.38GiB
+[TRAIN] step=00200 loss=-0.97092 nmse_prop=0.11340 nmse_ls=0.11453 lr=4.836e-04 step_time=0.373s steps_per_s=1.316 gpu_mem=0.16GiB peak=3.38GiB
+[TRAIN] step=00300 loss=-0.42564 nmse_prop=0.21710 nmse_ls=0.22760 lr=4.836e-04 step_time=0.374s steps_per_s=1.549 gpu_mem=0.16GiB peak=3.38GiB
+[TRAIN] step=00400 loss=-1.39928 nmse_prop=0.08724 nmse_ls=0.09023 lr=4.836e-04 step_time=0.377s steps_per_s=1.698 gpu_mem=0.16GiB peak=3.38GiB
+[TRAIN] step=00500 loss=-1.64436 nmse_prop=0.06934 nmse_ls=0.07026 lr=4.836e-04 step_time=0.347s steps_per_s=1.801 gpu_mem=0.16GiB peak=3.38GiB
+[TRAIN] step=00600 loss=-0.93078 nmse_prop=0.13616 nmse_ls=0.14501 lr=4.836e-04 step_time=0.348s steps_per_s=1.881 gpu_mem=0.16GiB peak=3.38GiB

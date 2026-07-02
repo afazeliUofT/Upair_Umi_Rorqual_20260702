@@ -1,26 +1,26 @@
 {
-  "best_val": 0.06265924377172875,
+  "best_val": 0.055738279081803434,
   "best_weights_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/best.weights.h5",
   "checkpoint_metrics": {
-    "last_loss": -1.9044935703277588,
-    "last_nmse_ls": 0.09919935464859009,
-    "last_nmse_prop": 0.057688768953084946
+    "last_loss": -2.5876264572143555,
+    "last_nmse_ls": 0.05567995458841324,
+    "last_nmse_prop": 0.03182454779744148
   },
   "last_metrics": {
-    "ebno_db": -0.5339012145996094,
+    "ebno_db": 3.1298131942749023,
     "learning_rate": 0.00048650536336936057,
-    "loss": -1.9044935703277588,
-    "loss_nll": -1.933316707611084,
-    "nmse_ls": 0.09919935464859009,
-    "nmse_prop": 0.057688768953084946,
-    "num_users": 3,
-    "step": 17000,
-    "step_elapsed_s": 0.3088436590041965,
-    "steps_per_s": 1.999537733232608,
-    "training_elapsed_s": 8501.965087958844
+    "loss": -2.5876264572143555,
+    "loss_nll": -2.603527069091797,
+    "nmse_ls": 0.05567995458841324,
+    "nmse_prop": 0.03182454779744148,
+    "num_users": 2,
+    "step": 35000,
+    "step_elapsed_s": 0.2894555600360036,
+    "steps_per_s": 2.334591182347253,
+    "training_elapsed_s": 6150.541520320112
   },
-  "latest_step": 17000,
-  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/training_state/ckpt-17000",
+  "latest_step": 35000,
+  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/training_state/ckpt-35000",
   "resume_enabled": true,
   "save_reason": "periodic",
   "total_steps": 40000,

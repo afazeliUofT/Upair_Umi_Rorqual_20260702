@@ -1,23 +1,23 @@
 {
-  "best_val": 0.07144805507656808,
+  "best_val": 0.06130032055079937,
   "best_weights_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2/wide_d320_b4_r2_trial_0001/checkpoints/best.weights.h5",
   "checkpoint_metrics": {
-    "last_loss": -1.1487058401107788,
-    "last_nmse_ls": 0.22763168811798096,
-    "last_nmse_prop": 0.11660792678594589
+    "last_loss": -1.2222859859466553,
+    "last_nmse_ls": 0.2513401210308075,
+    "last_nmse_prop": 0.11175473779439926
   },
   "last_metrics": {
-    "ebno_db": -5.062535762786865,
-    "learning_rate": 0.00043476649443618953,
-    "loss": -1.1487058401107788,
-    "loss_nll": -1.1855804920196533,
-    "nmse_ls": 0.22763168811798096,
-    "nmse_prop": 0.11660792678594589,
+    "ebno_db": -5.393690586090088,
+    "learning_rate": 7.221508712973446e-05,
+    "loss": -1.2222859859466553,
+    "loss_nll": -1.257625937461853,
+    "nmse_ls": 0.2513401210308075,
+    "nmse_prop": 0.11175473779439926,
     "num_users": 3,
-    "step": 5000,
-    "step_elapsed_s": 166.7970066999551,
-    "steps_per_s": 1.5401786333758913,
-    "training_elapsed_s": 3246.376681022113,
+    "step": 12000,
+    "step_elapsed_s": 163.16171855898574,
+    "steps_per_s": 1.3613947967374647,
+    "training_elapsed_s": 8814.489396285033,
     "val_batch_size": 8,
     "val_ebno_db": "multi",
     "val_ebno_db_values": [
@@ -28,32 +28,32 @@
       4.0
     ],
     "val_microbatch_size": 4,
-    "val_nmse_ls": 0.1120459582307376,
-    "val_nmse_prop": 0.07144805507656808,
+    "val_nmse_ls": 0.10998756702368458,
+    "val_nmse_prop": 0.06327915050981876,
     "val_snr_hist": {
-      "-2.0": 15,
-      "-4.0": 23,
-      "0.0": 18,
-      "2.0": 25,
-      "4.0": 15
+      "-2.0": 23,
+      "-4.0": 16,
+      "0.0": 19,
+      "2.0": 24,
+      "4.0": 14
     },
     "val_user_count_hist": {
-      "1": 4,
-      "2": 15,
-      "3": 24,
-      "4": 53
+      "1": 9,
+      "2": 11,
+      "3": 28,
+      "4": 48
     }
   },
-  "latest_step": 5000,
-  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2/wide_d320_b4_r2_trial_0001/checkpoints/training_state/ckpt-5000",
+  "latest_step": 12000,
+  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2/wide_d320_b4_r2_trial_0001/checkpoints/training_state/ckpt-12000",
   "resume_enabled": true,
-  "save_reason": "periodic",
+  "save_reason": "final",
   "total_steps": 12000,
-  "training_complete": false,
+  "training_complete": true,
   "training_parameters": {
     "batch_size_eval": 8,
     "batch_size_train": 8,
-    "current_learning_rate": 0.00043476649443618953,
+    "current_learning_rate": 7.221508712973446e-05,
     "eval_every": 1000,
     "evaluation_seed": 1007,
     "grad_clip_norm": 0.5,

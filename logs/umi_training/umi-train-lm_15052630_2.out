@@ -169,3 +169,314 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [TRAIN] step=11700 loss=-1.97430 nmse_prop=0.07397 nmse_ls=0.12645 lr=9.643e-04 step_time=0.345s steps_per_s=1.736 gpu_mem=0.15GiB peak=5.38GiB
 [TRAIN] step=11800 loss=-1.94363 nmse_prop=0.05707 nmse_ls=0.09555 lr=9.643e-04 step_time=0.397s steps_per_s=1.741 gpu_mem=0.15GiB peak=5.38GiB
 [TRAIN] step=11900 loss=-2.09878 nmse_prop=0.05041 nmse_ls=0.07595 lr=9.643e-04 step_time=0.394s steps_per_s=1.745 gpu_mem=0.15GiB peak=5.38GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=12000 val_nmse=0.0558042
+[TRAIN] step=12000 loss=-1.22841 nmse_prop=0.10826 nmse_ls=0.24652 lr=9.643e-04 step_time=1046.650s steps_per_s=1.518 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=12000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-12000
+[TRAIN] step=12100 loss=-1.72136 nmse_prop=0.07154 nmse_ls=0.12718 lr=9.643e-04 step_time=0.393s steps_per_s=1.521 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12200 loss=-1.27659 nmse_prop=0.09907 nmse_ls=0.20777 lr=9.643e-04 step_time=0.406s steps_per_s=1.525 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12300 loss=-1.47088 nmse_prop=0.09083 nmse_ls=0.22736 lr=9.643e-04 step_time=0.370s steps_per_s=1.530 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12400 loss=-1.44254 nmse_prop=0.09039 nmse_ls=0.21497 lr=9.643e-04 step_time=0.370s steps_per_s=1.534 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12500 loss=-2.40608 nmse_prop=0.04021 nmse_ls=0.05338 lr=9.643e-04 step_time=0.407s steps_per_s=1.539 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12600 loss=-2.31570 nmse_prop=0.04372 nmse_ls=0.06912 lr=9.643e-04 step_time=0.370s steps_per_s=1.544 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12700 loss=-1.95092 nmse_prop=0.05575 nmse_ls=0.16156 lr=9.643e-04 step_time=0.347s steps_per_s=1.548 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12800 loss=-1.82427 nmse_prop=0.06378 nmse_ls=0.13726 lr=9.643e-04 step_time=0.372s steps_per_s=1.553 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=12900 loss=-2.58959 nmse_prop=0.03366 nmse_ls=0.07839 lr=9.643e-04 step_time=0.331s steps_per_s=1.557 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13000 loss=-1.86113 nmse_prop=0.06209 nmse_ls=0.12796 lr=9.643e-04 step_time=0.381s steps_per_s=1.561 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=13000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-13000
+[TRAIN] step=13100 loss=-2.08059 nmse_prop=0.05124 nmse_ls=0.08583 lr=9.643e-04 step_time=0.393s steps_per_s=1.557 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13200 loss=-1.96317 nmse_prop=0.05609 nmse_ls=0.09529 lr=9.643e-04 step_time=0.395s steps_per_s=1.561 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13300 loss=-2.29607 nmse_prop=0.04465 nmse_ls=0.07216 lr=9.643e-04 step_time=0.371s steps_per_s=1.566 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13400 loss=-2.00311 nmse_prop=0.05504 nmse_ls=0.08980 lr=9.643e-04 step_time=0.394s steps_per_s=1.570 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13500 loss=-2.53788 nmse_prop=0.03276 nmse_ls=0.06540 lr=9.643e-04 step_time=0.348s steps_per_s=1.574 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13600 loss=-1.52398 nmse_prop=0.08106 nmse_ls=0.18162 lr=9.643e-04 step_time=0.407s steps_per_s=1.578 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13700 loss=-2.36709 nmse_prop=0.04050 nmse_ls=0.05955 lr=9.643e-04 step_time=0.394s steps_per_s=1.582 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13800 loss=-2.26389 nmse_prop=0.04464 nmse_ls=0.06181 lr=9.643e-04 step_time=0.397s steps_per_s=1.586 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=13900 loss=-2.39668 nmse_prop=0.03840 nmse_ls=0.10270 lr=9.643e-04 step_time=0.320s steps_per_s=1.590 gpu_mem=0.15GiB peak=5.38GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=14000 val_nmse=0.0542808
+[TRAIN] step=14000 loss=-2.03802 nmse_prop=0.05515 nmse_ls=0.08898 lr=9.643e-04 step_time=212.045s steps_per_s=1.557 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=14000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-14000
+[TRAIN] step=14100 loss=-1.90563 nmse_prop=0.06240 nmse_ls=0.11591 lr=9.643e-04 step_time=0.369s steps_per_s=1.560 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14200 loss=-2.28888 nmse_prop=0.04283 nmse_ls=0.06054 lr=9.643e-04 step_time=0.394s steps_per_s=1.564 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14300 loss=-1.22412 nmse_prop=0.11028 nmse_ls=0.26144 lr=9.643e-04 step_time=0.394s steps_per_s=1.568 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14400 loss=-2.22776 nmse_prop=0.04606 nmse_ls=0.08294 lr=9.643e-04 step_time=0.370s steps_per_s=1.572 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14500 loss=-1.38235 nmse_prop=0.09792 nmse_ls=0.20489 lr=9.643e-04 step_time=0.395s steps_per_s=1.576 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14600 loss=-1.94858 nmse_prop=0.05769 nmse_ls=0.12043 lr=9.643e-04 step_time=0.371s steps_per_s=1.580 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14700 loss=-1.43305 nmse_prop=0.09249 nmse_ls=0.18648 lr=9.643e-04 step_time=0.397s steps_per_s=1.583 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14800 loss=-1.82821 nmse_prop=0.06424 nmse_ls=0.19212 lr=9.643e-04 step_time=0.345s steps_per_s=1.587 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=14900 loss=-1.76988 nmse_prop=0.06833 nmse_ls=0.12839 lr=9.643e-04 step_time=0.406s steps_per_s=1.591 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15000 loss=-2.01914 nmse_prop=0.05500 nmse_ls=0.19771 lr=9.643e-04 step_time=0.319s steps_per_s=1.595 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=15000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-15000
+[TRAIN] step=15100 loss=-1.82083 nmse_prop=0.06850 nmse_ls=0.12365 lr=9.643e-04 step_time=0.392s steps_per_s=1.598 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15200 loss=-2.19192 nmse_prop=0.04734 nmse_ls=0.08628 lr=9.643e-04 step_time=0.381s steps_per_s=1.602 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15300 loss=-2.59626 nmse_prop=0.03342 nmse_ls=0.04518 lr=9.643e-04 step_time=0.370s steps_per_s=1.605 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15400 loss=-2.23127 nmse_prop=0.04357 nmse_ls=0.11874 lr=9.643e-04 step_time=0.344s steps_per_s=1.609 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15500 loss=-2.42483 nmse_prop=0.03850 nmse_ls=0.06269 lr=9.643e-04 step_time=0.371s steps_per_s=1.612 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15600 loss=-2.25232 nmse_prop=0.04460 nmse_ls=0.09555 lr=9.643e-04 step_time=0.345s steps_per_s=1.616 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15700 loss=-2.40356 nmse_prop=0.03898 nmse_ls=0.06552 lr=9.643e-04 step_time=0.369s steps_per_s=1.619 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15800 loss=-1.67486 nmse_prop=0.07289 nmse_ls=0.14232 lr=9.643e-04 step_time=0.395s steps_per_s=1.623 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=15900 loss=-1.99905 nmse_prop=0.05559 nmse_ls=0.14927 lr=9.643e-04 step_time=0.344s steps_per_s=1.626 gpu_mem=0.15GiB peak=5.38GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=16000 val_nmse=0.0537714
+[TRAIN] step=16000 loss=-1.71160 nmse_prop=0.07111 nmse_ls=0.15761 lr=9.643e-04 step_time=209.761s steps_per_s=1.596 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=16000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-16000
+[TRAIN] step=16100 loss=-2.31978 nmse_prop=0.04286 nmse_ls=0.07329 lr=9.643e-04 step_time=0.379s steps_per_s=1.599 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16200 loss=-2.20111 nmse_prop=0.04565 nmse_ls=0.09757 lr=9.643e-04 step_time=0.371s steps_per_s=1.602 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16300 loss=-2.25919 nmse_prop=0.04434 nmse_ls=0.06498 lr=9.643e-04 step_time=0.396s steps_per_s=1.606 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16400 loss=-2.21736 nmse_prop=0.05604 nmse_ls=0.07753 lr=9.643e-04 step_time=0.418s steps_per_s=1.609 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16500 loss=-2.16352 nmse_prop=0.05082 nmse_ls=0.07912 lr=9.643e-04 step_time=0.405s steps_per_s=1.612 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16600 loss=-1.59493 nmse_prop=0.07700 nmse_ls=0.16478 lr=9.643e-04 step_time=0.407s steps_per_s=1.615 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16700 loss=-2.41351 nmse_prop=0.03806 nmse_ls=0.06563 lr=9.643e-04 step_time=0.372s steps_per_s=1.619 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16800 loss=-2.27713 nmse_prop=0.04251 nmse_ls=0.10763 lr=9.643e-04 step_time=0.345s steps_per_s=1.622 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=16900 loss=-1.55181 nmse_prop=0.07702 nmse_ls=0.15977 lr=9.643e-04 step_time=0.393s steps_per_s=1.625 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17000 loss=-2.09591 nmse_prop=0.05006 nmse_ls=0.09920 lr=9.643e-04 step_time=0.371s steps_per_s=1.628 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=17000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-17000
+[TRAIN] step=17100 loss=-2.05446 nmse_prop=0.05056 nmse_ls=0.14772 lr=9.643e-04 step_time=0.343s steps_per_s=1.630 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17200 loss=-1.83238 nmse_prop=0.06643 nmse_ls=0.12283 lr=9.643e-04 step_time=0.395s steps_per_s=1.633 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17300 loss=-1.67309 nmse_prop=0.07416 nmse_ls=0.14436 lr=9.643e-04 step_time=0.394s steps_per_s=1.636 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17400 loss=-2.01582 nmse_prop=0.05464 nmse_ls=0.19915 lr=9.643e-04 step_time=0.329s steps_per_s=1.640 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17500 loss=-2.54518 nmse_prop=0.03949 nmse_ls=0.06241 lr=9.643e-04 step_time=0.371s steps_per_s=1.643 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17600 loss=-1.95489 nmse_prop=0.05740 nmse_ls=0.13126 lr=9.643e-04 step_time=0.370s steps_per_s=1.646 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17700 loss=-2.24071 nmse_prop=0.04557 nmse_ls=0.07113 lr=9.643e-04 step_time=0.395s steps_per_s=1.649 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17800 loss=-1.59894 nmse_prop=0.07690 nmse_ls=0.20865 lr=9.643e-04 step_time=0.371s steps_per_s=1.652 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=17900 loss=-2.42185 nmse_prop=0.03819 nmse_ls=0.05859 lr=9.643e-04 step_time=0.394s steps_per_s=1.655 gpu_mem=0.15GiB peak=5.38GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=18000 val_nmse=0.0506973
+[TRAIN] step=18000 loss=-1.78637 nmse_prop=0.06617 nmse_ls=0.14748 lr=9.643e-04 step_time=207.700s steps_per_s=1.627 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=18000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-18000
+[TRAIN] step=18100 loss=-1.62059 nmse_prop=0.07925 nmse_ls=0.17550 lr=9.643e-04 step_time=0.392s steps_per_s=1.629 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18200 loss=-2.06049 nmse_prop=0.05138 nmse_ls=0.09045 lr=9.643e-04 step_time=0.405s steps_per_s=1.631 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18300 loss=-2.49202 nmse_prop=0.03613 nmse_ls=0.04892 lr=9.643e-04 step_time=0.395s steps_per_s=1.634 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18400 loss=-1.58605 nmse_prop=0.07971 nmse_ls=0.17573 lr=9.643e-04 step_time=0.394s steps_per_s=1.637 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18500 loss=-1.99094 nmse_prop=0.05391 nmse_ls=0.09867 lr=9.643e-04 step_time=0.394s steps_per_s=1.640 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18600 loss=-2.12604 nmse_prop=0.04865 nmse_ls=0.11325 lr=9.643e-04 step_time=0.370s steps_per_s=1.643 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18700 loss=-1.82664 nmse_prop=0.06416 nmse_ls=0.12645 lr=9.643e-04 step_time=0.405s steps_per_s=1.646 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18800 loss=-2.14291 nmse_prop=0.05142 nmse_ls=0.08147 lr=9.643e-04 step_time=0.394s steps_per_s=1.649 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=18900 loss=-2.48905 nmse_prop=0.03558 nmse_ls=0.06140 lr=9.643e-04 step_time=0.371s steps_per_s=1.652 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19000 loss=-2.41235 nmse_prop=0.03917 nmse_ls=0.08455 lr=9.643e-04 step_time=0.368s steps_per_s=1.655 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=19000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-19000
+[TRAIN] step=19100 loss=-2.11861 nmse_prop=0.04965 nmse_ls=0.08618 lr=9.643e-04 step_time=0.419s steps_per_s=1.657 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19200 loss=-2.61581 nmse_prop=0.03433 nmse_ls=0.05731 lr=9.643e-04 step_time=0.344s steps_per_s=1.660 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19300 loss=-1.98881 nmse_prop=0.05517 nmse_ls=0.09710 lr=9.643e-04 step_time=0.395s steps_per_s=1.663 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19400 loss=-2.05421 nmse_prop=0.05161 nmse_ls=0.11409 lr=9.643e-04 step_time=0.383s steps_per_s=1.665 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19500 loss=-1.76203 nmse_prop=0.07041 nmse_ls=0.15206 lr=9.643e-04 step_time=0.369s steps_per_s=1.668 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19600 loss=-2.49998 nmse_prop=0.03686 nmse_ls=0.09250 lr=9.643e-04 step_time=0.320s steps_per_s=1.671 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19700 loss=-1.63386 nmse_prop=0.07593 nmse_ls=0.19157 lr=9.643e-04 step_time=0.371s steps_per_s=1.673 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19800 loss=-2.40257 nmse_prop=0.03908 nmse_ls=0.05293 lr=9.643e-04 step_time=0.394s steps_per_s=1.676 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=19900 loss=-2.54422 nmse_prop=0.03295 nmse_ls=0.07105 lr=9.643e-04 step_time=0.344s steps_per_s=1.679 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20000 loss=-1.91749 nmse_prop=0.05934 nmse_ls=0.11259 lr=9.643e-04 step_time=204.758s steps_per_s=1.653 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=20000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-20000
+[TRAIN] step=20100 loss=-2.32837 nmse_prop=0.04208 nmse_ls=0.06584 lr=9.643e-04 step_time=0.403s steps_per_s=1.655 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20200 loss=-2.21495 nmse_prop=0.04626 nmse_ls=0.06988 lr=9.643e-04 step_time=0.395s steps_per_s=1.658 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20300 loss=-1.59328 nmse_prop=0.07889 nmse_ls=0.25541 lr=9.643e-04 step_time=0.356s steps_per_s=1.661 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20400 loss=-2.41863 nmse_prop=0.03886 nmse_ls=0.05451 lr=9.643e-04 step_time=0.418s steps_per_s=1.663 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20500 loss=-1.63076 nmse_prop=0.08050 nmse_ls=0.19754 lr=9.643e-04 step_time=0.380s steps_per_s=1.666 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20600 loss=-2.31353 nmse_prop=0.04284 nmse_ls=0.06217 lr=9.643e-04 step_time=0.401s steps_per_s=1.668 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20700 loss=-1.71725 nmse_prop=0.07361 nmse_ls=0.15070 lr=9.643e-04 step_time=0.394s steps_per_s=1.671 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20800 loss=-1.94067 nmse_prop=0.05815 nmse_ls=0.10642 lr=9.643e-04 step_time=0.404s steps_per_s=1.673 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=20900 loss=-1.34211 nmse_prop=0.10185 nmse_ls=0.23674 lr=9.643e-04 step_time=0.394s steps_per_s=1.676 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21000 loss=-2.12565 nmse_prop=0.05415 nmse_ls=0.10582 lr=9.643e-04 step_time=0.380s steps_per_s=1.679 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=21000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-21000
+[TRAIN] step=21100 loss=-2.35638 nmse_prop=0.04740 nmse_ls=0.10344 lr=9.643e-04 step_time=0.342s steps_per_s=1.680 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21200 loss=-1.53819 nmse_prop=0.08453 nmse_ls=0.23405 lr=9.643e-04 step_time=0.369s steps_per_s=1.682 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21300 loss=-2.12218 nmse_prop=0.05142 nmse_ls=0.08722 lr=9.643e-04 step_time=0.394s steps_per_s=1.685 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21400 loss=-1.60968 nmse_prop=0.07993 nmse_ls=0.21530 lr=9.643e-04 step_time=0.380s steps_per_s=1.687 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21500 loss=-1.96802 nmse_prop=0.05746 nmse_ls=0.12124 lr=9.643e-04 step_time=0.369s steps_per_s=1.689 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21600 loss=-1.93044 nmse_prop=0.06077 nmse_ls=0.12790 lr=9.643e-04 step_time=0.369s steps_per_s=1.692 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21700 loss=-2.48204 nmse_prop=0.03667 nmse_ls=0.05362 lr=9.643e-04 step_time=0.394s steps_per_s=1.694 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21800 loss=-2.00098 nmse_prop=0.05553 nmse_ls=0.10425 lr=9.643e-04 step_time=0.404s steps_per_s=1.697 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=21900 loss=-1.85338 nmse_prop=0.06249 nmse_ls=0.15287 lr=9.643e-04 step_time=0.371s steps_per_s=1.699 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22000 loss=-1.94946 nmse_prop=0.05906 nmse_ls=0.11301 lr=9.643e-04 step_time=205.135s steps_per_s=1.675 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=22000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-22000
+[TRAIN] step=22100 loss=-1.42142 nmse_prop=0.09164 nmse_ls=0.22044 lr=9.643e-04 step_time=0.393s steps_per_s=1.677 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22200 loss=-2.21483 nmse_prop=0.04737 nmse_ls=0.07575 lr=9.643e-04 step_time=0.395s steps_per_s=1.679 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22300 loss=-1.49792 nmse_prop=0.08544 nmse_ls=0.20061 lr=9.643e-04 step_time=0.393s steps_per_s=1.682 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22400 loss=-1.57225 nmse_prop=0.08547 nmse_ls=0.19612 lr=9.643e-04 step_time=0.370s steps_per_s=1.684 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22500 loss=-1.36672 nmse_prop=0.09486 nmse_ls=0.24180 lr=9.643e-04 step_time=0.396s steps_per_s=1.687 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22600 loss=-1.24897 nmse_prop=0.11218 nmse_ls=0.26396 lr=9.643e-04 step_time=0.394s steps_per_s=1.689 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22700 loss=-1.81559 nmse_prop=0.07086 nmse_ls=0.11793 lr=9.643e-04 step_time=0.370s steps_per_s=1.691 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22800 loss=-2.40855 nmse_prop=0.03939 nmse_ls=0.06870 lr=9.643e-04 step_time=0.369s steps_per_s=1.694 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=22900 loss=-2.23345 nmse_prop=0.04527 nmse_ls=0.07528 lr=9.643e-04 step_time=0.408s steps_per_s=1.696 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23000 loss=-2.28574 nmse_prop=0.04299 nmse_ls=0.07604 lr=9.643e-04 step_time=0.377s steps_per_s=1.698 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=23000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-23000
+[TRAIN] step=23100 loss=-2.15409 nmse_prop=0.05891 nmse_ls=0.07900 lr=9.643e-04 step_time=0.394s steps_per_s=1.700 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23200 loss=-1.74271 nmse_prop=0.06830 nmse_ls=0.18474 lr=9.643e-04 step_time=0.370s steps_per_s=1.702 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23300 loss=-1.98897 nmse_prop=0.05913 nmse_ls=0.09783 lr=9.643e-04 step_time=0.396s steps_per_s=1.704 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23400 loss=-1.79024 nmse_prop=0.06547 nmse_ls=0.13904 lr=9.643e-04 step_time=0.394s steps_per_s=1.707 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23500 loss=-2.27900 nmse_prop=0.04388 nmse_ls=0.06532 lr=9.643e-04 step_time=0.395s steps_per_s=1.709 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23600 loss=-1.84232 nmse_prop=0.06177 nmse_ls=0.16022 lr=9.643e-04 step_time=0.372s steps_per_s=1.711 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23700 loss=-1.55974 nmse_prop=0.08334 nmse_ls=0.19725 lr=9.643e-04 step_time=0.394s steps_per_s=1.713 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23800 loss=-1.42475 nmse_prop=0.08837 nmse_ls=0.20800 lr=9.643e-04 step_time=0.394s steps_per_s=1.715 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=23900 loss=-2.45669 nmse_prop=0.03630 nmse_ls=0.08594 lr=9.643e-04 step_time=0.344s steps_per_s=1.717 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24000 loss=-1.76954 nmse_prop=0.06765 nmse_ls=0.18292 lr=9.643e-04 step_time=205.358s steps_per_s=1.695 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=24000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-24000
+[TRAIN] step=24100 loss=-2.56873 nmse_prop=0.03445 nmse_ls=0.05227 lr=9.643e-04 step_time=0.379s steps_per_s=1.695 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24200 loss=-1.83825 nmse_prop=0.06110 nmse_ls=0.13516 lr=9.643e-04 step_time=0.405s steps_per_s=1.697 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24300 loss=-2.62812 nmse_prop=0.03061 nmse_ls=0.06980 lr=9.643e-04 step_time=0.345s steps_per_s=1.699 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24400 loss=-1.64224 nmse_prop=0.07574 nmse_ls=0.16696 lr=9.643e-04 step_time=0.393s steps_per_s=1.701 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24500 loss=-2.60168 nmse_prop=0.03447 nmse_ls=0.06006 lr=9.643e-04 step_time=0.345s steps_per_s=1.703 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24600 loss=-2.33088 nmse_prop=0.04171 nmse_ls=0.07854 lr=9.643e-04 step_time=0.370s steps_per_s=1.706 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24700 loss=-3.03265 nmse_prop=0.02291 nmse_ls=0.04485 lr=9.643e-04 step_time=0.331s steps_per_s=1.708 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24800 loss=-2.42332 nmse_prop=0.03889 nmse_ls=0.05679 lr=9.643e-04 step_time=0.395s steps_per_s=1.710 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=24900 loss=-1.67113 nmse_prop=0.07764 nmse_ls=0.15553 lr=9.643e-04 step_time=0.406s steps_per_s=1.712 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25000 loss=-2.35929 nmse_prop=0.04364 nmse_ls=0.07321 lr=9.643e-04 step_time=0.370s steps_per_s=1.714 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=25000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-25000
+[TRAIN] step=25100 loss=-2.12779 nmse_prop=0.04952 nmse_ls=0.08822 lr=9.643e-04 step_time=0.393s steps_per_s=1.716 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25200 loss=-2.12257 nmse_prop=0.04852 nmse_ls=0.08878 lr=9.643e-04 step_time=0.393s steps_per_s=1.718 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25300 loss=-2.03284 nmse_prop=0.05553 nmse_ls=0.11913 lr=9.643e-04 step_time=0.374s steps_per_s=1.720 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25400 loss=-1.74629 nmse_prop=0.06713 nmse_ls=0.23679 lr=9.643e-04 step_time=0.344s steps_per_s=1.722 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25500 loss=-2.11256 nmse_prop=0.05306 nmse_ls=0.09085 lr=9.643e-04 step_time=0.394s steps_per_s=1.724 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25600 loss=-2.31195 nmse_prop=0.04280 nmse_ls=0.06767 lr=9.643e-04 step_time=0.394s steps_per_s=1.726 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25700 loss=-2.00433 nmse_prop=0.05495 nmse_ls=0.09776 lr=9.643e-04 step_time=0.393s steps_per_s=1.728 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25800 loss=-2.39197 nmse_prop=0.03898 nmse_ls=0.06128 lr=9.643e-04 step_time=0.400s steps_per_s=1.730 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=25900 loss=-2.33689 nmse_prop=0.04232 nmse_ls=0.06568 lr=9.643e-04 step_time=0.394s steps_per_s=1.731 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26000 loss=-2.02028 nmse_prop=0.05326 nmse_ls=0.17235 lr=9.643e-04 step_time=204.450s steps_per_s=1.710 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=26000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-26000
+[TRAIN] step=26100 loss=-1.87161 nmse_prop=0.06184 nmse_ls=0.12077 lr=9.643e-04 step_time=0.392s steps_per_s=1.711 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26200 loss=-1.65196 nmse_prop=0.07737 nmse_ls=0.20523 lr=9.643e-04 step_time=0.368s steps_per_s=1.713 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26300 loss=-2.03851 nmse_prop=0.05371 nmse_ls=0.10089 lr=9.643e-04 step_time=0.392s steps_per_s=1.715 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26400 loss=-1.95030 nmse_prop=0.05651 nmse_ls=0.12222 lr=9.643e-04 step_time=0.395s steps_per_s=1.717 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26500 loss=-2.27854 nmse_prop=0.04322 nmse_ls=0.07025 lr=9.643e-04 step_time=0.396s steps_per_s=1.719 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26600 loss=-2.10042 nmse_prop=0.05089 nmse_ls=0.11578 lr=9.643e-04 step_time=0.370s steps_per_s=1.721 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26700 loss=-2.54396 nmse_prop=0.03462 nmse_ls=0.04855 lr=9.643e-04 step_time=0.393s steps_per_s=1.723 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26800 loss=-1.41976 nmse_prop=0.09332 nmse_ls=0.22648 lr=9.643e-04 step_time=0.393s steps_per_s=1.725 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=26900 loss=-2.55666 nmse_prop=0.03565 nmse_ls=0.08875 lr=9.643e-04 step_time=0.328s steps_per_s=1.727 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27000 loss=-2.55172 nmse_prop=0.03653 nmse_ls=0.07717 lr=9.643e-04 step_time=0.343s steps_per_s=1.729 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=27000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-27000
+[TRAIN] step=27100 loss=-1.79580 nmse_prop=0.06529 nmse_ls=0.15020 lr=9.643e-04 step_time=0.397s steps_per_s=1.730 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27200 loss=-1.26374 nmse_prop=0.11394 nmse_ls=0.24288 lr=9.643e-04 step_time=0.420s steps_per_s=1.731 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27300 loss=-2.08799 nmse_prop=0.05075 nmse_ls=0.09415 lr=9.643e-04 step_time=0.395s steps_per_s=1.733 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27400 loss=-1.37126 nmse_prop=0.09541 nmse_ls=0.25831 lr=9.643e-04 step_time=0.394s steps_per_s=1.735 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27500 loss=-3.07480 nmse_prop=0.02076 nmse_ls=0.04363 lr=9.643e-04 step_time=0.321s steps_per_s=1.737 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27600 loss=-1.74680 nmse_prop=0.06586 nmse_ls=0.15546 lr=9.643e-04 step_time=0.394s steps_per_s=1.739 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27700 loss=-2.51101 nmse_prop=0.03813 nmse_ls=0.06572 lr=9.643e-04 step_time=0.357s steps_per_s=1.741 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27800 loss=-2.79345 nmse_prop=0.02948 nmse_ls=0.07137 lr=9.643e-04 step_time=0.331s steps_per_s=1.742 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=27900 loss=-1.60826 nmse_prop=0.08161 nmse_ls=0.18161 lr=9.643e-04 step_time=0.395s steps_per_s=1.744 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28000 loss=-2.38099 nmse_prop=0.04112 nmse_ls=0.05868 lr=9.643e-04 step_time=204.266s steps_per_s=1.724 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=28000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-28000
+[TRAIN] step=28100 loss=-1.73233 nmse_prop=0.07060 nmse_ls=0.18085 lr=9.643e-04 step_time=0.369s steps_per_s=1.725 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28200 loss=-2.15674 nmse_prop=0.04819 nmse_ls=0.14196 lr=9.643e-04 step_time=0.344s steps_per_s=1.727 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28300 loss=-1.37842 nmse_prop=0.09781 nmse_ls=0.25045 lr=9.643e-04 step_time=0.395s steps_per_s=1.729 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28400 loss=-2.43269 nmse_prop=0.04177 nmse_ls=0.06870 lr=9.643e-04 step_time=0.394s steps_per_s=1.730 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28500 loss=-1.65373 nmse_prop=0.07351 nmse_ls=0.21613 lr=9.643e-04 step_time=0.373s steps_per_s=1.727 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28600 loss=-2.32429 nmse_prop=0.04180 nmse_ls=0.06708 lr=9.643e-04 step_time=0.394s steps_per_s=1.729 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28700 loss=-1.99988 nmse_prop=0.05955 nmse_ls=0.10680 lr=9.643e-04 step_time=0.394s steps_per_s=1.730 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28800 loss=-1.96753 nmse_prop=0.05606 nmse_ls=0.10800 lr=9.643e-04 step_time=0.393s steps_per_s=1.732 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=28900 loss=-1.55959 nmse_prop=0.07989 nmse_ls=0.22268 lr=9.643e-04 step_time=0.368s steps_per_s=1.734 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29000 loss=-2.63104 nmse_prop=0.03045 nmse_ls=0.05388 lr=9.643e-04 step_time=0.369s steps_per_s=1.736 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=29000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-29000
+[TRAIN] step=29100 loss=-2.07232 nmse_prop=0.05082 nmse_ls=0.16320 lr=9.643e-04 step_time=0.354s steps_per_s=1.736 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29200 loss=-1.72763 nmse_prop=0.07110 nmse_ls=0.18616 lr=9.643e-04 step_time=0.369s steps_per_s=1.737 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29300 loss=-2.50510 nmse_prop=0.03628 nmse_ls=0.08144 lr=9.643e-04 step_time=0.345s steps_per_s=1.739 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29400 loss=-2.21290 nmse_prop=0.04539 nmse_ls=0.07698 lr=9.643e-04 step_time=0.394s steps_per_s=1.741 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29500 loss=-2.39687 nmse_prop=0.04005 nmse_ls=0.07500 lr=9.643e-04 step_time=0.373s steps_per_s=1.743 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29600 loss=-2.23340 nmse_prop=0.04523 nmse_ls=0.09018 lr=9.643e-04 step_time=0.370s steps_per_s=1.744 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29700 loss=-1.92811 nmse_prop=0.05783 nmse_ls=0.19051 lr=9.643e-04 step_time=0.344s steps_per_s=1.746 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29800 loss=-1.34744 nmse_prop=0.09851 nmse_ls=0.24963 lr=9.643e-04 step_time=0.395s steps_per_s=1.748 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=29900 loss=-1.28220 nmse_prop=0.10372 nmse_ls=0.26732 lr=9.643e-04 step_time=0.393s steps_per_s=1.749 gpu_mem=0.15GiB peak=5.38GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=30000 val_nmse=0.0495253
+[TRAIN] step=30000 loss=-2.33314 nmse_prop=0.04133 nmse_ls=0.07538 lr=9.643e-04 step_time=224.560s steps_per_s=1.728 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=30000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-30000
+[TRAIN] step=30100 loss=-1.92992 nmse_prop=0.05638 nmse_ls=0.20088 lr=9.643e-04 step_time=0.345s steps_per_s=1.729 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30200 loss=-2.45564 nmse_prop=0.03731 nmse_ls=0.07005 lr=9.643e-04 step_time=0.369s steps_per_s=1.731 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30300 loss=-2.04623 nmse_prop=0.05344 nmse_ls=0.16798 lr=9.643e-04 step_time=0.346s steps_per_s=1.733 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30400 loss=-2.18435 nmse_prop=0.04673 nmse_ls=0.07608 lr=9.643e-04 step_time=0.396s steps_per_s=1.734 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30500 loss=-2.21178 nmse_prop=0.04486 nmse_ls=0.07805 lr=9.643e-04 step_time=0.394s steps_per_s=1.736 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30600 loss=-1.74618 nmse_prop=0.06550 nmse_ls=0.18989 lr=9.643e-04 step_time=0.370s steps_per_s=1.738 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30700 loss=-2.33601 nmse_prop=0.04059 nmse_ls=0.08016 lr=9.643e-04 step_time=0.369s steps_per_s=1.739 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30800 loss=-2.34467 nmse_prop=0.04036 nmse_ls=0.06512 lr=9.643e-04 step_time=0.394s steps_per_s=1.741 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=30900 loss=-2.45478 nmse_prop=0.03889 nmse_ls=0.05375 lr=9.643e-04 step_time=0.396s steps_per_s=1.743 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31000 loss=-2.04890 nmse_prop=0.05439 nmse_ls=0.09344 lr=9.643e-04 step_time=0.394s steps_per_s=1.744 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=31000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-31000
+[TRAIN] step=31100 loss=-2.44653 nmse_prop=0.03665 nmse_ls=0.09122 lr=9.643e-04 step_time=0.345s steps_per_s=1.744 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31200 loss=-1.78758 nmse_prop=0.07126 nmse_ls=0.17273 lr=9.643e-04 step_time=0.371s steps_per_s=1.745 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31300 loss=-2.36318 nmse_prop=0.04043 nmse_ls=0.06683 lr=9.643e-04 step_time=0.395s steps_per_s=1.747 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31400 loss=-2.47791 nmse_prop=0.03675 nmse_ls=0.05459 lr=9.643e-04 step_time=0.395s steps_per_s=1.749 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31500 loss=-1.56982 nmse_prop=0.08149 nmse_ls=0.19368 lr=9.643e-04 step_time=0.407s steps_per_s=1.750 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31600 loss=-1.77642 nmse_prop=0.06712 nmse_ls=0.13541 lr=9.643e-04 step_time=0.394s steps_per_s=1.752 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31700 loss=-2.40225 nmse_prop=0.04054 nmse_ls=0.09252 lr=9.643e-04 step_time=0.355s steps_per_s=1.753 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31800 loss=-2.65496 nmse_prop=0.03521 nmse_ls=0.08408 lr=9.643e-04 step_time=0.322s steps_per_s=1.755 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=31900 loss=-2.45585 nmse_prop=0.03941 nmse_ls=0.05732 lr=9.643e-04 step_time=0.394s steps_per_s=1.756 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32000 loss=-2.41186 nmse_prop=0.04038 nmse_ls=0.05649 lr=9.643e-04 step_time=205.750s steps_per_s=1.738 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=32000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-32000
+[TRAIN] step=32100 loss=-1.20922 nmse_prop=0.11151 nmse_ls=0.28311 lr=9.643e-04 step_time=0.393s steps_per_s=1.739 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32200 loss=-2.43875 nmse_prop=0.03753 nmse_ls=0.06180 lr=9.643e-04 step_time=0.393s steps_per_s=1.741 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32300 loss=-2.22368 nmse_prop=0.04538 nmse_ls=0.13135 lr=9.643e-04 step_time=0.344s steps_per_s=1.742 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32400 loss=-2.45781 nmse_prop=0.04115 nmse_ls=0.06618 lr=9.643e-04 step_time=0.369s steps_per_s=1.744 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32500 loss=-2.61475 nmse_prop=0.03193 nmse_ls=0.05080 lr=9.643e-04 step_time=0.342s steps_per_s=1.746 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32600 loss=-2.90264 nmse_prop=0.02605 nmse_ls=0.04658 lr=9.643e-04 step_time=0.343s steps_per_s=1.747 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32700 loss=-2.12564 nmse_prop=0.05271 nmse_ls=0.09952 lr=9.643e-04 step_time=0.366s steps_per_s=1.749 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32800 loss=-2.18591 nmse_prop=0.04722 nmse_ls=0.10740 lr=9.643e-04 step_time=0.365s steps_per_s=1.750 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=32900 loss=-1.60430 nmse_prop=0.07672 nmse_ls=0.25472 lr=9.643e-04 step_time=0.362s steps_per_s=1.752 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33000 loss=-2.37525 nmse_prop=0.03435 nmse_ls=0.15046 lr=9.643e-04 step_time=0.314s steps_per_s=1.753 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=33000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-33000
+[TRAIN] step=33100 loss=-2.34687 nmse_prop=0.04036 nmse_ls=0.12232 lr=9.643e-04 step_time=0.334s steps_per_s=1.755 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33200 loss=-2.25409 nmse_prop=0.04289 nmse_ls=0.08172 lr=9.643e-04 step_time=0.385s steps_per_s=1.756 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33300 loss=-2.11957 nmse_prop=0.05520 nmse_ls=0.10596 lr=9.643e-04 step_time=0.386s steps_per_s=1.758 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33400 loss=-2.28528 nmse_prop=0.04042 nmse_ls=0.12952 lr=9.643e-04 step_time=0.347s steps_per_s=1.759 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33500 loss=-2.28943 nmse_prop=0.04211 nmse_ls=0.07116 lr=9.643e-04 step_time=0.386s steps_per_s=1.761 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33600 loss=-2.60197 nmse_prop=0.03358 nmse_ls=0.07657 lr=9.643e-04 step_time=0.349s steps_per_s=1.762 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33700 loss=-2.33610 nmse_prop=0.04483 nmse_ls=0.06687 lr=9.643e-04 step_time=0.385s steps_per_s=1.764 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33800 loss=-2.11936 nmse_prop=0.04791 nmse_ls=0.11427 lr=9.643e-04 step_time=0.361s steps_per_s=1.766 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=33900 loss=-2.57455 nmse_prop=0.03588 nmse_ls=0.05377 lr=9.643e-04 step_time=2.003s steps_per_s=1.767 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34000 loss=-2.69553 nmse_prop=0.03079 nmse_ls=0.06067 lr=9.643e-04 step_time=198.503s steps_per_s=1.750 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=34000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-34000
+[TRAIN] step=34100 loss=-1.54868 nmse_prop=0.08265 nmse_ls=0.19599 lr=9.643e-04 step_time=0.385s steps_per_s=1.752 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34200 loss=-1.67537 nmse_prop=0.07310 nmse_ls=0.16731 lr=9.643e-04 step_time=0.385s steps_per_s=1.753 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34300 loss=-2.10486 nmse_prop=0.05073 nmse_ls=0.11154 lr=9.643e-04 step_time=0.360s steps_per_s=1.755 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34400 loss=-1.94376 nmse_prop=0.05794 nmse_ls=0.11723 lr=9.643e-04 step_time=0.384s steps_per_s=1.756 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34500 loss=-1.44322 nmse_prop=0.09007 nmse_ls=0.22576 lr=9.643e-04 step_time=0.387s steps_per_s=1.758 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34600 loss=-2.11669 nmse_prop=0.05044 nmse_ls=0.08798 lr=9.643e-04 step_time=0.384s steps_per_s=1.759 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34700 loss=-1.37068 nmse_prop=0.09651 nmse_ls=0.24809 lr=9.643e-04 step_time=0.397s steps_per_s=1.761 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34800 loss=-2.09539 nmse_prop=0.05047 nmse_ls=0.16777 lr=9.643e-04 step_time=0.335s steps_per_s=1.762 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=34900 loss=-2.07618 nmse_prop=0.05766 nmse_ls=0.12102 lr=9.643e-04 step_time=0.359s steps_per_s=1.764 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35000 loss=-2.13041 nmse_prop=0.05476 nmse_ls=0.11417 lr=9.643e-04 step_time=0.375s steps_per_s=1.765 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=35000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-35000
+[TRAIN] step=35100 loss=-1.79724 nmse_prop=0.06960 nmse_ls=0.14069 lr=9.643e-04 step_time=0.384s steps_per_s=1.766 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35200 loss=-2.64110 nmse_prop=0.03132 nmse_ls=0.06522 lr=9.643e-04 step_time=0.336s steps_per_s=1.767 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35300 loss=-1.90415 nmse_prop=0.05877 nmse_ls=0.13140 lr=9.643e-04 step_time=0.384s steps_per_s=1.769 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35400 loss=-1.95344 nmse_prop=0.05655 nmse_ls=0.10250 lr=9.643e-04 step_time=0.397s steps_per_s=1.770 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35500 loss=-1.89949 nmse_prop=0.06029 nmse_ls=0.12932 lr=9.643e-04 step_time=0.387s steps_per_s=1.772 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35600 loss=-2.35553 nmse_prop=0.04286 nmse_ls=0.06727 lr=9.643e-04 step_time=0.385s steps_per_s=1.773 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35700 loss=-1.78291 nmse_prop=0.06568 nmse_ls=0.16120 lr=9.643e-04 step_time=0.396s steps_per_s=1.775 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35800 loss=-2.59945 nmse_prop=0.03358 nmse_ls=0.04777 lr=9.643e-04 step_time=0.384s steps_per_s=1.776 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=35900 loss=-1.88995 nmse_prop=0.05977 nmse_ls=0.12737 lr=9.643e-04 step_time=0.383s steps_per_s=1.778 gpu_mem=0.15GiB peak=5.38GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=36000 val_nmse=0.0481219
+[TRAIN] step=36000 loss=-1.93577 nmse_prop=0.05818 nmse_ls=0.15298 lr=9.643e-04 step_time=202.781s steps_per_s=1.762 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=36000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-36000
+[TRAIN] step=36100 loss=-1.90768 nmse_prop=0.06149 nmse_ls=0.12975 lr=9.643e-04 step_time=0.395s steps_per_s=1.763 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36200 loss=-1.60433 nmse_prop=0.07863 nmse_ls=0.19383 lr=9.643e-04 step_time=0.397s steps_per_s=1.764 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36300 loss=-2.12185 nmse_prop=0.05159 nmse_ls=0.11917 lr=9.643e-04 step_time=0.359s steps_per_s=1.765 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36400 loss=-1.48370 nmse_prop=0.08803 nmse_ls=0.24857 lr=9.643e-04 step_time=0.359s steps_per_s=1.767 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36500 loss=-2.50566 nmse_prop=0.04031 nmse_ls=0.07169 lr=9.643e-04 step_time=0.360s steps_per_s=1.768 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36600 loss=-2.42575 nmse_prop=0.04050 nmse_ls=0.11413 lr=9.643e-04 step_time=0.310s steps_per_s=1.770 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36700 loss=-2.42529 nmse_prop=0.03936 nmse_ls=0.06339 lr=9.643e-04 step_time=0.385s steps_per_s=1.771 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36800 loss=-1.84357 nmse_prop=0.06339 nmse_ls=0.17586 lr=9.643e-04 step_time=0.359s steps_per_s=1.773 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=36900 loss=-1.67114 nmse_prop=0.07349 nmse_ls=0.22555 lr=9.643e-04 step_time=0.360s steps_per_s=1.774 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37000 loss=-2.39456 nmse_prop=0.03828 nmse_ls=0.06495 lr=9.643e-04 step_time=0.385s steps_per_s=1.775 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=37000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-37000
+[TRAIN] step=37100 loss=-1.97145 nmse_prop=0.05592 nmse_ls=0.11352 lr=9.643e-04 step_time=0.383s steps_per_s=1.776 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37200 loss=-1.73298 nmse_prop=0.07160 nmse_ls=0.15801 lr=9.643e-04 step_time=0.384s steps_per_s=1.777 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37300 loss=-2.82688 nmse_prop=0.02865 nmse_ls=0.04754 lr=9.643e-04 step_time=0.334s steps_per_s=1.779 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37400 loss=-2.53327 nmse_prop=0.03530 nmse_ls=0.05318 lr=9.643e-04 step_time=0.384s steps_per_s=1.780 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37500 loss=-1.73916 nmse_prop=0.07018 nmse_ls=0.21680 lr=9.643e-04 step_time=0.361s steps_per_s=1.781 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37600 loss=-1.83520 nmse_prop=0.06247 nmse_ls=0.15228 lr=9.643e-04 step_time=0.384s steps_per_s=1.783 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37700 loss=-2.37417 nmse_prop=0.04134 nmse_ls=0.07546 lr=9.643e-04 step_time=0.359s steps_per_s=1.784 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37800 loss=-2.53622 nmse_prop=0.03702 nmse_ls=0.07830 lr=9.643e-04 step_time=0.334s steps_per_s=1.786 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=37900 loss=-1.65650 nmse_prop=0.07364 nmse_ls=0.21530 lr=9.643e-04 step_time=0.360s steps_per_s=1.787 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38000 loss=-2.52098 nmse_prop=0.03576 nmse_ls=0.06472 lr=9.643e-04 step_time=199.504s steps_per_s=1.772 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=38000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-38000
+[TRAIN] step=38100 loss=-1.78746 nmse_prop=0.06883 nmse_ls=0.14652 lr=9.643e-04 step_time=0.384s steps_per_s=1.771 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38200 loss=-2.10244 nmse_prop=0.04996 nmse_ls=0.09936 lr=9.643e-04 step_time=0.385s steps_per_s=1.772 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38300 loss=-1.53580 nmse_prop=0.08640 nmse_ls=0.25510 lr=9.643e-04 step_time=0.360s steps_per_s=1.774 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38400 loss=-1.76459 nmse_prop=0.06836 nmse_ls=0.15289 lr=9.643e-04 step_time=0.384s steps_per_s=1.775 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38500 loss=-1.93412 nmse_prop=0.06064 nmse_ls=0.21040 lr=9.643e-04 step_time=0.334s steps_per_s=1.777 gpu_mem=0.15GiB peak=5.38GiB
