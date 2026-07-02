@@ -1,0 +1,31 @@
+
+========== SUMMARY TABLE ==========
+             variant  db_exists  complete  pruned  failed  running  waiting  finished  target  ready  best_value  best_trial  best_json_exists  needed_finished
+     main_d256_b4_r2       True         2       0       4        0        0         2       6  False   -1.335560         0.0              True                4
+  shallow_d256_b2_r2       True         5       0       1        0        0         5       6  False   -1.290174         0.0              True                1
+     deep_d256_b6_r2       True         5       0       1        0        0         5       6  False   -1.388427         1.0              True                1
+   narrow_d192_b4_r2       True         4       0       2        0        0         4       6  False   -1.284939         4.0              True                2
+     wide_d320_b4_r2       True         0       0       6        0        0         0       6  False         NaN         NaN             False                6
+wide_deep_d320_b6_r2       True         1       0       5        0        0         1       6  False   -1.401631         2.0              True                5
+  mlpwide_d256_b4_r4       True         1       0       5        0        0         1       6  False   -1.342735         3.0              True                5
+
+========== FAILURE CLASSES ==========
+             variant               failure_class  count
+     deep_d256_b6_r2 true_resource_exhausted_oom      1
+     main_d256_b4_r2 true_resource_exhausted_oom      4
+  mlpwide_d256_b4_r4 true_resource_exhausted_oom      5
+   narrow_d192_b4_r2 true_resource_exhausted_oom      2
+  shallow_d256_b2_r2 true_resource_exhausted_oom      1
+     wide_d320_b4_r2 true_resource_exhausted_oom      6
+wide_deep_d320_b6_r2 true_resource_exhausted_oom      5
+
+========== BEST COMPLETED TRIALS ==========
+             variant  trial     value  batch_size_train  batch_size_eval  val_microbatch_size  memory_cleanup_every_steps param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     main_d256_b4_r2      0 -1.335560                32               32                   16                         100                     constant             0.000775        1.195750e-07                0.172574       0.091186              0.508849
+  shallow_d256_b2_r2      0 -1.290174                32               32                   16                         100             polynomial_decay             0.000888        3.680523e-07                0.415834       0.019254              0.576951
+     deep_d256_b6_r2      1 -1.388427                32               32                   16                         100             polynomial_decay             0.000959        1.146671e-07                0.300753       0.087827              0.350554
+   narrow_d192_b4_r2      4 -1.284939                32               32                   16                         100                     constant             0.000964        1.208351e-07                0.162518       0.109095              0.229902
+wide_deep_d320_b6_r2      2 -1.401631                32               32                   16                         100                     constant             0.000581        1.912227e-07                0.308960       0.113044              0.153724
+  mlpwide_d256_b4_r4      3 -1.342735                32               32                   16                         100                     constant             0.000964        1.208351e-07                0.162518       0.109095              0.229902
+
+STAGE_B_READY_BY_AUDIT=0

@@ -1,0 +1,15 @@
+{
+  "channel_family": "umi",
+  "config": "configs/twc_comprehensive_mu32_umi_training.yaml",
+  "config_sha256": "c089213f109d447dbadb30f68620bd3041f6804c12c888273bc929bccb04683b",
+  "profile": "umi_standard_topology_normalized",
+  "source_storage": "sqlite:////lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/optuna_db/umiNorm_v1_b32_prb8_u34610_1dmrs_stageA_main_d256_b4_r2.db",
+  "source_study": "umiNorm_v1_b32_prb8_u34610_1dmrs_stageA_main_d256_b4_r2",
+  "source_top_k": 6,
+  "stage": "B",
+  "steps": 12000,
+  "storage": "sqlite:////lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/optuna_db/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2.db",
+  "study_name": "umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2",
+  "target_total_trials": 6,
+  "variant": "main_d256_b4_r2"
+}

@@ -1,0 +1,31 @@
+[PROBE1] host=g7.nibi.sharcnet date=Mon Jun 22 12:42:10 EDT 2026 git=a5fb0b8
+GPU 0: NVIDIA H100 80GB HBM3 (UUID: GPU-7a0c6e2b-b404-998a-4b61-6294bb6c9583)
+[ENV] Reusing portable venv: /home/rsadve1/scratch/.vevn_upair_potable
+[ENV] Checking installed package metadata only; TensorFlow/Sionna are not imported here.
+[ENV] Python 3.11.5
+[ENV] numpy 1.26.4+computecanada
+[ENV] pandas 2.2.3+computecanada
+[ENV] matplotlib 3.10.0+computecanada
+[ENV] PyYAML 6.0.2+computecanada
+[ENV] scipy 1.15.1+computecanada
+[ENV] tensorflow 2.15.1+computecanada
+[ENV] sionna-no-rt 1.2.1
+[ENV] optuna 4.8.0+computecanada
+[ENV] Skipping TensorFlow/Sionna import check on this node. Set UPAIR_DEEP_IMPORT_CHECK=1 to test imports explicitly.
+[ENV] Ready: REPO=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable
+[ENV] Ready: VENV=/home/rsadve1/scratch/.vevn_upair_potable
+================================================================================
+[PIPELINE] variant=main_d256_b4_r2
+[PIPELINE] root=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable
+[PIPELINE] stageB_prefix=clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB
+[PIPELINE] receivers=perfect_csi_lmmse,baseline_ls_2dlmmse_lmmse
+[PIPELINE] users=3
+[PIPELINE] ebnos=-1,0
+[PIPELINE] chunk_batches=20 micro=8
+================================================================================
+[PIPELINE] training already complete for main_d256_b4_r2; skipping training.
+[PIPELINE] starting/resuming isolated evaluation for main_d256_b4_r2.
+
+--------------------------------------------------------------------------------
+[PIPELINE] eval point variant=main_d256_b4_r2 receiver=perfect_csi_lmmse U=3 Eb/N0=-1
+--------------------------------------------------------------------------------

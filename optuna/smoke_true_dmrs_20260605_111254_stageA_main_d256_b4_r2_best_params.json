@@ -1,0 +1,49 @@
+{
+  "best_params": {
+    "grad_clip_norm": 1.0,
+    "learning_rate_decay_fraction": 1.0,
+    "learning_rate_final_fraction": 0.05,
+    "learning_rate_polynomial_power": 1.0,
+    "learning_rate_schedule": "cosine_decay"
+  },
+  "best_value": -1.11481710297791,
+  "completed_trials": 1,
+  "failed_trials": 0,
+  "finished_trials": 1,
+  "fixed_constraints": {
+    "clean_case": true,
+    "dmrs_length": 1,
+    "evaluation_receiver_microbatch_size": 16,
+    "evaluation_stream_eval_microbatches": true,
+    "optuna_validation_batch_size": 2,
+    "optuna_validation_microbatch_size": 1,
+    "resource_exhausted_counts_as_finished": false,
+    "train_batch_size": 2,
+    "trial_process_isolation": true
+  },
+  "objective_aggregation": "recent_mean",
+  "objective_metric": "hybrid_nmse_ratio",
+  "objective_min_step_exclusive": 0,
+  "objective_recent_k": 2,
+  "pruned_trials": 0,
+  "stage": "A",
+  "steps": 2,
+  "study_name": "smoke_true_dmrs_20260605_111254_stageA_main_d256_b4_r2",
+  "target_total_trials": 1,
+  "train_user_count_weights": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "val_ebno_db": [
+    0.0
+  ],
+  "val_steps": 1,
+  "val_user_count_weights": [
+    1.0
+  ],
+  "val_user_counts": [
+    4
+  ]
+}

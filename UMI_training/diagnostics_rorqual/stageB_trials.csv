@@ -1,0 +1,115 @@
+variant,study_name,trial,state,value,failure_class,worker_status,worker_message_short,latest_step,total_steps,training_complete,batch_size_train,batch_size_eval,val_microbatch_size,memory_cleanup_every_steps,datetime_start,datetime_complete,param_learning_rate_schedule,param_learning_rate,param_weight_decay,param_nmse_loss_weight,param_grad_clip_norm,param_dropout,param_residual_scale,param_learning_rate_decay_fraction,param_learning_rate_final_fraction,param_learning_rate_polynomial_power
+main_d256_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2,0,COMPLETE,-1.3355604891435247,,complete,,12000,12000,True,32,32,16,100,2026-06-28T05:40:50.259563+00:00,2026-06-28T07:35:27.967179+00:00,constant,0.0007749349842627399,1.1957496756294423e-07,0.17257378079061886,0.5,0.09118634538381744,0.5088494568176662,,,
+main_d256_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2,1,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",8262,12000,False,32,32,16,100,2026-06-28T07:35:28.160059+00:00,2026-06-28T08:53:46.878750+00:00,constant,0.0009643418646698049,1.2083509754787337e-07,0.16251789877216094,0.5,0.10909540498640775,0.22990166745555007,,,
+main_d256_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2,2,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",5321,12000,False,32,32,16,100,2026-06-28T08:53:46.985846+00:00,2026-06-28T09:44:28.756238+00:00,cosine_decay,0.0005712916127949584,9.654662480652895e-06,0.4788048920718949,0.5,0.02639429712150497,0.18647863554958427,1.25,0.02159904793462117,
+main_d256_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2,3,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",7355,12000,False,32,32,16,100,2026-06-28T09:44:28.892307+00:00,2026-06-28T10:54:55.958345+00:00,cosine_decay,0.0004568972058255479,9.040091747332144e-06,0.05813033561196787,0.5,0.05667887955460827,0.6548860289390384,0.75,0.02308016679308127,
+main_d256_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2,4,COMPLETE,-1.2878667228988425,,complete,,12000,12000,True,32,32,16,100,2026-06-28T10:54:56.076113+00:00,2026-06-28T12:48:57.854013+00:00,cosine_decay,0.0004983159357242532,7.693520676908999e-07,0.12243400701824686,1.0,0.007912361628708613,0.3228873595847961,0.75,0.012154545064008537,
+main_d256_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2,5,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",6518,12000,False,32,32,16,100,2026-06-28T12:48:58.061207+00:00,2026-06-28T13:49:55.844140+00:00,cosine_decay,0.0002210893178410695,1.613671536589336e-06,0.3169058880316735,0.5,0.03312588579968341,0.4217057595278402,1.0,0.036430683993363126,
+shallow_d256_b2_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_shallow_d256_b2_r2,0,COMPLETE,-1.2901739495038935,,complete,,12000,12000,True,32,32,16,100,2026-06-28T05:40:50.365185+00:00,2026-06-28T07:21:02.907434+00:00,polynomial_decay,0.0008879971670485024,3.680522597176811e-07,0.4158340307310977,0.5,0.019254335641862495,0.5769513207434013,1.25,0.08107556792162035,1.4100449868075324
+shallow_d256_b2_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_shallow_d256_b2_r2,1,COMPLETE,-1.248404033382376,,complete,,12000,12000,True,32,32,16,100,2026-06-28T07:21:03.123331+00:00,2026-06-28T08:59:41.487491+00:00,polynomial_decay,0.0009853008740127948,5.389013158367834e-07,0.28138694530297775,0.5,0.0019515787070138262,0.6398616818004758,1.0,0.13612300501692498,1.4955832928541228
+shallow_d256_b2_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_shallow_d256_b2_r2,2,COMPLETE,-1.2785130259058877,,complete,,12000,12000,True,32,32,16,100,2026-06-28T08:59:41.669222+00:00,2026-06-28T10:37:02.874830+00:00,constant,0.0004865053541117016,1.4794310317901805e-07,0.49963113076934834,0.5,0.017200942176381562,0.49115796934029887,,,
+shallow_d256_b2_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_shallow_d256_b2_r2,3,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",7958,12000,False,32,32,16,100,2026-06-28T10:37:03.144946+00:00,2026-06-28T11:40:22.322383+00:00,constant,0.0009643418646698049,1.2083509754787337e-07,0.16251789877216094,0.5,0.10909540498640775,0.22990166745555007,,,
+shallow_d256_b2_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_shallow_d256_b2_r2,4,COMPLETE,-1.2644127111170669,,complete,,12000,12000,True,32,32,16,100,2026-06-28T11:40:22.448236+00:00,2026-06-28T13:19:33.422382+00:00,cosine_decay,0.0006365026066087508,3.7197425572222765e-06,0.2822556432388877,0.5,0.008310248401180255,0.36424237701172735,0.75,0.021147713205237145,
+shallow_d256_b2_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_shallow_d256_b2_r2,5,COMPLETE,-1.2575688642884022,,complete,,12000,12000,True,32,32,16,100,2026-06-28T13:19:33.674955+00:00,2026-06-28T14:57:44.998275+00:00,cosine_decay,0.0004568972058255479,9.040091747332144e-06,0.05813033561196787,0.5,0.05667887955460827,0.6548860289390384,0.75,0.02308016679308127,
+deep_d256_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_deep_d256_b6_r2,0,COMPLETE,-1.37248616286928,,complete,,12000,12000,True,32,32,16,100,2026-06-28T06:02:30.476603+00:00,2026-06-28T08:33:56.144551+00:00,constant,0.0009175824708006568,4.091012719746439e-07,0.48436560251525473,0.5,0.0454684464868393,0.3460995726258102,,,
+deep_d256_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_deep_d256_b6_r2,1,COMPLETE,-1.3884269695883071,,complete,,12000,12000,True,32,32,16,100,2026-06-28T08:33:56.350803+00:00,2026-06-28T11:04:27.915401+00:00,polynomial_decay,0.0009592546085393783,1.1466706433076556e-07,0.30075331676229844,0.5,0.08782697630221006,0.3505540117207723,1.25,0.1311613586599023,1.9583023083951345
+deep_d256_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_deep_d256_b6_r2,2,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",6277,12000,False,32,32,16,100,2026-06-28T11:04:28.201812+00:00,2026-06-28T12:23:19.275142+00:00,constant,0.0009643418646698049,1.2083509754787337e-07,0.16251789877216094,0.5,0.10909540498640775,0.22990166745555007,,,
+deep_d256_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_deep_d256_b6_r2,3,COMPLETE,-1.3784573721617255,,complete,,12000,12000,True,32,32,16,100,2026-06-28T12:23:19.448351+00:00,2026-06-28T14:55:50.153579+00:00,polynomial_decay,0.0009951575462592785,1.1859701871838162e-07,0.12057887170216385,0.5,0.1079493254225414,0.37019936326045155,1.0,0.1285119138898518,1.955717493414353
+deep_d256_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_deep_d256_b6_r2,4,COMPLETE,-1.33862106359913,,complete,,12000,12000,True,32,32,16,100,2026-06-28T14:55:50.386905+00:00,2026-06-28T17:28:10.920673+00:00,cosine_decay,0.0011389546245759569,2.2392225291228357e-07,0.14471917040146945,0.5,0.05381820569592541,0.5140994248971258,0.75,0.05727073689446709,
+deep_d256_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_deep_d256_b6_r2,5,COMPLETE,-1.3057700441346645,,complete,,12000,12000,True,32,32,16,100,2026-06-28T17:28:11.447096+00:00,2026-06-28T20:00:52.800632+00:00,cosine_decay,0.0004568972058255479,9.040091747332144e-06,0.05813033561196787,0.5,0.05667887955460827,0.6548860289390384,0.75,0.02308016679308127,
+narrow_d192_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2,0,COMPLETE,-1.2765089529477573,,complete,,12000,12000,True,32,32,16,100,2026-06-28T06:03:38.412303+00:00,2026-06-28T07:57:20.946263+00:00,cosine_decay,0.0011491657621620945,2.7524556084291565e-07,0.33237260946602054,0.5,0.008215714857985945,0.6176862463506574,1.0,0.12314726850796402,
+narrow_d192_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2,1,COMPLETE,-1.265210729471441,,complete,,12000,12000,True,32,32,16,100,2026-06-28T07:57:21.091954+00:00,2026-06-28T09:52:22.288895+00:00,constant,0.0008722091201558823,2.363899423796963e-06,0.36833494384383136,0.5,7.216382532542441e-05,0.6586559871326637,,,
+narrow_d192_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2,2,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",8333,12000,False,32,32,16,100,2026-06-28T09:52:22.478358+00:00,2026-06-28T11:11:04.317646+00:00,constant,0.0011946389869486255,4.808411025745453e-07,0.406742950411635,0.5,0.006702779359930216,0.5957832138397147,,,
+narrow_d192_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2,3,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node axial_block_3/dense_12/Tensordot/MatMul defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial_worker.py"",",7133,12000,False,32,32,16,100,2026-06-28T11:11:04.475167+00:00,2026-06-28T12:21:45.971088+00:00,constant,0.0006176828477264028,1.3641190130700651e-06,0.481254987205617,0.5,0.008345022011493858,0.6449472012129702,,,
+narrow_d192_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2,4,COMPLETE,-1.2849388838099145,,complete,,12000,12000,True,32,32,16,100,2026-06-28T12:21:46.090991+00:00,2026-06-28T14:13:57.456948+00:00,constant,0.0009643418646698049,1.2083509754787337e-07,0.16251789877216094,0.5,0.10909540498640775,0.22990166745555007,,,
+narrow_d192_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2,5,COMPLETE,-1.2343344123511928,,complete,,12000,12000,True,32,32,16,100,2026-06-28T14:13:57.674644+00:00,2026-06-28T16:03:43.637583+00:00,cosine_decay,0.0004568972058255479,9.040091747332144e-06,0.05813033561196787,0.5,0.05667887955460827,0.6548860289390384,0.75,0.02308016679308127,
+wide_d320_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2,0,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",6081,12000,False,32,32,16,100,2026-06-28T06:04:15.839148+00:00,2026-06-28T07:11:09.087025+00:00,constant,0.0009643418646698049,1.2083509754787337e-07,0.16251789877216094,0.5,0.10909540498640775,0.22990166745555007,,,
+wide_d320_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2,1,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",3655,12000,False,32,32,16,100,2026-06-28T07:11:09.225515+00:00,2026-06-28T07:49:44.749734+00:00,polynomial_decay,0.0008788509854471044,8.507887091089711e-06,0.31622756612199476,0.5,0.029975724725883654,0.5875250819591711,1.25,0.02988330276131284,1.8150943967789455
+wide_d320_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2,2,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",7966,12000,False,32,32,16,100,2026-06-28T07:49:44.853027+00:00,2026-06-28T09:14:05.781112+00:00,polynomial_decay,0.0008750519993093886,8.74508633569595e-06,0.0643864199362532,0.5,0.007330371807527297,0.5882632740021015,1.25,0.04207132643385709,1.660055250588681
+wide_d320_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2,3,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",9118,12000,False,32,32,16,100,2026-06-28T09:14:05.900324+00:00,2026-06-28T10:53:57.565296+00:00,polynomial_decay,0.0011194142556839183,5.778735770825256e-06,0.06523425274380522,0.5,0.007700648798378345,0.6639079530952303,1.25,0.03995121225244404,1.5259288638269477
+wide_d320_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2,4,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",5250,12000,False,32,32,16,100,2026-06-28T10:53:57.658976+00:00,2026-06-28T11:51:19.721646+00:00,cosine_decay,0.0004568972058255479,9.040091747332144e-06,0.05813033561196787,0.5,0.05667887955460827,0.6548860289390384,0.75,0.02308016679308127,
+wide_d320_b4_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2,5,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",10803,12000,False,32,32,16,100,2026-06-28T11:51:19.938345+00:00,2026-06-28T13:42:58.049332+00:00,cosine_decay,0.0004983159357242532,7.693520676908999e-07,0.12243400701824686,1.0,0.007912361628708613,0.3228873595847961,0.75,0.012154545064008537,
+wide_deep_d320_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_deep_d320_b6_r2,0,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",9563,12000,False,32,32,16,100,2026-06-28T06:05:57.328160+00:00,2026-06-28T07:55:08.401744+00:00,constant,0.0009643418646698049,1.2083509754787337e-07,0.16251789877216094,0.5,0.10909540498640775,0.22990166745555007,,,
+wide_deep_d320_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_deep_d320_b6_r2,1,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",4824,12000,False,32,32,16,100,2026-06-28T07:55:08.525044+00:00,2026-06-28T08:49:36.564834+00:00,constant,0.0004836255912377222,1.1922049279863218e-07,0.4274172298450684,0.5,0.07659517324155471,0.26986053908682783,,,
+wide_deep_d320_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_deep_d320_b6_r2,2,COMPLETE,-1.401631431725411,,complete,,12000,12000,True,32,32,16,100,2026-06-28T08:49:36.648582+00:00,2026-06-28T11:08:59.538719+00:00,constant,0.0005809397231941362,1.912227231393291e-07,0.3089601517759952,0.5,0.11304439362235329,0.15372369184136675,,,
+wide_deep_d320_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_deep_d320_b6_r2,3,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",5696,12000,False,32,32,16,100,2026-06-28T11:08:59.717910+00:00,2026-06-28T12:14:04.712694+00:00,constant,0.0007749349842627399,1.1957496756294423e-07,0.17257378079061886,0.5,0.09118634538381744,0.5088494568176662,,,
+wide_deep_d320_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_deep_d320_b6_r2,4,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",6538,12000,False,32,32,16,100,2026-06-28T12:14:04.806817+00:00,2026-06-28T13:32:09.738064+00:00,cosine_decay,0.001199270587979418,8.271896538834887e-06,0.26734213832907167,0.5,0.00835121089124563,0.44652798477643935,1.25,0.08059905686377618,
+wide_deep_d320_b6_r2,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_deep_d320_b6_r2,5,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",5298,12000,False,32,32,16,100,2026-06-28T13:32:09.869744+00:00,2026-06-28T14:36:41.628679+00:00,cosine_decay,0.0004568972058255479,9.040091747332144e-06,0.05813033561196787,0.5,0.05667887955460827,0.6548860289390384,0.75,0.02308016679308127,
+mlpwide_d256_b4_r4,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4,0,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node axial_block_3/dense_12/Tensordot/MatMul defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial_worker.py"",",6433,12000,False,32,32,16,100,2026-06-28T06:06:14.122353+00:00,2026-06-28T07:17:17.482556+00:00,cosine_decay,0.0009916776979607758,1.4653849050497994e-07,0.42417983955700533,0.5,0.056633804452688036,0.605203263886025,1.25,0.06864563080708674,
+mlpwide_d256_b4_r4,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4,1,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",11177,12000,False,32,32,16,100,2026-06-28T07:17:17.592406+00:00,2026-06-28T09:22:56.062052+00:00,constant,0.0006475648210792319,3.6657233603033064e-07,0.483496378399762,0.5,0.02595785340532727,0.6236575568988504,,,
+mlpwide_d256_b4_r4,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4,2,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",3800,12000,False,32,32,16,100,2026-06-28T09:22:56.222609+00:00,2026-06-28T10:03:40.147421+00:00,cosine_decay,0.0005347152402954314,2.6403771590562237e-07,0.14442597067380863,0.5,0.05110444028707284,0.6745164722720112,1.25,0.1214426975329714,
+mlpwide_d256_b4_r4,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4,3,COMPLETE,-1.3427349311410441,,complete,,12000,12000,True,32,32,16,100,2026-06-28T10:03:40.295719+00:00,2026-06-28T12:18:07.687478+00:00,constant,0.0009643418646698049,1.2083509754787337e-07,0.16251789877216094,0.5,0.10909540498640775,0.22990166745555007,,,
+mlpwide_d256_b4_r4,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4,4,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",4091,12000,False,32,32,16,100,2026-06-28T12:18:07.974734+00:00,2026-06-28T13:05:24.781186+00:00,cosine_decay,0.0004568972058255479,9.040091747332144e-06,0.05813033561196787,0.5,0.05667887955460827,0.6548860289390384,0.75,0.02308016679308127,
+mlpwide_d256_b4_r4,umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4,5,FAIL,,true_resource_exhausted_oom,resource_exhausted,"Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File ""/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/scripts/run_optuna_1dmrs_trial",8441,12000,False,32,32,16,100,2026-06-28T13:05:24.919903+00:00,2026-06-28T14:38:01.367997+00:00,cosine_decay,0.0004983159357242532,7.693520676908999e-07,0.12243400701824686,1.0,0.007912361628708613,0.3228873595847961,0.75,0.012154545064008537,

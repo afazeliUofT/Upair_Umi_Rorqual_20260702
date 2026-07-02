@@ -1,0 +1,13 @@
+{
+  "batch_size": 32,
+  "cache": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/_final_u3_shared_cov/u3_prb8_cdlC_covariance/artifacts/empirical_covariances.npz",
+  "channel_model": "C",
+  "delay_spread_s": 3e-07,
+  "max_speed_mps": 16.67,
+  "min_speed_mps": 8.33,
+  "n_size_grid": 8,
+  "num_batches": 32,
+  "num_rx_ant": 16,
+  "num_users": 3,
+  "seed": 7007
+}

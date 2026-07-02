@@ -1,0 +1,38 @@
+{
+  "input_root": "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_final_u3_baseline_chunks",
+  "num_input_chunks": 16,
+  "num_merged_rows": 1,
+  "output_csv": "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_final_u3_baseline_chunks/merged_main_d256_b4_r2_u3_baseline_ls_2dlmmse_lmmse_e0.csv",
+  "rows": [
+    {
+      "ber": 9.423259338597671e-05,
+      "ber_zero_error_upper_bound": NaN,
+      "bit_errors": 17230,
+      "bler": 0.0016276041666666667,
+      "bler_zero_error_upper_bound": NaN,
+      "block_errors": 100,
+      "chunk_indices": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+      "data_elapsed_s": 912.7017021484207,
+      "dmrs_case": "1dmrs",
+      "ebno_db": 0.0,
+      "mc_stop_reason": "isolated_chunk_merge",
+      "nmse": NaN,
+      "num_batches_run": 320,
+      "num_bits": 182845440,
+      "num_blocks": 61440,
+      "num_chunks": 16,
+      "num_users": 3,
+      "point_elapsed_s": 3242.7430550488643,
+      "receiver": "baseline_ls_2dlmmse_lmmse",
+      "receiver_elapsed_s": 2165.1106124378275,
+      "receiver_ms_per_batch": 6765.970663868211,
+      "receiver_ms_per_frame": 35.239430540980266,
+      "reliable_ber": true,
+      "reliable_bler": true,
+      "seed": 7,
+      "target_bler_floor": NaN,
+      "training_seed": 7,
+      "variant": "main_d256_b4_r2"
+    }
+  ]
+}

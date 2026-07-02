@@ -1,0 +1,38 @@
+{
+  "input_root": "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_final_u3_baseline_chunks",
+  "num_input_chunks": 75,
+  "num_merged_rows": 1,
+  "output_csv": "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_final_u3_baseline_chunks/merged_main_d256_b4_r2_u3_baseline_ls_2dlmmse_lmmse_e1.csv",
+  "rows": [
+    {
+      "ber": 1.8735532407407406e-05,
+      "ber_zero_error_upper_bound": NaN,
+      "bit_errors": 16058,
+      "bler": 0.00034722222222222224,
+      "bler_zero_error_upper_bound": NaN,
+      "block_errors": 100,
+      "chunk_indices": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74",
+      "data_elapsed_s": 4297.087337350007,
+      "dmrs_case": "1dmrs",
+      "ebno_db": 1.0,
+      "mc_stop_reason": "isolated_chunk_merge",
+      "nmse": NaN,
+      "num_batches_run": 1500,
+      "num_bits": 857088000,
+      "num_blocks": 288000,
+      "num_chunks": 75,
+      "num_users": 3,
+      "point_elapsed_s": 15378.771462633274,
+      "receiver": "baseline_ls_2dlmmse_lmmse",
+      "receiver_elapsed_s": 10233.912846910302,
+      "receiver_ms_per_batch": 6822.608564606868,
+      "receiver_ms_per_frame": 35.534419607327436,
+      "reliable_ber": true,
+      "reliable_bler": true,
+      "seed": 7,
+      "target_bler_floor": NaN,
+      "training_seed": 7,
+      "variant": "main_d256_b4_r2"
+    }
+  ]
+}

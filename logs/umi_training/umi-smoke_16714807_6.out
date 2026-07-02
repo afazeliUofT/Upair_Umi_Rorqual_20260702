@@ -1,0 +1,47 @@
+[ENV] Reusing portable venv: /home/rsadve1/scratch/.vevn_upair_potable
+[ENV] Checking installed package metadata only; TensorFlow/Sionna are not imported here.
+[ENV] Python 3.11.5
+[ENV] numpy 1.26.4+computecanada
+[ENV] pandas 2.2.3+computecanada
+[ENV] matplotlib 3.10.0+computecanada
+[ENV] PyYAML 6.0.2+computecanada
+[ENV] scipy 1.15.1+computecanada
+[ENV] tensorflow 2.15.1+computecanada
+[ENV] sionna-no-rt 1.2.1
+[ENV] optuna 4.8.0+computecanada
+[ENV] Skipping TensorFlow/Sionna import check on this node. Set UPAIR_DEEP_IMPORT_CHECK=1 to test imports explicitly.
+[ENV] Ready: REPO=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI
+[ENV] Ready: VENV=/home/rsadve1/scratch/.vevn_upair_potable
+2026-06-25 23:56:04.697141: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-25 23:56:04.697170: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-25 23:56:04.868600: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-25 23:56:54.129052: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-25 23:56:54.129090: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-25 23:56:54.130100: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[GUARD] PASS: all 7 trained checkpoints are unchanged.
+[COMPREHENSIVE] loaded Optuna best JSON for mlpwide_d256_b4_r4 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_mlpwide_d256_b4_r4_best_params.json
+[TRAIN] optimizer lr_schedule=cosine_decay learning_rate=0.000991678 weight_decay=1.46538e-07
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-25 23:57:45.238275: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1782446267.726778 1560957 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-1.59301 nmse_prop=0.06349 nmse_ls=0.06349 lr=9.917e-04 step_time=16.343s steps_per_s=0.061 gpu_mem=0.10GiB peak=8.48GiB
+[TRAIN] step=00020 loss=-1.14734 nmse_prop=0.11133 nmse_ls=0.11422 lr=9.786e-04 step_time=5.369s steps_per_s=0.489 gpu_mem=0.16GiB peak=8.58GiB
+[TRAIN] step=00040 loss=-0.61052 nmse_prop=0.18150 nmse_ls=0.18741 lr=9.373e-04 step_time=0.474s steps_per_s=0.789 gpu_mem=0.16GiB peak=8.59GiB
+[TRAIN] step=00060 loss=-1.82296 nmse_prop=0.05107 nmse_ls=0.04965 lr=8.705e-04 step_time=0.501s steps_per_s=0.993 gpu_mem=0.16GiB peak=8.59GiB
+[TRAIN] step=00080 loss=-0.27592 nmse_prop=0.24957 nmse_ls=0.26638 lr=7.822e-04 step_time=0.482s steps_per_s=1.142 gpu_mem=0.16GiB peak=8.59GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=100 val_nmse=0.0922795
+[TRAIN] step=00100 loss=-0.98378 nmse_prop=0.12911 nmse_ls=0.13578 lr=6.781e-04 step_time=23.105s steps_per_s=0.977 gpu_mem=0.17GiB peak=8.59GiB
+[TRAIN] saved resumable state at step=100 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/smoke/seed7/1dmrs/mlpwide_d256_b4_r4/checkpoints/training_state/ckpt-100
+[TRAIN] step=00120 loss=-1.61677 nmse_prop=0.06143 nmse_ls=0.05983 lr=5.647e-04 step_time=0.449s steps_per_s=1.051 gpu_mem=0.17GiB peak=8.60GiB
+[TRAIN] step=00140 loss=-1.75137 nmse_prop=0.05481 nmse_ls=0.05314 lr=4.491e-04 step_time=0.499s steps_per_s=1.133 gpu_mem=0.17GiB peak=8.60GiB
+[TRAIN] step=00160 loss=-1.16217 nmse_prop=0.11001 nmse_ls=0.11532 lr=3.385e-04 step_time=0.481s steps_per_s=1.201 gpu_mem=0.17GiB peak=8.60GiB
+[TRAIN] step=00180 loss=-1.77534 nmse_prop=0.05560 nmse_ls=0.05481 lr=2.400e-04 step_time=0.456s steps_per_s=1.260 gpu_mem=0.17GiB peak=8.60GiB
+[TRAIN] step=00200 loss=-1.55005 nmse_prop=0.07543 nmse_ls=0.07806 lr=1.597e-04 step_time=20.595s steps_per_s=1.158 gpu_mem=0.17GiB peak=8.60GiB
+[TRAIN] saved resumable state at step=200 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/smoke/seed7/1dmrs/mlpwide_d256_b4_r4/checkpoints/training_state/ckpt-200
+[TRAIN] saved resumable state at step=200 reason=final: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/smoke/seed7/1dmrs/mlpwide_d256_b4_r4/checkpoints/training_state/ckpt-200
+[SMOKE] PASS mlpwide_d256_b4_r4 last_val_nmse=0.0928842
+[GUARD] PASS: all 7 trained checkpoints are unchanged.

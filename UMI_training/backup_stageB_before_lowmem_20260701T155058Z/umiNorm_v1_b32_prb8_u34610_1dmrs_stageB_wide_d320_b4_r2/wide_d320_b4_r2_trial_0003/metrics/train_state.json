@@ -1,0 +1,55 @@
+{
+  "best_val": 0.05776191275799647,
+  "best_weights_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2/wide_d320_b4_r2_trial_0003/checkpoints/best.weights.h5",
+  "checkpoint_metrics": {
+    "last_loss": -2.6575539112091064,
+    "last_nmse_ls": 0.05684679374098778,
+    "last_nmse_prop": 0.03240307420492172
+  },
+  "last_metrics": {
+    "ebno_db": 2.9918346405029297,
+    "learning_rate": 0.00030235739541240036,
+    "loss": -2.6575539112091064,
+    "loss_nll": -2.659667730331421,
+    "nmse_ls": 0.05684679374098778,
+    "nmse_prop": 0.03240307420492172,
+    "num_users": 1,
+    "step": 9118,
+    "step_elapsed_s": 0.38910801499150693,
+    "steps_per_s": 1.5326314273806565,
+    "training_elapsed_s": 5949.245093833888
+  },
+  "latest_step": 9118,
+  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2/wide_d320_b4_r2_trial_0003/checkpoints/training_state/ckpt-9118",
+  "resume_enabled": true,
+  "save_reason": "resource_exhausted",
+  "total_steps": 12000,
+  "training_complete": false,
+  "training_parameters": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "current_learning_rate": 0.00030229060212150216,
+    "eval_every": 1000,
+    "evaluation_seed": 1007,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0011194142556839183,
+    "learning_rate_schedule": {
+      "decay_rate": 0.96,
+      "decay_steps": 15000.0,
+      "final_fraction": 0.03995121225244404,
+      "learning_rate": 0.0011194142556839183,
+      "polynomial_power": 1.5259288638269477,
+      "restart_first_decay_steps": 2500.0,
+      "restart_m_mul": 0.8,
+      "restart_t_mul": 2.0,
+      "schedule": "polynomial_decay"
+    },
+    "memory_cleanup_every_steps": 100,
+    "nmse_loss_weight": 0.06523425274380522,
+    "seed": 7,
+    "training_seed": 7,
+    "val_microbatch_size": 16,
+    "val_steps": 96,
+    "weight_decay": 5.778735770825256e-06
+  }
+}

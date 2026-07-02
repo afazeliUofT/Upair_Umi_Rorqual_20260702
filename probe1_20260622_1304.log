@@ -1,0 +1,78 @@
+[PROBE1] host=l1.nibi.sharcnet date=Mon Jun 22 13:04:10 EDT 2026 git=a5fb0b8
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
+[ENV] Reusing portable venv: /home/rsadve1/scratch/.vevn_upair_potable
+[ENV] Checking installed package metadata only; TensorFlow/Sionna are not imported here.
+[ENV] Python 3.11.5
+[ENV] numpy 1.26.4+computecanada
+[ENV] pandas 2.2.3+computecanada
+[ENV] matplotlib 3.10.0+computecanada
+[ENV] PyYAML 6.0.2+computecanada
+[ENV] scipy 1.15.1+computecanada
+[ENV] tensorflow 2.15.1+computecanada
+[ENV] sionna-no-rt 1.2.1
+[ENV] optuna 4.8.0+computecanada
+[ENV] Skipping TensorFlow/Sionna import check on this node. Set UPAIR_DEEP_IMPORT_CHECK=1 to test imports explicitly.
+[ENV] Ready: REPO=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable
+[ENV] Ready: VENV=/home/rsadve1/scratch/.vevn_upair_potable
+================================================================================
+[PIPELINE] variant=main_d256_b4_r2
+[PIPELINE] root=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable
+[PIPELINE] stageB_prefix=clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB
+[PIPELINE] receivers=perfect_csi_lmmse,baseline_ls_2dlmmse_lmmse
+[PIPELINE] users=3
+[PIPELINE] ebnos=-1,0
+[PIPELINE] chunk_batches=20 micro=8
+================================================================================
+[PIPELINE] training already complete for main_d256_b4_r2; skipping training.
+[PIPELINE] starting/resuming isolated evaluation for main_d256_b4_r2.
+
+--------------------------------------------------------------------------------
+[PIPELINE] eval point variant=main_d256_b4_r2 receiver=perfect_csi_lmmse U=3 Eb/N0=-1
+--------------------------------------------------------------------------------
+[PIPELINE] status done=1 reason=max_batches chunks=30 batches=600 block_errors=9/100 next_chunk=-1
+[ISO-MERGE] chunks: 30
+[ISO-MERGE] rows: 1
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_perfect_csi_lmmse_em1.csv
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_perfect_csi_lmmse_em1.summary.json
+         receiver         variant dmrs_case  seed  training_seed  num_users  ebno_db  num_chunks                                                                   chunk_indices  bit_errors  num_bits  block_errors  num_blocks  num_batches_run  point_elapsed_s  data_elapsed_s  receiver_elapsed_s      ber     bler  nmse       mc_stop_reason  target_bler_floor  bler_zero_error_upper_bound  ber_zero_error_upper_bound  receiver_ms_per_batch  receiver_ms_per_frame  reliable_ber  reliable_bler
+perfect_csi_lmmse main_d256_b4_r2     1dmrs     7              7          3     -1.0          30 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29         507 342835200             9      115200              600      3027.958589     1116.414538         1608.870913 0.000001 0.000078   NaN isolated_chunk_merge                NaN                          NaN                         NaN            2681.451522              13.965893         False          False
+
+--------------------------------------------------------------------------------
+[PIPELINE] eval point variant=main_d256_b4_r2 receiver=perfect_csi_lmmse U=3 Eb/N0=0
+--------------------------------------------------------------------------------
+[PIPELINE] status done=1 reason=max_batches chunks=30 batches=600 block_errors=1/100 next_chunk=-1
+[ISO-MERGE] chunks: 30
+[ISO-MERGE] rows: 1
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_perfect_csi_lmmse_e0.csv
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_perfect_csi_lmmse_e0.summary.json
+         receiver         variant dmrs_case  seed  training_seed  num_users  ebno_db  num_chunks                                                                   chunk_indices  bit_errors  num_bits  block_errors  num_blocks  num_batches_run  point_elapsed_s  data_elapsed_s  receiver_elapsed_s          ber     bler  nmse       mc_stop_reason  target_bler_floor  bler_zero_error_upper_bound  ber_zero_error_upper_bound  receiver_ms_per_batch  receiver_ms_per_frame  reliable_ber  reliable_bler
+perfect_csi_lmmse main_d256_b4_r2     1dmrs     7              7          3      0.0          30 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29          51 342835200             1      115200              600      3089.308037     1122.033726         1615.545388 1.487595e-07 0.000009   NaN isolated_chunk_merge                NaN                          NaN                         NaN            2692.575647              14.023831         False          False
+
+--------------------------------------------------------------------------------
+[PIPELINE] eval point variant=main_d256_b4_r2 receiver=baseline_ls_2dlmmse_lmmse U=3 Eb/N0=-1
+--------------------------------------------------------------------------------
+[PIPELINE] status done=1 reason=target_block_errors chunks=4 batches=80 block_errors=117/100 next_chunk=-1
+[ISO-MERGE] chunks: 4
+[ISO-MERGE] rows: 1
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_baseline_ls_2dlmmse_lmmse_em1.csv
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_baseline_ls_2dlmmse_lmmse_em1.summary.json
+                 receiver         variant dmrs_case  seed  training_seed  num_users  ebno_db  num_chunks chunk_indices  bit_errors  num_bits  block_errors  num_blocks  num_batches_run  point_elapsed_s  data_elapsed_s  receiver_elapsed_s      ber     bler  nmse       mc_stop_reason  target_bler_floor  bler_zero_error_upper_bound  ber_zero_error_upper_bound  receiver_ms_per_batch  receiver_ms_per_frame  reliable_ber  reliable_bler
+baseline_ls_2dlmmse_lmmse main_d256_b4_r2     1dmrs     7              7          3     -1.0           4       0,1,2,3       19366  45711360           117       15360               80        538.53591      155.165817          294.479475 0.000424 0.007617   NaN isolated_chunk_merge                NaN                          NaN                         NaN            3680.993433              19.171841          True           True
+
+--------------------------------------------------------------------------------
+[PIPELINE] eval point variant=main_d256_b4_r2 receiver=baseline_ls_2dlmmse_lmmse U=3 Eb/N0=0
+--------------------------------------------------------------------------------
+[PIPELINE] status done=1 reason=target_block_errors chunks=18 batches=360 block_errors=107/100 next_chunk=-1
+[ISO-MERGE] chunks: 18
+[ISO-MERGE] rows: 1
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_baseline_ls_2dlmmse_lmmse_e0.csv
+[ISO-MERGE] wrote: /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_isolated_eval_chunks/merged_main_d256_b4_r2_u3_baseline_ls_2dlmmse_lmmse_e0.summary.json
+                 receiver         variant dmrs_case  seed  training_seed  num_users  ebno_db  num_chunks                               chunk_indices  bit_errors  num_bits  block_errors  num_blocks  num_batches_run  point_elapsed_s  data_elapsed_s  receiver_elapsed_s      ber     bler  nmse       mc_stop_reason  target_bler_floor  bler_zero_error_upper_bound  ber_zero_error_upper_bound  receiver_ms_per_batch  receiver_ms_per_frame  reliable_ber  reliable_bler
+baseline_ls_2dlmmse_lmmse main_d256_b4_r2     1dmrs     7              7          3      0.0          18 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17       16746 205701120           107       69120              360      2326.841138       687.97859          1319.22449 0.000081 0.001548   NaN isolated_chunk_merge                NaN                          NaN                         NaN            3664.512473              19.086002          True           True
+[PIPELINE] COMPLETE variant=main_d256_b4_r2
+===================== [PROBE1 SUMMARY] =====================
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pandas'
+===================== [/PROBE1 SUMMARY] ====================

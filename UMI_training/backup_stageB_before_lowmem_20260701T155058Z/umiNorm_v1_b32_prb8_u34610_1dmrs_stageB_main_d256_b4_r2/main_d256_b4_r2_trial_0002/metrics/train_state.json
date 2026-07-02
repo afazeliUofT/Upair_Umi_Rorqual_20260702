@@ -1,0 +1,55 @@
+{
+  "best_val": 0.06173088236634309,
+  "best_weights_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2/main_d256_b4_r2_trial_0002/checkpoints/best.weights.h5",
+  "checkpoint_metrics": {
+    "last_loss": -1.45645010471344,
+    "last_nmse_ls": 0.1742170751094818,
+    "last_nmse_prop": 0.08762454241514206
+  },
+  "last_metrics": {
+    "ebno_db": -3.7666702270507812,
+    "learning_rate": 0.0004150307213421911,
+    "loss": -1.45645010471344,
+    "loss_nll": -1.4984052181243896,
+    "nmse_ls": 0.1742170751094818,
+    "nmse_prop": 0.08762454241514206,
+    "num_users": 4,
+    "step": 5321,
+    "step_elapsed_s": 0.41293208300339757,
+    "steps_per_s": 1.7699683326249123,
+    "training_elapsed_s": 3006.268474933
+  },
+  "latest_step": 5321,
+  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2/main_d256_b4_r2_trial_0002/checkpoints/training_state/ckpt-5321",
+  "resume_enabled": true,
+  "save_reason": "resource_exhausted",
+  "total_steps": 12000,
+  "training_complete": false,
+  "training_parameters": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "current_learning_rate": 0.0004149781889282167,
+    "eval_every": 1000,
+    "evaluation_seed": 1007,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0005712916127949584,
+    "learning_rate_schedule": {
+      "decay_rate": 0.96,
+      "decay_steps": 15000.0,
+      "final_fraction": 0.02159904793462117,
+      "learning_rate": 0.0005712916127949584,
+      "polynomial_power": 1.0,
+      "restart_first_decay_steps": 2500.0,
+      "restart_m_mul": 0.8,
+      "restart_t_mul": 2.0,
+      "schedule": "cosine_decay"
+    },
+    "memory_cleanup_every_steps": 100,
+    "nmse_loss_weight": 0.4788048920718949,
+    "seed": 7,
+    "training_seed": 7,
+    "val_microbatch_size": 16,
+    "val_steps": 96,
+    "weight_decay": 9.654662480652895e-06
+  }
+}

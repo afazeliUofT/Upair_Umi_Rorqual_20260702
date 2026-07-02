@@ -1,0 +1,53 @@
+{
+  "variants": {
+    "deep_d256_b6_r2": {
+      "checkpoint": "TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/best.weights.h5",
+      "latest_step": 40000,
+      "sha256": "847ba624ca11b2bee99186e1e5313435dfc3f3eae71797d6ad1c86779c4a0672",
+      "size_bytes": 25072960,
+      "total_steps": 40000
+    },
+    "main_d256_b4_r2": {
+      "checkpoint": "TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5",
+      "latest_step": 40000,
+      "sha256": "3cd754db60dc20a28322a5b78a288b811434f28f1088ad7778cefd024c66b998",
+      "size_bytes": 17020912,
+      "total_steps": 40000
+    },
+    "mlpwide_d256_b4_r4": {
+      "checkpoint": "TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/mlpwide_d256_b4_r4/checkpoints/best.weights.h5",
+      "latest_step": 40000,
+      "sha256": "81753529c934840a62b34a860f4385c5663abfbaf473bc371876a0a5ea5f0813",
+      "size_bytes": 21223408,
+      "total_steps": 40000
+    },
+    "narrow_d192_b4_r2": {
+      "checkpoint": "TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/best.weights.h5",
+      "latest_step": 40000,
+      "sha256": "3b2cc9ad5b0c56db7d252ef15090ec657649e54256d3df01bd339fd4053d0059",
+      "size_bytes": 9808624,
+      "total_steps": 40000
+    },
+    "shallow_d256_b2_r2": {
+      "checkpoint": "TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/best.weights.h5",
+      "latest_step": 40000,
+      "sha256": "309e2a851af9811afdb0a1ab27b5dbd757dcb0a86c0997a68ea32c52c975242c",
+      "size_bytes": 8968904,
+      "total_steps": 40000
+    },
+    "wide_d320_b4_r2": {
+      "checkpoint": "TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/best.weights.h5",
+      "latest_step": 40000,
+      "sha256": "a7bec43a782cdd29b073f315230e863f850df1fd95dd7519875c8b7e2c37a499",
+      "size_bytes": 26330856,
+      "total_steps": 40000
+    },
+    "wide_deep_d320_b6_r2": {
+      "checkpoint": "TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_deep_d320_b6_r2/checkpoints/best.weights.h5",
+      "latest_step": 40000,
+      "sha256": "cad94b6b1bb1fe61bdaac9a0604dc326a120a4b5454a47aae6dff9eac2b35af4",
+      "size_bytes": 38843176,
+      "total_steps": 40000
+    }
+  }
+}

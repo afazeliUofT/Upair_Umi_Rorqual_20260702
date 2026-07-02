@@ -1,0 +1,1 @@
+3 active users; Eb/N0=-4..+1 dB. UPAIR data are aggregated from _isolated_eval_chunks; benchmarks from _final_u3_baseline_chunks. Raw chunks override merged CSVs. BLER=0/NaN/unavailable points are never plotted. Filled markers: >=100 block errors; open markers: completed at 2000-batch cap with <100 errors; x: partial. Each figure is saved as PNG, PDF and SVG.

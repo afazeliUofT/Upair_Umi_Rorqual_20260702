@@ -1,0 +1,8 @@
+0 main_d256_b4_r2              finished= 2/ 6 complete= 2 pruned= 0 failed= 4 running= 0 best=-1.33556 ready=0
+1 shallow_d256_b2_r2           finished= 5/ 6 complete= 5 pruned= 0 failed= 1 running= 0 best=-1.29017 ready=0
+2 deep_d256_b6_r2              finished= 5/ 6 complete= 5 pruned= 0 failed= 1 running= 0 best=-1.38843 ready=0
+3 narrow_d192_b4_r2            finished= 4/ 6 complete= 4 pruned= 0 failed= 2 running= 0 best=-1.28494 ready=0
+4 wide_d320_b4_r2              finished= 0/ 6 complete= 0 pruned= 0 failed= 6 running= 0 best=nan ready=0
+5 wide_deep_d320_b6_r2         finished= 1/ 6 complete= 1 pruned= 0 failed= 5 running= 0 best=-1.40163 ready=0
+6 mlpwide_d256_b4_r4           finished= 1/ 6 complete= 1 pruned= 0 failed= 5 running= 0 best=-1.34273 ready=0
+STAGE_B_COMPLETE=0

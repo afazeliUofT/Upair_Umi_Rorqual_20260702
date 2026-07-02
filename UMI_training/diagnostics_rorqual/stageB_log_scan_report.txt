@@ -1,0 +1,10 @@
+
+========== LOG SCAN ==========
+                                                                                                               log   job_id task    host  gpucheck_pass  gpucheck_fail  cuda_context  oom  env_missing  failed_trial  complete_trial
+/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/logs/umi_training/umi-optB_14858427_0.out 14858427    0 rg31605              1              0             0   12            0             4               4
+/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/logs/umi_training/umi-optB_14858427_1.out 14858427    1 rg31605              1              0             0    3            0             1              10
+/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/logs/umi_training/umi-optB_14858427_2.out 14858427    2 rg21701              1              0             0    3            0             1              10
+/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/logs/umi_training/umi-optB_14858427_3.out 14858427    3 rg21803              1              0             0    6            0             2               8
+/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/logs/umi_training/umi-optB_14858427_4.out 14858427    4 rg21708              1              0             0   18            0             6               7
+/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/logs/umi_training/umi-optB_14858427_5.out 14858427    5 rg31608              1              0             0   15            0             5               4
+/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/logs/umi_training/umi-optB_14858427_6.out 14858427    6 rg21805              1              0             0   15            0             5               5

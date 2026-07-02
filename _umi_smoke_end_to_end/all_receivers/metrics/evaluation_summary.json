@@ -1,0 +1,68 @@
+{
+  "batch_size_eval": 4,
+  "best_ber_classical": {
+    "receiver": "baseline_ls_2dlmmse_lmmse",
+    "value": 0.00011200716845878136
+  },
+  "best_ber_classical_reliable_only": null,
+  "best_ber_upair5g": 0.12404793906810035,
+  "best_bler_classical": {
+    "receiver": "baseline_ls_2dlmmse_lmmse",
+    "value": 0.08333333333333333
+  },
+  "best_bler_classical_reliable_only": null,
+  "best_bler_upair5g": 0.8333333333333334,
+  "best_nmse_classical": {
+    "receiver": "baseline_ls_2dlmmse_lmmse",
+    "value": 0.09292920808943492
+  },
+  "best_nmse_upair5g": 0.35986409868512836,
+  "checkpoint_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5",
+  "classical_receivers": [
+    "baseline_ls_lmmse",
+    "baseline_ls_2dlmmse_lmmse"
+  ],
+  "curves_csv": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/_umi_smoke_end_to_end/all_receivers/metrics/curves.csv",
+  "empirical_covariances": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/_umi_smoke_end_to_end/all_receivers/artifacts/empirical_covariances.npz",
+  "enabled_receivers": [
+    "baseline_ls_lmmse",
+    "baseline_ls_2dlmmse_lmmse",
+    "upair5g_lmmse",
+    "perfect_csi_lmmse"
+  ],
+  "evaluation_controls": {
+    "floor_confidence_factor": 3.0,
+    "floor_num_frames": 0,
+    "max_num_batches_per_point": 1,
+    "min_num_batches_per_point": 1,
+    "per_receiver_stopping": false,
+    "reliable_min_bit_errors": 1000,
+    "reliable_min_block_errors": 100,
+    "stopping_receivers": [
+      "baseline_ls_lmmse",
+      "baseline_ls_2dlmmse_lmmse",
+      "upair5g_lmmse",
+      "perfect_csi_lmmse"
+    ],
+    "target_bler_floor": 1e-05,
+    "target_block_errors_per_receiver": 0
+  },
+  "evaluation_elapsed_s": 81.05027594184503,
+  "evaluation_seed": 1007,
+  "gpu_mem_gib": 0.12323444802314043,
+  "gpu_peak_gib": 0.5305364737287164,
+  "num_curve_rows": 4,
+  "num_users": 3,
+  "per_ebno_best_classical": [
+    {
+      "best_nmse_classical": 0.09292920808943492,
+      "best_nmse_classical_receiver": "baseline_ls_2dlmmse_lmmse",
+      "ebno_db": -2.0,
+      "nmse_gap_upair_minus_best_classical": 0.2669348905956934,
+      "nmse_upair5g": 0.35986409868512836
+    }
+  ],
+  "receiver_microbatch_size": 2,
+  "seed": 1007,
+  "training_seed": 7
+}

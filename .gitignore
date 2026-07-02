@@ -1,0 +1,48 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.data*
+*.weights*
+# UPAIR runtime evidence and generated outputs
+wandb/
+mlruns/
+htmlcov/
+
+# Slurm/runtime logs
+core.*
+
+# Local env/cache
+.venv/
+.venv*/
+.vevn_upair_potable/
+.cache/
+
+# Wrapper delivery / patch artifacts
+upair_portable_wrappers.tar.gz
+upair_portable_wrappers.sha256
+upair_freeze_fix_patch.sh
+upair_freeze_fix_patch.sha256
+*.before_freeze_fix
+
+# UPAIR generated runtime outputs and patch scratch
+patch_backups/
+_smoke_*/
+_isolated_eval_chunks/
+_stress_cdl_eval_memory/
+_stress_cdl_eval_one_receiver/
+_stress_*/
+_isolated_eval_chunks*/
+*.db
+*.sqlite
+*.sqlite3
+*.weights.h5
+*.data-*
+*.index
+checkpoint

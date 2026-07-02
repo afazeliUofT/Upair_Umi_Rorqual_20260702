@@ -1,0 +1,64 @@
+{
+  "best_params": {
+    "dropout": 0.02639429712150497,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0005712916127949584,
+    "learning_rate_decay_fraction": 1.25,
+    "learning_rate_final_fraction": 0.02159904793462117,
+    "learning_rate_polynomial_power": 1.0,
+    "learning_rate_schedule": "cosine_decay",
+    "nmse_loss_weight": 0.4788048920718949,
+    "residual_scale": 0.18647863554958427,
+    "weight_decay": 9.654662480652895e-06
+  },
+  "best_value": -1.7337701638151646,
+  "completed_trials": 8,
+  "failed_trials": 0,
+  "finished_trials": 8,
+  "fixed_constraints": {
+    "clean_case": true,
+    "dmrs_length": 1,
+    "evaluation_receiver_microbatch_size": 16,
+    "evaluation_stream_eval_microbatches": true,
+    "optuna_validation_batch_size": 32,
+    "optuna_validation_microbatch_size": 16,
+    "resource_exhausted_counts_as_finished": false,
+    "train_batch_size": 32,
+    "trial_process_isolation": true
+  },
+  "objective_aggregation": "recent_mean",
+  "objective_metric": "hybrid_nmse_ratio",
+  "objective_min_step_exclusive": 2000,
+  "objective_recent_k": 3,
+  "pruned_trials": 0,
+  "stage": "B",
+  "steps": 12000,
+  "study_name": "clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_main_d256_b4_r2",
+  "target_total_trials": 8,
+  "train_user_count_weights": [
+    1.0,
+    3.0,
+    6.0,
+    10.0
+  ],
+  "val_ebno_db": [
+    -4.0,
+    -2.0,
+    0.0,
+    2.0,
+    4.0
+  ],
+  "val_steps": 96,
+  "val_user_count_weights": [
+    1.0,
+    3.0,
+    6.0,
+    10.0
+  ],
+  "val_user_counts": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "best_val": 0.057545681008681036,
+  "best_weights_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2/wide_d320_b4_r2_trial_0002/checkpoints/best.weights.h5",
+  "checkpoint_metrics": {
+    "last_loss": -2.093501329421997,
+    "last_nmse_ls": 0.0850641056895256,
+    "last_nmse_prop": 0.054565951228141785
+  },
+  "last_metrics": {
+    "ebno_db": 1.4578723907470703,
+    "learning_rate": 0.00027531865634955466,
+    "loss": -2.093501329421997,
+    "loss_nll": -2.0970146656036377,
+    "nmse_ls": 0.0850641056895256,
+    "nmse_prop": 0.054565951228141785,
+    "num_users": 4,
+    "step": 7966,
+    "step_elapsed_s": 0.46841005282476544,
+    "steps_per_s": 1.583708132691554,
+    "training_elapsed_s": 5029.9672241131775
+  },
+  "latest_step": 7966,
+  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_wide_d320_b4_r2/wide_d320_b4_r2_trial_0002/checkpoints/training_state/ckpt-7966",
+  "resume_enabled": true,
+  "save_reason": "resource_exhausted",
+  "total_steps": 12000,
+  "training_complete": false,
+  "training_parameters": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "current_learning_rate": 0.0002752623986452818,
+    "eval_every": 1000,
+    "evaluation_seed": 1007,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0008750519993093886,
+    "learning_rate_schedule": {
+      "decay_rate": 0.96,
+      "decay_steps": 15000.0,
+      "final_fraction": 0.04207132643385709,
+      "learning_rate": 0.0008750519993093886,
+      "polynomial_power": 1.660055250588681,
+      "restart_first_decay_steps": 2500.0,
+      "restart_m_mul": 0.8,
+      "restart_t_mul": 2.0,
+      "schedule": "polynomial_decay"
+    },
+    "memory_cleanup_every_steps": 100,
+    "nmse_loss_weight": 0.0643864199362532,
+    "seed": 7,
+    "training_seed": 7,
+    "val_microbatch_size": 16,
+    "val_steps": 96,
+    "weight_decay": 8.74508633569595e-06
+  }
+}

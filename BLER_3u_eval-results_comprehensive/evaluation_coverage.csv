@@ -1,0 +1,61 @@
+method,label,ebno_db,available,done,reliable,bler,block_errors,num_batches_run
+main_d256_b4_r2,Main,-4.0,True,True,True,0.11041666666666666,424,20
+main_d256_b4_r2,Main,-3.0,True,True,True,0.031510416666666666,121,20
+main_d256_b4_r2,Main,-2.0,True,True,True,0.0069010416666666664,106,80
+main_d256_b4_r2,Main,-1.0,True,True,True,0.0014612268518518518,101,360
+main_d256_b4_r2,Main,0.0,True,True,True,0.00026304713804713804,100,1980
+main_d256_b4_r2,Main,1.0,True,True,False,3.6458333333333336e-05,14,2000
+shallow_d256_b2_r2,Shallow,-4.0,True,True,True,0.13385416666666666,514,20
+shallow_d256_b2_r2,Shallow,-3.0,True,True,True,0.0421875,162,20
+shallow_d256_b2_r2,Shallow,-2.0,True,True,True,0.009548611111111112,110,60
+shallow_d256_b2_r2,Shallow,-1.0,True,True,True,0.0017708333333333332,102,300
+shallow_d256_b2_r2,Shallow,0.0,True,True,True,0.00030886627906976744,102,1720
+shallow_d256_b2_r2,Shallow,1.0,True,True,False,4.4270833333333337e-05,17,2000
+deep_d256_b6_r2,Deep,-4.0,True,True,True,0.12760416666666666,490,20
+deep_d256_b6_r2,Deep,-3.0,True,True,True,0.03411458333333333,131,20
+deep_d256_b6_r2,Deep,-2.0,True,True,True,0.00859375,132,80
+deep_d256_b6_r2,Deep,-1.0,True,True,True,0.0014939692982456141,109,380
+deep_d256_b6_r2,Deep,0.0,True,True,True,0.0002800179211469534,100,1860
+deep_d256_b6_r2,Deep,1.0,True,True,False,4.4270833333333337e-05,17,2000
+narrow_d192_b4_r2,Narrow,-4.0,True,True,True,0.13645833333333332,524,20
+narrow_d192_b4_r2,Narrow,-3.0,True,True,True,0.03046875,117,20
+narrow_d192_b4_r2,Narrow,-2.0,True,True,True,0.01154513888888889,133,60
+narrow_d192_b4_r2,Narrow,-1.0,True,True,True,0.0020089285714285712,108,280
+narrow_d192_b4_r2,Narrow,0.0,True,True,True,0.0003255208333333333,100,1600
+narrow_d192_b4_r2,Narrow,1.0,True,True,False,4.9479166666666665e-05,19,2000
+wide_d320_b4_r2,Wide,-4.0,True,True,True,0.10130208333333333,389,20
+wide_d320_b4_r2,Wide,-3.0,True,True,True,0.024869791666666665,191,40
+wide_d320_b4_r2,Wide,-2.0,True,True,True,0.006575520833333333,101,80
+wide_d320_b4_r2,Wide,-1.0,True,True,True,0.0015046296296296296,104,360
+wide_d320_b4_r2,Wide,0.0,True,True,True,0.00026838860544217685,101,1960
+wide_d320_b4_r2,Wide,1.0,True,True,False,3.3854166666666665e-05,13,2000
+wide_deep_d320_b6_r2,Wide-deep,-4.0,True,True,True,0.11432291666666666,439,20
+wide_deep_d320_b6_r2,Wide-deep,-3.0,True,True,True,0.028645833333333332,110,20
+wide_deep_d320_b6_r2,Wide-deep,-2.0,True,True,True,0.00578125,111,100
+wide_deep_d320_b6_r2,Wide-deep,-1.0,True,True,True,0.0013802083333333333,106,400
+wide_deep_d320_b6_r2,Wide-deep,0.0,True,True,True,0.0002657312925170068,100,1960
+wide_deep_d320_b6_r2,Wide-deep,1.0,True,False,False,3.370098039215686e-05,11,1700
+mlpwide_d256_b4_r4,MLP-wide,-4.0,True,True,True,0.12421875,477,20
+mlpwide_d256_b4_r4,MLP-wide,-3.0,True,True,True,0.029166666666666667,112,20
+mlpwide_d256_b4_r4,MLP-wide,-2.0,True,True,True,0.007877604166666666,121,80
+mlpwide_d256_b4_r4,MLP-wide,-1.0,True,True,True,0.001608455882352941,105,340
+mlpwide_d256_b4_r4,MLP-wide,0.0,True,True,False,0.00025260416666666666,97,2000
+mlpwide_d256_b4_r4,MLP-wide,1.0,True,True,False,4.4270833333333337e-05,17,2000
+baseline_ls_lmmse,LS,-4.0,True,True,True,0.80390625,3087,20
+baseline_ls_lmmse,LS,-3.0,True,True,True,0.3984375,1530,20
+baseline_ls_lmmse,LS,-2.0,True,True,True,0.15703125,603,20
+baseline_ls_lmmse,LS,-1.0,True,True,True,0.05,192,20
+baseline_ls_lmmse,LS,0.0,True,True,True,0.01640625,126,40
+baseline_ls_lmmse,LS,1.0,True,True,True,0.0033203125,102,160
+baseline_ls_2dlmmse_lmmse,2D-LMMSE,-4.0,True,True,True,0.27005208333333336,1037,20
+baseline_ls_2dlmmse_lmmse,2D-LMMSE,-3.0,True,True,True,0.1046875,402,20
+baseline_ls_2dlmmse_lmmse,2D-LMMSE,-2.0,True,True,True,0.028385416666666666,109,20
+baseline_ls_2dlmmse_lmmse,2D-LMMSE,-1.0,True,True,True,0.006666666666666667,128,100
+baseline_ls_2dlmmse_lmmse,2D-LMMSE,0.0,True,True,True,0.0016276041666666667,100,320
+baseline_ls_2dlmmse_lmmse,2D-LMMSE,1.0,True,True,True,0.00034722222222222224,100,1500
+perfect_csi_lmmse,Perfect CSI,-4.0,True,True,True,0.0296875,114,20
+perfect_csi_lmmse,Perfect CSI,-3.0,True,True,True,0.005729166666666666,110,100
+perfect_csi_lmmse,Perfect CSI,-2.0,True,True,True,0.0007891414141414141,100,660
+perfect_csi_lmmse,Perfect CSI,-1.0,True,True,False,7.552083333333334e-05,29,2000
+perfect_csi_lmmse,Perfect CSI,0.0,True,True,False,1.3020833333333334e-05,5,2000
+perfect_csi_lmmse,Perfect CSI,1.0,True,False,False,0.0,0,400

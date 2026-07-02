@@ -1,0 +1,35 @@
+{
+  "batch_size_eval": 32,
+  "batch_size_train": 32,
+  "best_val": 0.024169740320454974,
+  "current_learning_rate": 1.038754271576181e-05,
+  "latest_step": 12000,
+  "learning_rate": 0.0007185507645087983,
+  "learning_rate_schedule": {
+    "decay_rate": 0.96,
+    "decay_steps": 9000.0,
+    "final_fraction": 0.0144562406389355,
+    "learning_rate": 0.0007185507645087983,
+    "polynomial_power": 1.0,
+    "restart_first_decay_steps": 2500.0,
+    "restart_m_mul": 0.8,
+    "restart_t_mul": 2.0,
+    "schedule": "cosine_decay"
+  },
+  "max_num_users": 4,
+  "memory_cleanup_every_steps": 100,
+  "multiuser_enabled": true,
+  "num_trainable_params": 6171840,
+  "seed": 7,
+  "total_steps": 12000,
+  "train_user_count_sampler": "weighted",
+  "train_user_count_weights": [
+    1.0,
+    3.0,
+    6.0,
+    10.0
+  ],
+  "training_complete": true,
+  "val_microbatch_size": 16,
+  "weight_decay": 2.735175242733181e-07
+}

@@ -1,0 +1,89 @@
+[ENV] Reusing portable venv: /home/rsadve1/scratch/.vevn_upair_potable
+[ENV] Checking installed package metadata only; TensorFlow/Sionna are not imported here.
+[ENV] Python 3.11.5
+[ENV] numpy 1.26.4+computecanada
+[ENV] pandas 2.2.3+computecanada
+[ENV] matplotlib 3.10.0+computecanada
+[ENV] PyYAML 6.0.2+computecanada
+[ENV] scipy 1.15.1+computecanada
+[ENV] tensorflow 2.15.1+computecanada
+[ENV] sionna-no-rt 1.2.1
+[ENV] optuna 4.8.0+computecanada
+[ENV] Skipping TensorFlow/Sionna import check on this node. Set UPAIR_DEEP_IMPORT_CHECK=1 to test imports explicitly.
+[ENV] Ready: REPO=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI
+[ENV] Ready: VENV=/home/rsadve1/scratch/.vevn_upair_potable
+2026-06-25 20:52:32.206408: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-25 20:52:32.206485: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-25 20:52:32.454900: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[STATIC] Sionna = sionna-no-rt 1.2.1
+[STATIC] UMi = (carrier_frequency, o2i_model, ut_array, bs_array, direction, enable_pathloss=True, enable_shadow_fading=True, always_generate_lsp=False, precision=None)
+[STATIC] OFDMChannel = (channel_model, resource_grid, normalize_channel=False, return_channel=False, precision=None, **kwargs)
+[STATIC] topology = (batch_size, num_ut, scenario, min_bs_ut_dist=None, isd=None, bs_height=None, min_ut_height=None, max_ut_height=None, indoor_probability=None, min_ut_velocity=None, max_ut_velocity=None, precision=None)
+[STATIC] profile = umi_standard_topology_normalized
+[STATIC] indoor_probability = 0.8
+[STATIC] speed_mps = 8.33 16.67
+[STATIC] normalize_channel = True
+[STATIC] pathloss/shadow = False False
+[GUARD] PASS: all 7 trained checkpoints are unchanged.
+[STATIC] PASS
+2026-06-25 20:53:21.337623: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-25 20:53:21.337659: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-25 20:53:21.338588: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[GUARD] PASS: all 7 trained checkpoints are unchanged.
+[RUNTIME] B=1 x=(1, 3, 1, 14, 96) y=(1, 1, 16, 14, 96) h=(1, 1, 16, 3, 1, 14, 96) power_error=1.192e-07 topology={'call_index': 1, 'batch_size': 1, 'num_users': 3, 'indoor_fraction': 1.0, 'los_fraction': 0.0, 'min_distance_2d_m': 12.580999374389648, 'max_distance_2d_m': 106.88248443603516, 'min_speed_mps': 11.125078201293945, 'max_speed_mps': 13.441461563110352}
+[RUNTIME] B=4 x=(4, 3, 1, 14, 96) y=(4, 1, 16, 14, 96) h=(4, 1, 16, 3, 1, 14, 96) power_error=2.384e-07 topology={'call_index': 1, 'batch_size': 4, 'num_users': 3, 'indoor_fraction': 0.5833333134651184, 'los_fraction': 0.1666666716337204, 'min_distance_2d_m': 32.654029846191406, 'max_distance_2d_m': 99.95960235595703, 'min_speed_mps': 9.516456604003906, 'max_speed_mps': 16.592851638793945}
+[RUNTIME] B=8 x=(8, 3, 1, 14, 96) y=(8, 1, 16, 14, 96) h=(8, 1, 16, 3, 1, 14, 96) power_error=2.384e-07 topology={'call_index': 1, 'batch_size': 8, 'num_users': 3, 'indoor_fraction': 0.7083333134651184, 'los_fraction': 0.0416666679084301, 'min_distance_2d_m': 28.958572387695312, 'max_distance_2d_m': 105.26287078857422, 'min_speed_mps': 8.443199157714844, 'max_speed_mps': 16.57554817199707}
+[RUNTIME] B=32 x=(32, 3, 1, 14, 96) y=(32, 1, 16, 14, 96) h=(32, 1, 16, 3, 1, 14, 96) power_error=2.384e-07 topology={'call_index': 1, 'batch_size': 32, 'num_users': 3, 'indoor_fraction': 0.8229166865348816, 'los_fraction': 0.1041666641831398, 'min_distance_2d_m': 12.3204927444458, 'max_distance_2d_m': 108.91380310058594, 'min_speed_mps': 8.428274154663086, 'max_speed_mps': 16.651973724365234}
+[RUNTIME] reproducibility PASS
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[EVAL] receiver microbatching enabled: batch_size_eval=4 receiver_microbatch_size=2
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[BASELINES] Estimating empirical LMMSE covariances with num_batches=2 batch_size=4 mode=clean-channel
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.04GiB peak=0.38GiB
+[EVAL] receiver_call name=baseline_ls_lmmse mode=positional_y_no compiled_error_counts=False
+[EVAL] receiver_call name=baseline_ls_2dlmmse_lmmse mode=positional_y_no compiled_error_counts=False
+[EVAL] receiver_call name=upair5g_lmmse mode=positional_y_no compiled_error_counts=False
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] receiver=       baseline_ls_lmmse Eb/N0=-2.0 dB BER=1.19288e-02 BLER=1.66667e-01 NMSE=1.46822e-01 bit_err=   426/35712    blk_err=    2/12     batches=   1 stop=global_stop rx_time=1.63s rx_ms_batch=1632.4 rx_ms_frame=136.031 point_time=7.70s gpu_mem=0.12GiB peak=0.53GiB
+[EVAL] receiver=baseline_ls_2dlmmse_lmmse Eb/N0=-2.0 dB BER=1.12007e-04 BLER=8.33333e-02 NMSE=9.29292e-02 bit_err=     4/35712    blk_err=    1/12     batches=   1 stop=global_stop rx_time=1.78s rx_ms_batch=1784.4 rx_ms_frame=148.703 point_time=7.70s gpu_mem=0.12GiB peak=0.53GiB
+[EVAL] receiver=           upair5g_lmmse Eb/N0=-2.0 dB BER=1.24076e-01 BLER=8.33333e-01 NMSE=3.59864e-01 bit_err=  4431/35712    blk_err=   10/12     batches=   1 stop=global_stop rx_time=1.79s rx_ms_batch=1792.0 rx_ms_frame=149.337 point_time=7.70s gpu_mem=0.12GiB peak=0.53GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-2.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/35712    blk_err=    0/12     batches=   1 stop=global_stop bler_ub=2.500e-01 rx_time=1.44s rx_ms_batch=1443.7 rx_ms_frame=120.309 point_time=7.70s gpu_mem=0.12GiB peak=0.53GiB
+                 receiver     bler     nmse  receiver_ms_per_batch
+        baseline_ls_lmmse 0.166667 0.146822            1632.374328
+baseline_ls_2dlmmse_lmmse 0.083333 0.092929            1784.440060
+            upair5g_lmmse 0.833333 0.359864            1792.046202
+        perfect_csi_lmmse 0.000000 0.000000            1443.713641
+[RUNTIME] end-to-end all-receiver smoke PASS
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[RUNTIME] checkpoint forward PASS main_d256_b4_r2
+[COMPREHENSIVE] loaded Optuna best JSON for shallow_d256_b2_r2 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_shallow_d256_b2_r2_best_params.json
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[RUNTIME] checkpoint forward PASS shallow_d256_b2_r2
+[COMPREHENSIVE] loaded Optuna best JSON for deep_d256_b6_r2 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_deep_d256_b6_r2_best_params.json
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[RUNTIME] checkpoint forward PASS deep_d256_b6_r2
+[COMPREHENSIVE] loaded Optuna best JSON for narrow_d192_b4_r2 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_narrow_d192_b4_r2_best_params.json
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[RUNTIME] checkpoint forward PASS narrow_d192_b4_r2
+[COMPREHENSIVE] loaded Optuna best JSON for wide_d320_b4_r2 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_wide_d320_b4_r2_best_params.json
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[RUNTIME] checkpoint forward PASS wide_d320_b4_r2
+[COMPREHENSIVE] loaded Optuna best JSON for wide_deep_d320_b6_r2 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_wide_deep_d320_b6_r2_best_params.json
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[RUNTIME] checkpoint forward PASS wide_deep_d320_b6_r2
+[COMPREHENSIVE] loaded Optuna best JSON for mlpwide_d256_b4_r4 from /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_mlpwide_d256_b4_r4_best_params.json
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[RUNTIME] checkpoint forward PASS mlpwide_d256_b4_r4
+[GUARD] PASS: all 7 trained checkpoints are unchanged.
+[RUNTIME] ALL PROBES PASS
+[RUNTIME] wrote /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/umi_sensitivity/PROBE_PASSED.json

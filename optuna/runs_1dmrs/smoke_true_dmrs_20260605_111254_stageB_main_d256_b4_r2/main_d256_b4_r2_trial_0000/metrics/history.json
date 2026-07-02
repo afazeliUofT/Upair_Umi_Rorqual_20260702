@@ -1,0 +1,64 @@
+{
+  "history": [
+    {
+      "ebno_db": -3.2330946922302246,
+      "learning_rate": 0.0003000000142492354,
+      "loss": -0.8748069405555725,
+      "loss_nll": -0.8897822499275208,
+      "nmse_ls": 0.14975319802761078,
+      "nmse_prop": 0.14975319802761078,
+      "num_users": 4,
+      "step": 1,
+      "step_elapsed_s": 18.850323989987373,
+      "steps_per_s": 0.05304947993058808,
+      "training_elapsed_s": 18.85032617300749,
+      "val_batch_size": 2,
+      "val_ebno_db": 0.0,
+      "val_ebno_db_values": [
+        0.0
+      ],
+      "val_microbatch_size": 1,
+      "val_nmse_ls": 0.07496237754821777,
+      "val_nmse_prop": 0.07491465285420418,
+      "val_snr_hist": {
+        "0.0": 1
+      },
+      "val_user_count_hist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1
+      }
+    },
+    {
+      "ebno_db": -2.041830539703369,
+      "learning_rate": 0.0003000000142492354,
+      "loss": -1.1463862657546997,
+      "loss_nll": -1.157865047454834,
+      "nmse_ls": 0.11465508490800858,
+      "nmse_prop": 0.1147872805595398,
+      "num_users": 4,
+      "step": 2,
+      "step_elapsed_s": 1.4407001323997974,
+      "steps_per_s": 0.09505640611210757,
+      "training_elapsed_s": 21.04013902693987,
+      "val_batch_size": 2,
+      "val_ebno_db": 0.0,
+      "val_ebno_db_values": [
+        0.0
+      ],
+      "val_microbatch_size": 1,
+      "val_nmse_ls": 0.08137517049908638,
+      "val_nmse_prop": 0.08151155337691307,
+      "val_snr_hist": {
+        "0.0": 1
+      },
+      "val_user_count_hist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1
+      }
+    }
+  ]
+}

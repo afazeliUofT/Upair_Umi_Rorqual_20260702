@@ -1,0 +1,10 @@
+UPAIR Main (d=256, L=4, r=2)
+UPAIR Shallow (d=256, L=2, r=2)
+UPAIR Deep (d=256, L=6, r=2)
+UPAIR Narrow (d=192, L=4, r=2)
+UPAIR Wide (d=320, L=4, r=2)
+UPAIR Wide-deep (d=320, L=6, r=2)
+UPAIR MLP-wide (d=256, L=4, r=4)
+LS estimator + LMMSE detector
+LS + 2D-LMMSE estimator + LMMSE detector
+Perfect CSI + LMMSE detector

@@ -1,0 +1,10 @@
+Training complete: 7/7
+UPAIR points complete: 41/42
+Benchmark points complete: 17/18
+All requested points complete: 58/60
+Completion: >=100 block errors after >=20 batches, or 2000-batch cap.
+BLER=0 is retained in CSV but omitted from every BLER plot.
+
+INCOMPLETE/MISSING:
+Wide-deep          +1 dB  partial   errors=11 batches=1700
+Perfect CSI        +1 dB  partial   errors=0 batches=400

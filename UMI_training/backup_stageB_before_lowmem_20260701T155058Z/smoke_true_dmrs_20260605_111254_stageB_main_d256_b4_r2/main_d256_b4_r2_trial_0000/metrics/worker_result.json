@@ -1,0 +1,9 @@
+{
+  "history_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/smoke_true_dmrs_20260605_111254_stageB_main_d256_b4_r2/main_d256_b4_r2_trial_0000/metrics/history.json",
+  "latest_step": 2,
+  "status": "complete",
+  "total_steps": 2,
+  "train_state_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/smoke_true_dmrs_20260605_111254_stageB_main_d256_b4_r2/main_d256_b4_r2_trial_0000/metrics/train_state.json",
+  "trial_number": 0,
+  "value": -1.1070619617852002
+}

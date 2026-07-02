@@ -1,0 +1,20 @@
+{
+  "params": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "dropout": 0.0019515787070138262,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0009853008740127948,
+    "learning_rate_decay_fraction": 1.0,
+    "learning_rate_final_fraction": 0.13612300501692498,
+    "learning_rate_polynomial_power": 1.4955832928541228,
+    "learning_rate_schedule": "polynomial_decay",
+    "nmse_loss_weight": 0.28138694530297775,
+    "residual_scale": 0.6398616818004758,
+    "weight_decay": 5.389013158367834e-07
+  },
+  "stage": "B",
+  "study_name": "clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_shallow_d256_b2_r2",
+  "trial_id": 1,
+  "trial_number": 0
+}

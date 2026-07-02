@@ -1,0 +1,14 @@
+{
+  "channel_family": "umi",
+  "config": "configs/twc_comprehensive_mu32_umi_training.yaml",
+  "config_sha256": "c089213f109d447dbadb30f68620bd3041f6804c12c888273bc929bccb04683b",
+  "profile": "umi_standard_topology_normalized",
+  "source_top_k": 0,
+  "stage": "A",
+  "steps": 4000,
+  "storage": "sqlite:////scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/optuna_db/umiNorm_v1_b32_prb8_u34610_1dmrs_stageA_deep_d256_b6_r2.db",
+  "study_name": "umiNorm_v1_b32_prb8_u34610_1dmrs_stageA_deep_d256_b6_r2",
+  "target_total_trials": 20,
+  "variant": "deep_d256_b6_r2",
+  "warm_start_json": "optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_deep_d256_b6_r2_best_params.json"
+}

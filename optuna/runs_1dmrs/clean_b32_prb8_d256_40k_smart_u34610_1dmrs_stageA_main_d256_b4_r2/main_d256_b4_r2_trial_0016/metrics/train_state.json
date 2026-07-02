@@ -1,0 +1,80 @@
+{
+  "best_val": 0.03822131498600356,
+  "best_weights_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_main_d256_b4_r2/main_d256_b4_r2_trial_0016/checkpoints/best.weights.h5",
+  "checkpoint_metrics": {
+    "last_loss": -2.2181191444396973,
+    "last_nmse_ls": 0.11578913033008575,
+    "last_nmse_prop": 0.04199904203414917
+  },
+  "last_metrics": {
+    "ebno_db": -2.1212663650512695,
+    "learning_rate": 0.0004830285906791687,
+    "loss": -2.2181191444396973,
+    "loss_nll": -2.2258834838867188,
+    "nmse_ls": 0.11578913033008575,
+    "nmse_prop": 0.04199904203414917,
+    "num_users": 1,
+    "step": 1000,
+    "step_elapsed_s": 154.48781561292708,
+    "steps_per_s": 1.5375509988011598,
+    "training_elapsed_s": 650.3849308281206,
+    "val_batch_size": 32,
+    "val_ebno_db": "multi",
+    "val_ebno_db_values": [
+      -4.0,
+      -2.0,
+      0.0,
+      2.0,
+      4.0
+    ],
+    "val_microbatch_size": 16,
+    "val_nmse_ls": 0.08990032689568277,
+    "val_nmse_prop": 0.03822131498600356,
+    "val_snr_hist": {
+      "-2.0": 21,
+      "-4.0": 15,
+      "0.0": 23,
+      "2.0": 21,
+      "4.0": 16
+    },
+    "val_user_count_hist": {
+      "1": 4,
+      "2": 19,
+      "3": 37,
+      "4": 36
+    }
+  },
+  "latest_step": 1000,
+  "latest_training_state_checkpoint": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_main_d256_b4_r2/main_d256_b4_r2_trial_0016/checkpoints/training_state/ckpt-1000",
+  "resume_enabled": true,
+  "save_reason": "periodic",
+  "total_steps": 4000,
+  "training_complete": false,
+  "training_parameters": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "current_learning_rate": 0.0004830285906791687,
+    "eval_every": 1000,
+    "evaluation_seed": 1007,
+    "grad_clip_norm": 1.0,
+    "learning_rate": 0.00048302858206788395,
+    "learning_rate_schedule": {
+      "decay_rate": 0.96,
+      "decay_steps": 4000.0,
+      "final_fraction": 0.05,
+      "learning_rate": 0.00048302858206788395,
+      "polynomial_power": 1.0,
+      "restart_first_decay_steps": 2500.0,
+      "restart_m_mul": 0.8,
+      "restart_t_mul": 2.0,
+      "schedule": "constant"
+    },
+    "memory_cleanup_every_steps": 100,
+    "nmse_loss_weight": 0.18486707907470668,
+    "seed": 7,
+    "training_seed": 7,
+    "val_microbatch_size": 16,
+    "val_steps": 96,
+    "weight_decay": 9.613743543094202e-06
+  }
+}

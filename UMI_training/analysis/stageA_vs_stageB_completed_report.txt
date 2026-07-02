@@ -1,0 +1,201 @@
+
+==============================================================================================================
+main_d256_b4_r2
+==============================================================================================================
+
+Stage-A best:
+trial                        10
+value                 -1.234935
+last_val_step              4000
+last_val_nmse_prop     0.063289
+last_val_nmse_ls       0.114235
+last_val_nmse_ratio    0.554027
+batch_size_train             32
+batch_size_eval              32
+val_microbatch_size          16
+
+Stage-B best:
+trial                         1
+value                 -1.295574
+last_val_step             12000
+last_val_nmse_prop     0.056602
+last_val_nmse_ls       0.108039
+last_val_nmse_ratio    0.523903
+batch_size_train             16
+batch_size_eval              16
+val_microbatch_size           8
+
+Comparison:
+  Stage-B best value                         = -1.29557
+  Stage-A global best value                  = -1.23494
+  Improvement over Stage-A global best       = 0.0606387 log10 units
+  Objective-scale factor                     = 1.150x
+  Objective-scale reduction                  = 13.03%
+  Stage-B best came from Stage-A trial       = 2
+  That candidate's Stage-A rank              = 2
+  That candidate's Stage-A value             = -1.22874
+  Improvement of same candidate in Stage-B   = 0.0668367 log10 units
+  Same-candidate factor                      = 1.166x
+
+Top Stage-B completed trials:
+ trial     value  last_val_step  last_val_nmse_prop  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     1 -1.295574          12000            0.056602             0.523903                     constant             0.000964        1.208351e-07                0.162518       0.109095              0.229902
+     2 -1.292524          12000            0.057264             0.530028                 cosine_decay             0.000571        9.654662e-06                0.478805       0.026394              0.186479
+     0 -1.269149          12000            0.059877             0.554215                     constant             0.000775        1.195750e-07                0.172574       0.091186              0.508849
+     3 -1.254364          12000            0.062138             0.575142                 cosine_decay             0.000457        9.040092e-06                0.058130       0.056679              0.654886
+     4 -1.247125          12000            0.063075             0.583816                 cosine_decay             0.000498        7.693521e-07                0.122434       0.007912              0.322887
+     5 -1.229602          12000            0.065111             0.602662                 cosine_decay             0.000221        1.613672e-06                0.316906       0.033126              0.421706
+
+==============================================================================================================
+shallow_d256_b2_r2
+==============================================================================================================
+
+Stage-A best:
+trial                         9
+value                 -1.197259
+last_val_step              4000
+last_val_nmse_prop     0.068623
+last_val_nmse_ls       0.114235
+last_val_nmse_ratio    0.600716
+batch_size_train             32
+batch_size_eval              32
+val_microbatch_size          16
+
+Stage-B best:
+trial                         2
+value                 -1.239422
+last_val_step             12000
+last_val_nmse_prop     0.063488
+last_val_nmse_ls       0.108039
+last_val_nmse_ratio    0.587644
+batch_size_train             16
+batch_size_eval              16
+val_microbatch_size           8
+
+Comparison:
+  Stage-B best value                         = -1.23942
+  Stage-A global best value                  = -1.19726
+  Improvement over Stage-A global best       = 0.042163 log10 units
+  Objective-scale factor                     = 1.102x
+  Objective-scale reduction                  = 9.25%
+  Stage-B best came from Stage-A trial       = 17
+  That candidate's Stage-A rank              = 3
+  That candidate's Stage-A value             = -1.18962
+  Improvement of same candidate in Stage-B   = 0.0498059 log10 units
+  Same-candidate factor                      = 1.122x
+
+Top Stage-B completed trials:
+ trial     value  last_val_step  last_val_nmse_prop  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     2 -1.239422          12000            0.063488             0.587644                     constant             0.000487        1.479431e-07                0.499631       0.017201              0.491158
+     3 -1.233802          12000            0.064300             0.595156                     constant             0.000964        1.208351e-07                0.162518       0.109095              0.229902
+     0 -1.232872          12000            0.064357             0.595687             polynomial_decay             0.000888        3.680523e-07                0.415834       0.019254              0.576951
+     4 -1.232246          12000            0.064980             0.601451                 cosine_decay             0.000637        3.719743e-06                0.282256       0.008310              0.364242
+     1 -1.231363          12000            0.064737             0.599198             polynomial_decay             0.000985        5.389013e-07                0.281387       0.001952              0.639862
+     5 -1.226361          12000            0.065729             0.608385                 cosine_decay             0.000457        9.040092e-06                0.058130       0.056679              0.654886
+
+==============================================================================================================
+deep_d256_b6_r2
+==============================================================================================================
+
+Stage-A best:
+trial                        18
+value                 -1.247393
+last_val_step              4000
+last_val_nmse_prop     0.061439
+last_val_nmse_ls       0.114235
+last_val_nmse_ratio     0.53783
+batch_size_train             32
+batch_size_eval              32
+val_microbatch_size          16
+
+Stage-B best:
+trial                         2
+value                 -1.309136
+last_val_step             12000
+last_val_nmse_prop     0.055242
+last_val_nmse_ls       0.108039
+last_val_nmse_ratio    0.511314
+batch_size_train             16
+batch_size_eval              16
+val_microbatch_size           8
+
+Comparison:
+  Stage-B best value                         = -1.30914
+  Stage-A global best value                  = -1.24739
+  Improvement over Stage-A global best       = 0.0617429 log10 units
+  Objective-scale factor                     = 1.153x
+  Objective-scale reduction                  = 13.25%
+  Stage-B best came from Stage-A trial       = 2
+  That candidate's Stage-A rank              = 3
+  That candidate's Stage-A value             = -1.24266
+  Improvement of same candidate in Stage-B   = 0.0664714 log10 units
+  Same-candidate factor                      = 1.165x
+
+Top Stage-B completed trials:
+ trial     value  last_val_step  last_val_nmse_prop  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     2 -1.309136          12000            0.055242             0.511314                     constant             0.000964        1.208351e-07                0.162518       0.109095              0.229902
+     1 -1.303978          12000            0.056029             0.518600             polynomial_decay             0.000959        1.146671e-07                0.300753       0.087827              0.350554
+     3 -1.297216          12000            0.056987             0.527470             polynomial_decay             0.000995        1.185970e-07                0.120579       0.107949              0.370199
+     0 -1.287897          12000            0.057680             0.533883                     constant             0.000918        4.091013e-07                0.484366       0.045468              0.346100
+     4 -1.280464          12000            0.059003             0.546131                 cosine_decay             0.001139        2.239223e-07                0.144719       0.053818              0.514099
+     5 -1.270800          12000            0.060171             0.556934                 cosine_decay             0.000457        9.040092e-06                0.058130       0.056679              0.654886
+
+==============================================================================================================
+narrow_d192_b4_r2
+==============================================================================================================
+
+Stage-A best:
+trial                        18
+value                 -1.211141
+last_val_step              4000
+last_val_nmse_prop     0.067278
+last_val_nmse_ls       0.114235
+last_val_nmse_ratio    0.588947
+batch_size_train             32
+batch_size_eval              32
+val_microbatch_size          16
+
+Stage-B best:
+trial                         0
+value                 -1.253646
+last_val_step             12000
+last_val_nmse_prop     0.061942
+last_val_nmse_ls       0.108039
+last_val_nmse_ratio    0.573327
+batch_size_train             16
+batch_size_eval              16
+val_microbatch_size           8
+
+Comparison:
+  Stage-B best value                         = -1.25365
+  Stage-A global best value                  = -1.21114
+  Improvement over Stage-A global best       = 0.0425046 log10 units
+  Objective-scale factor                     = 1.103x
+  Objective-scale reduction                  = 9.32%
+  Stage-B best came from Stage-A trial       = 18
+  That candidate's Stage-A rank              = 1
+  That candidate's Stage-A value             = -1.21114
+  Improvement of same candidate in Stage-B   = 0.0425046 log10 units
+  Same-candidate factor                      = 1.103x
+
+Top Stage-B completed trials:
+ trial     value  last_val_step  last_val_nmse_prop  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 -1.253646          12000            0.061942             0.573327                 cosine_decay             0.001149        2.752456e-07                0.332373       0.008216              0.617686
+     3 -1.244603          12000            0.062827             0.581522                     constant             0.000618        1.364119e-06                0.481255       0.008345              0.644947
+     4 -1.240882          12000            0.063027             0.583374                     constant             0.000964        1.208351e-07                0.162518       0.109095              0.229902
+     1 -1.240868          12000            0.063492             0.587677                     constant             0.000872        2.363899e-06                0.368335       0.000072              0.658656
+     2 -1.239657          12000            0.063583             0.588524                     constant             0.001195        4.808411e-07                0.406743       0.006703              0.595783
+     5 -1.214978          12000            0.067042             0.620540                 cosine_decay             0.000457        9.040092e-06                0.058130       0.056679              0.654886
+
+##############################################################################################################
+SUMMARY
+##############################################################################################################
+           variant  stageA_completed  stageB_completed  stageA_best_trial  stageA_best_value  stageB_best_trial  stageB_best_value  stageB_best_matched_stageA_trial  stageB_best_matched_stageA_rank  stageB_best_matched_stageA_value  stageB_minus_stageA_global_delta_log  stageB_global_objective_factor  stageB_global_percent_lower  stageB_same_candidate_delta_log  stageB_same_candidate_factor  stageB_same_candidate_percent_lower  stageB_helped_vs_stageA_best  stageB_helped_same_candidate  stageB_batch_size_train  stageB_batch_size_eval  stageB_val_microbatch_size
+   main_d256_b4_r2                 7                 6                 10          -1.234935                  1          -1.295574                                 2                                2                         -1.228737                              0.060639                        1.149844                    13.031645                         0.066837                      1.166371                            14.263991                          True                          True                       16                      16                           8
+shallow_d256_b2_r2                 9                 6                  9          -1.197259                  2          -1.239422                                17                                3                         -1.189616                              0.042163                        1.101953                     9.252013                         0.049806                      1.121517                            10.835063                          True                          True                       16                      16                           8
+   deep_d256_b6_r2                 9                 6                 18          -1.247393                  2          -1.309136                                 2                                3                         -1.242665                              0.061743                        1.152771                    13.252472                         0.066471                      1.165390                            14.191828                          True                          True                       16                      16                           8
+ narrow_d192_b4_r2                 9                 6                 18          -1.211141                  0          -1.253646                                18                                1                         -1.211141                              0.042505                        1.102820                     9.323357                         0.042505                      1.102820                             9.323357                          True                          True                       16                      16                           8
+
+Wrote:
+  /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/analysis/stageA_stageB_all_trials_completed_variants.csv
+  /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/analysis/stageA_vs_stageB_summary_completed_variants.csv

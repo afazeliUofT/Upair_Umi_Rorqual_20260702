@@ -1,0 +1,2 @@
+variant,receiver,num_users,ebno_db,bit_errors,num_bits,block_errors,num_blocks,num_batches_run,ber,bler,reliable,done,source
+main_d256_b4_r2,perfect_csi_lmmse,3,1.0,0,228556800,0,76800,400,0.0,0.0,False,False,raw chunks

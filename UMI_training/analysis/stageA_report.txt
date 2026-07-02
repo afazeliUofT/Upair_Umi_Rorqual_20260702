@@ -1,0 +1,177 @@
+
+====================================================================================================
+main_d256_b4_r2
+====================================================================================================
+Warm-start trial:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 COMPLETE -1.219111       4000            0.065815          0.114235             0.576136                 cosine_decay             0.000571             0.00001                0.478805       0.026394              0.186479
+
+Top 6 completed Stage-A trials; these are the candidates Stage B will promote:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_grad_clip_norm  param_dropout  param_residual_scale
+    10 COMPLETE -1.234935       4000            0.063289          0.114235             0.554027                     constant             0.000775        1.195750e-07                0.172574                   0.5       0.091186              0.508849
+     2 COMPLETE -1.228737       4000            0.063551          0.114235             0.556315                     constant             0.000964        1.208351e-07                0.162518                   0.5       0.109095              0.229902
+     0 COMPLETE -1.219111       4000            0.065815          0.114235             0.576136                 cosine_decay             0.000571        9.654662e-06                0.478805                   0.5       0.026394              0.186479
+     5 COMPLETE -1.186200       4000            0.071165          0.114235             0.622975                 cosine_decay             0.000457        9.040092e-06                0.058130                   0.5       0.056679              0.654886
+     1 COMPLETE -1.170263       4000            0.073281          0.114235             0.641494                 cosine_decay             0.000498        7.693521e-07                0.122434                   1.0       0.007912              0.322887
+     3 COMPLETE -1.155684       4000            0.075130          0.114235             0.657680                 cosine_decay             0.000221        1.613672e-06                0.316906                   0.5       0.033126              0.421706
+
+Improvement relative to warm-start:
+  warm value = -1.21911
+  best value = -1.23494
+  delta_log  = 0.0158238  positive means improvement
+  objective-scale factor = 1.037x
+  objective-scale reduction = 3.6%
+
+====================================================================================================
+shallow_d256_b2_r2
+====================================================================================================
+Warm-start trial:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 COMPLETE -1.192776       4000            0.069614          0.114235             0.609397             polynomial_decay             0.000985        5.389013e-07                0.281387       0.001952              0.639862
+
+Top 6 completed Stage-A trials; these are the candidates Stage B will promote:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_grad_clip_norm  param_dropout  param_residual_scale
+     9 COMPLETE -1.197259       4000            0.068623          0.114235             0.600716             polynomial_decay             0.000888        3.680523e-07                0.415834                   0.5       0.019254              0.576951
+     0 COMPLETE -1.192776       4000            0.069614          0.114235             0.609397             polynomial_decay             0.000985        5.389013e-07                0.281387                   0.5       0.001952              0.639862
+    17 COMPLETE -1.189616       4000            0.069490          0.114235             0.608307                     constant             0.000487        1.479431e-07                0.499631                   0.5       0.017201              0.491158
+     2 COMPLETE -1.184271       4000            0.070015          0.114235             0.612904                     constant             0.000964        1.208351e-07                0.162518                   0.5       0.109095              0.229902
+     7 COMPLETE -1.173726       4000            0.072824          0.114235             0.637492                 cosine_decay             0.000637        3.719743e-06                0.282256                   0.5       0.008310              0.364242
+     5 COMPLETE -1.161643       4000            0.074559          0.114235             0.652685                 cosine_decay             0.000457        9.040092e-06                0.058130                   0.5       0.056679              0.654886
+
+Improvement relative to warm-start:
+  warm value = -1.19278
+  best value = -1.19726
+  delta_log  = 0.00448233  positive means improvement
+  objective-scale factor = 1.010x
+  objective-scale reduction = 1.0%
+
+====================================================================================================
+deep_d256_b6_r2
+====================================================================================================
+Warm-start trial:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 COMPLETE -1.231782       4000            0.065022          0.114235             0.569196                 cosine_decay             0.001139        2.239223e-07                0.144719       0.053818              0.514099
+
+Top 6 completed Stage-A trials; these are the candidates Stage B will promote:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_grad_clip_norm  param_dropout  param_residual_scale
+    18 COMPLETE -1.247393       4000            0.061439          0.114235             0.537830                     constant             0.000918        4.091013e-07                0.484366                   0.5       0.045468              0.346100
+    15 COMPLETE -1.243866       4000            0.062415          0.114235             0.546377             polynomial_decay             0.000959        1.146671e-07                0.300753                   0.5       0.087827              0.350554
+     2 COMPLETE -1.242665       4000            0.061637          0.114235             0.539565                     constant             0.000964        1.208351e-07                0.162518                   0.5       0.109095              0.229902
+    13 COMPLETE -1.234897       4000            0.063849          0.114235             0.558924             polynomial_decay             0.000995        1.185970e-07                0.120579                   0.5       0.107949              0.370199
+     0 COMPLETE -1.231782       4000            0.065022          0.114235             0.569196                 cosine_decay             0.001139        2.239223e-07                0.144719                   0.5       0.053818              0.514099
+     5 COMPLETE -1.195770       4000            0.069927          0.114235             0.612133                 cosine_decay             0.000457        9.040092e-06                0.058130                   0.5       0.056679              0.654886
+
+Improvement relative to warm-start:
+  warm value = -1.23178
+  best value = -1.24739
+  delta_log  = 0.0156117  positive means improvement
+  objective-scale factor = 1.037x
+  objective-scale reduction = 3.5%
+
+====================================================================================================
+narrow_d192_b4_r2
+====================================================================================================
+Warm-start trial:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 COMPLETE -1.202125       4000            0.067876          0.114235             0.594183                     constant             0.000872            0.000002                0.368335       0.000072              0.658656
+
+Top 6 completed Stage-A trials; these are the candidates Stage B will promote:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_grad_clip_norm  param_dropout  param_residual_scale
+    18 COMPLETE -1.211141       4000            0.067278          0.114235             0.588947                 cosine_decay             0.001149        2.752456e-07                0.332373                   0.5       0.008216              0.617686
+     0 COMPLETE -1.202125       4000            0.067876          0.114235             0.594183                     constant             0.000872        2.363899e-06                0.368335                   0.5       0.000072              0.658656
+    13 COMPLETE -1.199775       4000            0.068219          0.114235             0.597178                     constant             0.001195        4.808411e-07                0.406743                   0.5       0.006703              0.595783
+     8 COMPLETE -1.195559       4000            0.068884          0.114235             0.603002                     constant             0.000618        1.364119e-06                0.481255                   0.5       0.008345              0.644947
+     2 COMPLETE -1.188217       4000            0.069513          0.114235             0.608509                     constant             0.000964        1.208351e-07                0.162518                   0.5       0.109095              0.229902
+     5 COMPLETE -1.149210       4000            0.076346          0.114235             0.668326                 cosine_decay             0.000457        9.040092e-06                0.058130                   0.5       0.056679              0.654886
+
+Improvement relative to warm-start:
+  warm value = -1.20213
+  best value = -1.21114
+  delta_log  = 0.00901629  positive means improvement
+  objective-scale factor = 1.021x
+  objective-scale reduction = 2.1%
+
+====================================================================================================
+wide_d320_b4_r2
+====================================================================================================
+Warm-start trial:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 COMPLETE -1.239507       4000            0.063608          0.114235             0.556819             polynomial_decay             0.000875            0.000009                0.064386        0.00733              0.588263
+
+Top 6 completed Stage-A trials; these are the candidates Stage B will promote:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_grad_clip_norm  param_dropout  param_residual_scale
+     2 COMPLETE -1.249178       4000            0.060765          0.114235             0.531930                     constant             0.000964        1.208351e-07                0.162518                   0.5       0.109095              0.229902
+    18 COMPLETE -1.243345       4000            0.062991          0.114235             0.551420             polynomial_decay             0.000879        8.507887e-06                0.316228                   0.5       0.029976              0.587525
+     0 COMPLETE -1.239507       4000            0.063608          0.114235             0.556819             polynomial_decay             0.000875        8.745086e-06                0.064386                   0.5       0.007330              0.588263
+    12 COMPLETE -1.237513       4000            0.063816          0.114235             0.558637             polynomial_decay             0.001119        5.778736e-06                0.065234                   0.5       0.007701              0.663908
+     5 COMPLETE -1.212981       4000            0.067537          0.114235             0.591208                 cosine_decay             0.000457        9.040092e-06                0.058130                   0.5       0.056679              0.654886
+     1 COMPLETE -1.197915       4000            0.069446          0.114235             0.607918                 cosine_decay             0.000498        7.693521e-07                0.122434                   1.0       0.007912              0.322887
+
+Improvement relative to warm-start:
+  warm value = -1.23951
+  best value = -1.24918
+  delta_log  = 0.00967076  positive means improvement
+  objective-scale factor = 1.023x
+  objective-scale reduction = 2.2%
+
+====================================================================================================
+wide_deep_d320_b6_r2
+====================================================================================================
+Warm-start trial:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 COMPLETE -1.254965       4000            0.061018          0.114235             0.534142                 cosine_decay             0.001199            0.000008                0.267342       0.008351              0.446528
+
+Top 6 completed Stage-A trials; these are the candidates Stage B will promote:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_grad_clip_norm  param_dropout  param_residual_scale
+     2 COMPLETE -1.264092       4000            0.058926          0.114235             0.515833                     constant             0.000964        1.208351e-07                0.162518                   0.5       0.109095              0.229902
+    14 COMPLETE -1.261546       4000            0.059694          0.114235             0.522551                     constant             0.000484        1.192205e-07                0.427417                   0.5       0.076595              0.269861
+     8 COMPLETE -1.261448       4000            0.059535          0.114235             0.521160                     constant             0.000581        1.912227e-07                0.308960                   0.5       0.113044              0.153724
+    10 COMPLETE -1.258603       4000            0.060176          0.114235             0.526774                     constant             0.000775        1.195750e-07                0.172574                   0.5       0.091186              0.508849
+     0 COMPLETE -1.254965       4000            0.061018          0.114235             0.534142                 cosine_decay             0.001199        8.271897e-06                0.267342                   0.5       0.008351              0.446528
+     5 COMPLETE -1.223659       4000            0.066189          0.114235             0.579410                 cosine_decay             0.000457        9.040092e-06                0.058130                   0.5       0.056679              0.654886
+
+Improvement relative to warm-start:
+  warm value = -1.25497
+  best value = -1.26409
+  delta_log  = 0.00912682  positive means improvement
+  objective-scale factor = 1.021x
+  objective-scale reduction = 2.1%
+
+====================================================================================================
+mlpwide_d256_b4_r4
+====================================================================================================
+Warm-start trial:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_dropout  param_residual_scale
+     0 COMPLETE -1.234511       4000            0.063713          0.114235             0.557735                 cosine_decay             0.000992        1.465385e-07                 0.42418       0.056634              0.605203
+
+Top 6 completed Stage-A trials; these are the candidates Stage B will promote:
+ trial    state     value  last_step  last_val_nmse_prop  last_val_nmse_ls  last_val_nmse_ratio param_learning_rate_schedule  param_learning_rate  param_weight_decay  param_nmse_loss_weight  param_grad_clip_norm  param_dropout  param_residual_scale
+     0 COMPLETE -1.234511       4000            0.063713          0.114235             0.557735                 cosine_decay             0.000992        1.465385e-07                0.424180                   0.5       0.056634              0.605203
+     8 COMPLETE -1.226481       4000            0.064446          0.114235             0.564150                     constant             0.000648        3.665723e-07                0.483496                   0.5       0.025958              0.623658
+     9 COMPLETE -1.225827       4000            0.064808          0.114235             0.567318                 cosine_decay             0.000535        2.640377e-07                0.144426                   0.5       0.051104              0.674516
+     2 COMPLETE -1.224016       4000            0.063964          0.114235             0.559937                     constant             0.000964        1.208351e-07                0.162518                   0.5       0.109095              0.229902
+     5 COMPLETE -1.186302       4000            0.071134          0.114235             0.622699                 cosine_decay             0.000457        9.040092e-06                0.058130                   0.5       0.056679              0.654886
+     1 COMPLETE -1.176576       4000            0.072390          0.114235             0.633691                 cosine_decay             0.000498        7.693521e-07                0.122434                   1.0       0.007912              0.322887
+
+Improvement relative to warm-start:
+  warm value = -1.23451
+  best value = -1.23451
+  delta_log  = 0  positive means improvement
+  objective-scale factor = 1.000x
+  objective-scale reduction = 0.0%
+
+####################################################################################################
+SUMMARY: Stage A warm-start versus best completed trial
+####################################################################################################
+             variant  warm_trial warm_state  warm_value  warm_rank_among_completed  best_trial  best_value best_state  delta_log_warm_minus_best  objective_factor_best_vs_warm  objective_percent_lower_than_warm  stageA_improved_over_warm  completed_trials  pruned_trials  failed_trials
+     main_d256_b4_r2           0   COMPLETE   -1.219111                          3          10   -1.234935   COMPLETE                   0.015824                       1.037108                           3.577981                       True                 7             13              0
+  shallow_d256_b2_r2           0   COMPLETE   -1.192776                          2           9   -1.197259   COMPLETE                   0.004482                       1.010374                           1.026788                       True                 9             11              0
+     deep_d256_b6_r2           0   COMPLETE   -1.231782                          5          18   -1.247393   COMPLETE                   0.015612                       1.036601                           3.530882                       True                 9             11              0
+   narrow_d192_b4_r2           0   COMPLETE   -1.202125                          2          18   -1.211141   COMPLETE                   0.009016                       1.020978                           2.054676                       True                 9             11              0
+     wide_d320_b4_r2           0   COMPLETE   -1.239507                          3           2   -1.249178   COMPLETE                   0.009671                       1.022518                           2.202166                       True                 8             12              0
+wide_deep_d320_b6_r2           0   COMPLETE   -1.254965                          5           2   -1.264092   COMPLETE                   0.009127                       1.021238                           2.079600                       True                 9             11              0
+  mlpwide_d256_b4_r4           0   COMPLETE   -1.234511                          1           0   -1.234511   COMPLETE                   0.000000                       1.000000                           0.000000                      False                 8             12              0
+
+Wrote:
+  /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/analysis/stageA_all_trials.csv
+  /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/analysis/stageA_warm_vs_best_summary.csv

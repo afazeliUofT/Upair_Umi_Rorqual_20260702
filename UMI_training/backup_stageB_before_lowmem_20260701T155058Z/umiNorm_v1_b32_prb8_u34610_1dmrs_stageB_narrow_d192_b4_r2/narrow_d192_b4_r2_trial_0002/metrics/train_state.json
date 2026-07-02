@@ -1,0 +1,55 @@
+{
+  "best_val": 0.061907514405902475,
+  "best_weights_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2/narrow_d192_b4_r2_trial_0002/checkpoints/best.weights.h5",
+  "checkpoint_metrics": {
+    "last_loss": -1.855981469154358,
+    "last_nmse_ls": 0.12529045343399048,
+    "last_nmse_prop": 0.06133243069052696
+  },
+  "last_metrics": {
+    "ebno_db": -2.015019416809082,
+    "learning_rate": 0.0011946390150114894,
+    "loss": -1.855981469154358,
+    "loss_nll": -1.8809280395507812,
+    "nmse_ls": 0.12529045343399048,
+    "nmse_prop": 0.06133243069052696,
+    "num_users": 2,
+    "step": 8333,
+    "step_elapsed_s": 0.3573200311511755,
+    "steps_per_s": 1.7777801906430346,
+    "training_elapsed_s": 4687.306138216052
+  },
+  "latest_step": 8333,
+  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_narrow_d192_b4_r2/narrow_d192_b4_r2_trial_0002/checkpoints/training_state/ckpt-8333",
+  "resume_enabled": true,
+  "save_reason": "resource_exhausted",
+  "total_steps": 12000,
+  "training_complete": false,
+  "training_parameters": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "current_learning_rate": 0.0011946390150114894,
+    "eval_every": 1000,
+    "evaluation_seed": 1007,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0011946389869486255,
+    "learning_rate_schedule": {
+      "decay_rate": 0.96,
+      "decay_steps": 12000.0,
+      "final_fraction": 0.05,
+      "learning_rate": 0.0011946389869486255,
+      "polynomial_power": 1.0,
+      "restart_first_decay_steps": 2500.0,
+      "restart_m_mul": 0.8,
+      "restart_t_mul": 2.0,
+      "schedule": "constant"
+    },
+    "memory_cleanup_every_steps": 100,
+    "nmse_loss_weight": 0.406742950411635,
+    "seed": 7,
+    "training_seed": 7,
+    "val_microbatch_size": 16,
+    "val_steps": 96,
+    "weight_decay": 4.808411025745453e-07
+  }
+}

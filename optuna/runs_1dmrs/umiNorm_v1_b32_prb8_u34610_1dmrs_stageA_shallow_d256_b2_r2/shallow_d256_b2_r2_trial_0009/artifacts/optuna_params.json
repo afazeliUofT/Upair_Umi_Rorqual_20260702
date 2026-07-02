@@ -1,0 +1,20 @@
+{
+  "params": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "dropout": 0.019254335641862495,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0008879971670485024,
+    "learning_rate_decay_fraction": 1.25,
+    "learning_rate_final_fraction": 0.08107556792162035,
+    "learning_rate_polynomial_power": 1.4100449868075324,
+    "learning_rate_schedule": "polynomial_decay",
+    "nmse_loss_weight": 0.4158340307310977,
+    "residual_scale": 0.5769513207434013,
+    "weight_decay": 3.680522597176811e-07
+  },
+  "stage": "A",
+  "study_name": "umiNorm_v1_b32_prb8_u34610_1dmrs_stageA_shallow_d256_b2_r2",
+  "trial_id": 10,
+  "trial_number": 9
+}

@@ -1,0 +1,7 @@
+{
+  "config": "configs/twc_comprehensive_mu32_umi_sensitivity.yaml",
+  "passed": true,
+  "profile": "umi_standard_topology_normalized",
+  "sionna": "sionna-no-rt 1.2.1",
+  "utc": "2026-06-28T04:22:13.113164+00:00"
+}

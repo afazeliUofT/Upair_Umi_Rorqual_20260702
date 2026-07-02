@@ -1,0 +1,9 @@
+{
+  "history_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_narrow_d192_b4_r2/narrow_d192_b4_r2_trial_0012/metrics/history.json",
+  "latest_step": 4000,
+  "status": "complete",
+  "total_steps": 4000,
+  "train_state_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_narrow_d192_b4_r2/narrow_d192_b4_r2_trial_0012/metrics/train_state.json",
+  "trial_number": 12,
+  "value": -1.5770903381920682
+}

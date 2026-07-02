@@ -1,0 +1,3 @@
+family,variant,receiver,ebno_db,state,done,reliable,bler,block_errors,num_blocks,num_batches_run
+UPAIR,wide_deep_d320_b6_r2,upair5g_lmmse,1.0,partial,False,False,3.370098039215686e-05,11,326400,1700
+benchmark,main_d256_b4_r2,perfect_csi_lmmse,1.0,partial,False,False,0.0,0,76800,400

@@ -1,0 +1,39 @@
+{
+  "batch_size_eval": 64,
+  "best_ber_upair5g": 0.00013327102934587815,
+  "best_bler_upair5g": 0.005729166666666666,
+  "best_nmse_upair5g": null,
+  "checkpoint_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5",
+  "classical_receivers": [],
+  "curves_csv": "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_probe3_speed_16p67/main_d256_b4_r2_u3_upair5g_lmmse_ebnom1p0_chunk9102_m8_b20/metrics/curves.csv",
+  "enabled_receivers": [
+    "upair5g_lmmse"
+  ],
+  "evaluation_controls": {
+    "floor_confidence_factor": 3.0,
+    "floor_num_frames": 0,
+    "max_num_batches_per_point": 20,
+    "min_num_batches_per_point": 20,
+    "per_receiver_stopping": false,
+    "reliable_min_bit_errors": 1000,
+    "reliable_min_block_errors": 100,
+    "stopping_receivers": [
+      "baseline_ls_lmmse",
+      "baseline_ls_2dlmmse_lmmse",
+      "upair5g_lmmse",
+      "perfect_csi_lmmse"
+    ],
+    "target_bler_floor": 1e-05,
+    "target_block_errors_per_receiver": 0
+  },
+  "evaluation_elapsed_s": 129.19393564900383,
+  "evaluation_seed": 911914340,
+  "gpu_mem_gib": 11.37569335475564,
+  "gpu_peak_gib": 11.562834538519382,
+  "num_curve_rows": 1,
+  "num_users": 3,
+  "per_ebno_best_classical": [],
+  "receiver_microbatch_size": 8,
+  "seed": 911914340,
+  "training_seed": 7
+}

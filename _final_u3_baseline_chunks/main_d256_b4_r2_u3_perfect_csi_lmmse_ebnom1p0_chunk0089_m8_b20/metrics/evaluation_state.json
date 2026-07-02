@@ -1,0 +1,42 @@
+{
+  "checkpoint_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5",
+  "completed_ebno_db": [
+    -1.0
+  ],
+  "curves_csv": "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_final_u3_baseline_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0089_m8_b20/metrics/curves.csv",
+  "evaluation_complete": true,
+  "evaluation_parameters": {
+    "batch_size_eval": 64,
+    "compiled_receiver_error_counts": false,
+    "evaluation_seed": 10587301,
+    "floor_confidence_factor": 3.0,
+    "floor_num_frames": 0,
+    "log_gpu_memory": true,
+    "log_latency": true,
+    "max_num_batches_per_point": 20,
+    "memory_cleanup_every_batches": 1,
+    "memory_cleanup_every_microbatch": true,
+    "min_num_batches_per_point": 20,
+    "nmse_receivers": [],
+    "per_receiver_stopping": false,
+    "progress_every_batches": 10,
+    "receiver_call_jit_compile": false,
+    "receiver_microbatch_size": 8,
+    "reliable_min_bit_errors": 1000,
+    "reliable_min_block_errors": 100,
+    "seed": 10587301,
+    "stopping_receivers": [
+      "baseline_ls_lmmse",
+      "baseline_ls_2dlmmse_lmmse",
+      "upair5g_lmmse",
+      "perfect_csi_lmmse"
+    ],
+    "stream_eval_microbatches": true,
+    "target_bler_floor": 1e-05,
+    "target_block_errors_per_receiver": 0,
+    "training_seed": 7
+  },
+  "num_users": 3,
+  "save_reason": "final",
+  "summary_path": "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/_final_u3_baseline_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0089_m8_b20/metrics/evaluation_summary.json"
+}

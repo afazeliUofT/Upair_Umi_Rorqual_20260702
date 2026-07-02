@@ -1,0 +1,126 @@
+#!/usr/bin/env bash
+# Probe that the repository is clean/minimal and the portable venv is usable before Stage A.
+# This probe intentionally avoids importing TensorFlow/Sionna by default.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck disable=SC1091
+source "${ROOT}/upair_portable_env.sh"
+cd "${UPAIR_REPO_ROOT}"
+
+fail=0
+check_ok() { echo "[OK] $*"; }
+check_fail() { echo "[FAIL] $*" >&2; fail=1; }
+check_warn() { echo "[WARN] $*"; }
+
+[[ "${UPAIR_VENV_PATH}" == "${UPAIR_REPO_PARENT}/.vevn_upair_potable" ]] \
+  && check_ok "venv path is one level above repo: ${UPAIR_VENV_PATH}" \
+  || check_fail "venv path is not the requested parent/.vevn_upair_potable: ${UPAIR_VENV_PATH}"
+
+for item in src scripts configs pyproject.toml requirements.txt; do
+  [[ -e "${item}" ]] && check_ok "required item exists: ${item}" || check_fail "missing required item: ${item}"
+done
+[[ -f requirements-narval.txt ]] && check_ok "requirements-narval.txt exists" || check_warn "requirements-narval.txt missing; requirements.txt will be used"
+
+for script in \
+  upair_portable_env.sh \
+  upair_make_minimal_scratch.sh \
+  upair_submit_stageA_all.sh \
+  upair_submit_stageB_all.sh \
+  upair_submit_train_eval_all.sh \
+  upair_probe_clean_start.sh \
+  upair_probe_after_stageB.sh \
+  upair_probe_after_train_eval.sh; do
+  [[ -x "${script}" ]] && check_ok "wrapper executable: ${script}" || check_fail "wrapper missing/not executable: ${script}"
+done
+
+if [[ -e TWC_plots_comprehensive ]]; then
+  check_fail "old training/evaluation output folder still exists: TWC_plots_comprehensive"
+else
+  check_ok "no old TWC_plots_comprehensive output folder"
+fi
+
+if [[ -d optuna ]] && find optuna -mindepth 1 -maxdepth 3 -type f | grep -q .; then
+  check_fail "optuna/ is not empty before a from-scratch Stage A"
+else
+  check_ok "optuna/ is empty before Stage A"
+fi
+
+old_files=$(find . -maxdepth 2 -type f \( \
+  -name '*stageB_locked*best_params.json' -o \
+  -name '*.db' -o \
+  -name 'best.weights.h5' -o \
+  -name '*.out' -o \
+  -name '*.err' -o \
+  -name '*.log' -o \
+  -name 'README_CLEAN_OPTUNA*.md' -o \
+  -name 'README_NARVAL*.md' -o \
+  -name 'PORTABLE_README.md' \
+\) -print)
+if [[ -n "${old_files}" ]]; then
+  echo "${old_files}" >&2
+  check_fail "old evidence/readme/log files still found above"
+else
+  check_ok "no old Stage-B-locked JSON, DB, weight, log, or old README evidence at shallow depth"
+fi
+
+upair_ensure_venv
+python - <<'PY'
+from __future__ import annotations
+from pathlib import Path
+
+failed = False
+for root in ("src", "scripts"):
+    for path in Path(root).rglob("*.py"):
+        try:
+            source = path.read_text(encoding="utf-8")
+            compile(source, str(path), "exec")
+        except SyntaxError as exc:
+            print(f"[SYNTAX-FAIL] {path}: {exc}")
+            failed = True
+raise SystemExit(1 if failed else 0)
+PY
+check_ok "Python syntax compile passed for src/ and scripts/ without writing __pycache__"
+
+for entry in \
+  scripts/run_optuna_1dmrs_structure_isolated.py \
+  scripts/run_optuna_1dmrs_trial_worker.py \
+  scripts/run_comprehensive_mu32_ablation.py; do
+  [[ -f "${entry}" ]] && check_ok "entry point file exists: ${entry}" || check_fail "missing entry point file: ${entry}"
+done
+
+grep -q 'ArgumentParser' scripts/run_optuna_1dmrs_structure_isolated.py \
+  && check_ok "Optuna controller has an argparse CLI" \
+  || check_fail "Optuna controller argparse CLI not found"
+
+grep -q 'ArgumentParser' scripts/run_comprehensive_mu32_ablation.py \
+  && check_ok "train/eval runner has an argparse CLI" \
+  || check_fail "train/eval runner argparse CLI not found"
+
+if [[ "${UPAIR_PROBE_RUN_HELP:-0}" == "1" ]]; then
+  check_warn "UPAIR_PROBE_RUN_HELP=1: running --help commands; this may import TensorFlow."
+  if command -v timeout >/dev/null 2>&1; then
+    timeout "${UPAIR_PROBE_HELP_TIMEOUT:-180s}" python "${UPAIR_REPO_ROOT}/scripts/run_optuna_1dmrs_structure_isolated.py" --help >/dev/null
+    timeout "${UPAIR_PROBE_HELP_TIMEOUT:-180s}" python "${UPAIR_REPO_ROOT}/scripts/run_comprehensive_mu32_ablation.py" --help >/dev/null
+  else
+    python "${UPAIR_REPO_ROOT}/scripts/run_optuna_1dmrs_structure_isolated.py" --help >/dev/null
+    python "${UPAIR_REPO_ROOT}/scripts/run_comprehensive_mu32_ablation.py" --help >/dev/null
+  fi
+  check_ok "entry point help commands work"
+else
+  check_ok "skipped --help execution to avoid TensorFlow/Sionna import on login node"
+fi
+
+grep -q -- '--require-optuna-best' upair_submit_train_eval_all.sh \
+  && check_ok "train/eval wrapper requires external Optuna best parameters" \
+  || check_fail "train/eval wrapper does not force --require-optuna-best"
+
+grep -q 'clean_b32_prb8_d256_u34610_1dmrs_stageB' upair_submit_train_eval_all.sh \
+  && check_ok "train/eval wrapper is wired to Stage-B prefix" \
+  || check_fail "train/eval wrapper is not wired to Stage-B prefix"
+
+if [[ "${fail}" != "0" ]]; then
+  echo "[PROBE] FAILED clean-start probe" >&2
+  exit 1
+fi
+
+echo "[PROBE] PASSED clean-start portability probe"

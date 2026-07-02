@@ -1,0 +1,8 @@
+variant,db_exists,complete,pruned,failed,running,waiting,finished,target,ready,best_value,best_trial,best_json_exists,needed_finished
+main_d256_b4_r2,True,2,0,4,0,0,2,6,False,-1.3355604891435247,0.0,True,4
+shallow_d256_b2_r2,True,5,0,1,0,0,5,6,False,-1.2901739495038935,0.0,True,1
+deep_d256_b6_r2,True,5,0,1,0,0,5,6,False,-1.3884269695883071,1.0,True,1
+narrow_d192_b4_r2,True,4,0,2,0,0,4,6,False,-1.2849388838099145,4.0,True,2
+wide_d320_b4_r2,True,0,0,6,0,0,0,6,False,,,False,6
+wide_deep_d320_b6_r2,True,1,0,5,0,0,1,6,False,-1.401631431725411,2.0,True,5
+mlpwide_d256_b4_r4,True,1,0,5,0,0,1,6,False,-1.3427349311410441,3.0,True,5
