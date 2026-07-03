@@ -4087,3 +4087,452 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
 [EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
 [EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=133.9s avg_batch=13.395s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:1/3840 elapsed=267.4s avg_batch=13.369s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=2.86143e-05 BLER=2.60417e-04 NMSE=0.00000e+00 bit_err=   327/11427840 blk_err=    1/3840   batches=  20 stop=global_stop rx_time=131.40s rx_ms_batch=6569.9 rx_ms_frame=34.218 point_time=267.38s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0028_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=580 errors=40 next=29
+2026-07-03 16:11:19.432333: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:11:19.432385: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:11:19.433728: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 29
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 4587121
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0029_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=134.5s avg_batch=13.448s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=268.8s avg_batch=13.438s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=132.09s rx_ms_batch=6604.3 rx_ms_frame=34.397 point_time=268.75s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0029_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=600 errors=40 next=30
+2026-07-03 16:16:04.514123: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:16:04.514174: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:16:04.515521: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 30
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 4687124
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0030_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=138.0s avg_batch=13.795s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=275.7s avg_batch=13.784s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=135.34s rx_ms_batch=6766.9 rx_ms_frame=35.244 point_time=275.68s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0030_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=620 errors=40 next=31
+2026-07-03 16:21:00.153604: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:21:00.153655: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:21:00.154994: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 31
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 4787127
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0031_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=135.9s avg_batch=13.589s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:3/3840 elapsed=271.0s avg_batch=13.549s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=7.31547e-05 BLER=7.81250e-04 NMSE=0.00000e+00 bit_err=   836/11427840 blk_err=    3/3840   batches=  20 stop=global_stop rx_time=132.97s rx_ms_batch=6648.6 rx_ms_frame=34.628 point_time=270.98s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0031_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=640 errors=43 next=32
+2026-07-03 16:25:47.125899: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:25:47.125950: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:25:47.127294: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 32
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 4887130
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0032_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=135.1s avg_batch=13.515s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=269.8s avg_batch=13.492s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=132.35s rx_ms_batch=6617.7 rx_ms_frame=34.467 point_time=269.85s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0032_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=660 errors=43 next=33
+2026-07-03 16:30:33.900468: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:30:33.900522: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:30:33.901873: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 33
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 4987133
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0033_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:3/1920 elapsed=134.6s avg_batch=13.460s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:3/3840 elapsed=268.9s avg_batch=13.446s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=7.87550e-07 BLER=7.81250e-04 NMSE=0.00000e+00 bit_err=     9/11427840 blk_err=    3/3840   batches=  20 stop=global_stop rx_time=132.10s rx_ms_batch=6605.1 rx_ms_frame=34.402 point_time=268.91s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0033_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=680 errors=46 next=34
+2026-07-03 16:35:18.865622: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:35:18.865672: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:35:18.867017: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 34
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5087136
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0034_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=135.9s avg_batch=13.588s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:2/3840 elapsed=271.6s avg_batch=13.578s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=3.71899e-05 BLER=5.20833e-04 NMSE=0.00000e+00 bit_err=   425/11427840 blk_err=    2/3840   batches=  20 stop=global_stop rx_time=133.15s rx_ms_batch=6657.5 rx_ms_frame=34.674 point_time=271.56s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0034_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=700 errors=48 next=35
+2026-07-03 16:40:35.499368: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:40:35.499425: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:40:35.500801: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 35
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5187139
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0035_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=134.9s avg_batch=13.486s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=269.2s avg_batch=13.458s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=132.22s rx_ms_batch=6610.9 rx_ms_frame=34.432 point_time=269.17s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0035_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=720 errors=48 next=36
+2026-07-03 16:45:20.776029: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:45:20.776082: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:45:20.777416: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 36
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5287142
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0036_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=135.0s avg_batch=13.496s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=297.4s avg_batch=14.870s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=144.58s rx_ms_batch=7229.0 rx_ms_frame=37.651 point_time=297.52s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0036_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=740 errors=48 next=37
+2026-07-03 16:51:25.445079: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:51:25.446025: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:51:30.090350: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 37
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5387145
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0037_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=135.7s avg_batch=13.568s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=271.7s avg_batch=13.583s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=132.81s rx_ms_batch=6640.3 rx_ms_frame=34.585 point_time=271.67s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0037_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=760 errors=48 next=38
+2026-07-03 16:58:07.213233: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 16:58:07.213285: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 16:58:07.214662: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 38
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5487148
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0038_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:1/1920 elapsed=134.6s avg_batch=13.457s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:1/3840 elapsed=268.5s avg_batch=13.423s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=1.12882e-05 BLER=2.60417e-04 NMSE=0.00000e+00 bit_err=   129/11427840 blk_err=    1/3840   batches=  20 stop=global_stop rx_time=131.87s rx_ms_batch=6593.7 rx_ms_frame=34.342 point_time=268.46s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0038_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=780 errors=49 next=39
+2026-07-03 17:03:12.909223: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 17:03:12.909274: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 17:03:12.910626: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 39
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5587151
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0039_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=134.9s avg_batch=13.485s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=269.8s avg_batch=13.491s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=132.39s rx_ms_batch=6619.4 rx_ms_frame=34.476 point_time=269.83s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0039_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=800 errors=49 next=40
+2026-07-03 17:07:59.287146: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 17:07:59.287197: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 17:07:59.288560: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 40
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5687154
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0040_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=133.6s avg_batch=13.360s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=266.8s avg_batch=13.338s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=130.74s rx_ms_batch=6537.1 rx_ms_frame=34.048 point_time=266.76s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0040_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=820 errors=49 next=41
+2026-07-03 17:12:42.281720: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 17:12:42.281771: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 17:12:42.283127: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 41
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5787157
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0041_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=132.3s avg_batch=13.232s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=270.9s avg_batch=13.547s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=133.60s rx_ms_batch=6680.1 rx_ms_frame=34.792 point_time=270.95s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0041_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=840 errors=49 next=42
+2026-07-03 17:18:17.814351: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 17:18:17.814403: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 17:18:17.815750: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 42
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5887160
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0042_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=141.0s avg_batch=14.101s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=274.4s avg_batch=13.718s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=135.33s rx_ms_batch=6766.7 rx_ms_frame=35.243 point_time=274.36s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0042_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=860 errors=49 next=43
+2026-07-03 17:23:09.426398: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 17:23:09.426451: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 17:23:09.427797: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 43
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 5987163
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0043_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=131.9s avg_batch=13.189s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=20/20 frame_err=perfect_csi_lmmse:0/3840 elapsed=263.8s avg_batch=13.192s gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver=       perfect_csi_lmmse Eb/N0=-1.0 dB BER=0.00000e+00 BLER=0.00000e+00 NMSE=0.00000e+00 bit_err=     0/11427840 blk_err=    0/3840   batches=  20 stop=global_stop bler_ub=7.813e-04 rx_time=130.38s rx_ms_batch=6519.0 rx_ms_frame=33.953 point_time=263.84s gpu_mem=0.05GiB peak=0.14GiB
+[ISO-CHUNK] wrote: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0043_m4_b20/chunk_result.csv
+[ISO-CHUNK] DONE
+[STATUS] receiver=perfect_csi_lmmse ebno=-1 done=0 reason=continue batches=880 errors=49 next=44
+2026-07-03 17:28:01.224143: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-03 17:28:01.224197: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-03 17:28:01.225559: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[ISO-CHUNK] variant: main_d256_b4_r2
+[ISO-CHUNK] receiver: perfect_csi_lmmse
+[ISO-CHUNK] num_users: 3
+[ISO-CHUNK] ebno_db: -1.0
+[ISO-CHUNK] chunk_idx: 44
+[ISO-CHUNK] chunk_batches: 20
+[ISO-CHUNK] receiver_microbatch_size: 4
+[ISO-CHUNK] chunk_seed: 6087166
+[ISO-CHUNK] checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[ISO-CHUNK] TF_GPU_ALLOCATOR: cuda_malloc_async
+[ISO-CHUNK] output tag: main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0044_m4_b20
+[EVAL] receiver microbatching enabled: batch_size_eval=64 receiver_microbatch_size=4
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[EVAL] loaded UPAIR checkpoint: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5
+[EVAL] skipping explicit NMSE channel-estimator calls for: perfect_csi_lmmse
+[EVAL] instrumentation log_latency=True log_gpu_memory=True memory_cleanup_every_batches=1 memory_cleanup_every_microbatch=True stream_eval_microbatches=True compiled_receiver_error_counts=False receiver_call_jit_compile=False per_receiver_stopping=False target_bler_floor=1e-05 floor_num_frames=0 gpu_mem=0.05GiB peak=0.14GiB
+[EVAL] receiver_call name=perfect_csi_lmmse mode=positional_y_no_h compiled_error_counts=False
+[EVAL] progress num_users=3 Eb/N0=-1 dB batches=10/20 frame_err=perfect_csi_lmmse:0/1920 elapsed=131.9s avg_batch=13.191s gpu_mem=0.05GiB peak=0.14GiB
