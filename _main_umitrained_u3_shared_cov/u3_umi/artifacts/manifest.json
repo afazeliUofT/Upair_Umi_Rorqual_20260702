@@ -1,0 +1,9 @@
+{
+  "cache": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_shared_cov/u3_umi/artifacts/empirical_covariances.npz",
+  "channel": "UMi normalized",
+  "covariance_batch_size": 16,
+  "covariance_batches": 64,
+  "num_users": 3,
+  "seed": 7007,
+  "variant": "main_d256_b4_r2"
+}

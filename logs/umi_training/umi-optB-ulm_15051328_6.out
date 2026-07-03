@@ -582,3 +582,351 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [TRAIN] step=08500 loss=-2.08381 nmse_prop=0.05124 nmse_ls=0.07317 lr=2.510e-04 step_time=0.335s steps_per_s=1.498 gpu_mem=0.11GiB peak=2.23GiB
 [TRAIN] step=08600 loss=-1.66048 nmse_prop=0.07801 nmse_ls=0.14872 lr=2.462e-04 step_time=0.287s steps_per_s=1.505 gpu_mem=0.11GiB peak=2.23GiB
 [TRAIN] step=08700 loss=-2.00271 nmse_prop=0.05611 nmse_ls=0.08032 lr=2.415e-04 step_time=0.278s steps_per_s=1.512 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08800 loss=-1.26100 nmse_prop=0.10711 nmse_ls=0.20047 lr=2.367e-04 step_time=0.352s steps_per_s=1.518 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08900 loss=-1.37128 nmse_prop=0.09823 nmse_ls=0.16101 lr=2.320e-04 step_time=0.358s steps_per_s=1.525 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09000 loss=-1.83582 nmse_prop=0.06242 nmse_ls=0.11291 lr=2.273e-04 step_time=176.230s steps_per_s=1.487 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=9000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0002/checkpoints/training_state/ckpt-9000
+[OPTUNA-WORKER] trial=2 report step=9000 value=-1.2051784
+[TRAIN] step=09100 loss=-2.03520 nmse_prop=0.05179 nmse_ls=0.08783 lr=2.226e-04 step_time=0.334s steps_per_s=1.493 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09200 loss=-1.70185 nmse_prop=0.06972 nmse_ls=0.13767 lr=2.180e-04 step_time=0.310s steps_per_s=1.500 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09300 loss=-2.27437 nmse_prop=0.04303 nmse_ls=0.05637 lr=2.134e-04 step_time=0.362s steps_per_s=1.506 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09400 loss=-1.43328 nmse_prop=0.09113 nmse_ls=0.14660 lr=2.088e-04 step_time=0.361s steps_per_s=1.513 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09500 loss=-1.10015 nmse_prop=0.12412 nmse_ls=0.24311 lr=2.043e-04 step_time=0.360s steps_per_s=1.519 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09600 loss=-1.51736 nmse_prop=0.08442 nmse_ls=0.13850 lr=1.999e-04 step_time=0.355s steps_per_s=1.525 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09700 loss=-1.18852 nmse_prop=0.11843 nmse_ls=0.20454 lr=1.954e-04 step_time=0.355s steps_per_s=1.532 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09800 loss=-2.30186 nmse_prop=0.04455 nmse_ls=0.05794 lr=1.910e-04 step_time=0.334s steps_per_s=1.538 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09900 loss=-1.82381 nmse_prop=0.06706 nmse_ls=0.10438 lr=1.867e-04 step_time=0.336s steps_per_s=1.544 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10000 loss=-1.35565 nmse_prop=0.09788 nmse_ls=0.19431 lr=1.824e-04 step_time=177.818s steps_per_s=1.508 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=10000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0002/checkpoints/training_state/ckpt-10000
+[OPTUNA-WORKER] trial=2 report step=10000 value=-1.2114075
+[TRAIN] step=10100 loss=-1.55337 nmse_prop=0.08023 nmse_ls=0.14376 lr=1.782e-04 step_time=0.337s steps_per_s=1.514 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10200 loss=-1.63561 nmse_prop=0.07745 nmse_ls=0.11813 lr=1.740e-04 step_time=0.363s steps_per_s=1.520 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10300 loss=-2.38606 nmse_prop=0.04065 nmse_ls=0.04968 lr=1.699e-04 step_time=0.359s steps_per_s=1.525 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10400 loss=-2.20209 nmse_prop=0.04606 nmse_ls=0.05815 lr=1.658e-04 step_time=0.364s steps_per_s=1.531 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10500 loss=-2.40367 nmse_prop=0.03934 nmse_ls=0.05037 lr=1.618e-04 step_time=0.335s steps_per_s=1.536 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10600 loss=-2.06562 nmse_prop=0.05138 nmse_ls=0.07241 lr=1.579e-04 step_time=0.350s steps_per_s=1.542 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10700 loss=-2.46244 nmse_prop=0.03376 nmse_ls=0.05511 lr=1.540e-04 step_time=0.286s steps_per_s=1.547 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10800 loss=-1.21081 nmse_prop=0.11277 nmse_ls=0.23103 lr=1.501e-04 step_time=0.332s steps_per_s=1.553 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10900 loss=-1.60985 nmse_prop=0.08460 nmse_ls=0.14887 lr=1.464e-04 step_time=0.337s steps_per_s=1.558 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=11000 val_nmse=0.0634787
+[TRAIN] step=11000 loss=-1.88365 nmse_prop=0.06156 nmse_ls=0.09962 lr=1.427e-04 step_time=175.909s steps_per_s=1.525 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=11000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0002/checkpoints/training_state/ckpt-11000
+[OPTUNA-WORKER] trial=2 report step=11000 value=-1.2199537
+[TRAIN] step=11100 loss=-1.41033 nmse_prop=0.09532 nmse_ls=0.18010 lr=1.391e-04 step_time=0.338s steps_per_s=1.529 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11200 loss=-1.48621 nmse_prop=0.08806 nmse_ls=0.19113 lr=1.355e-04 step_time=0.314s steps_per_s=1.535 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11300 loss=-1.71201 nmse_prop=0.07011 nmse_ls=0.11236 lr=1.320e-04 step_time=0.330s steps_per_s=1.540 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11400 loss=-1.73933 nmse_prop=0.07286 nmse_ls=0.12125 lr=1.286e-04 step_time=0.311s steps_per_s=1.545 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11500 loss=-2.26369 nmse_prop=0.04391 nmse_ls=0.05728 lr=1.253e-04 step_time=0.363s steps_per_s=1.550 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11600 loss=-1.59529 nmse_prop=0.08452 nmse_ls=0.13081 lr=1.220e-04 step_time=0.363s steps_per_s=1.555 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11700 loss=-1.81717 nmse_prop=0.06780 nmse_ls=0.10402 lr=1.189e-04 step_time=0.340s steps_per_s=1.560 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11800 loss=-1.87874 nmse_prop=0.06262 nmse_ls=0.10698 lr=1.158e-04 step_time=0.318s steps_per_s=1.565 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11900 loss=-2.03166 nmse_prop=0.05419 nmse_ls=0.07582 lr=1.128e-04 step_time=0.363s steps_per_s=1.570 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=12000 loss=-1.18917 nmse_prop=0.11756 nmse_ls=0.25134 lr=1.098e-04 step_time=176.186s steps_per_s=1.539 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=12000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0002/checkpoints/training_state/ckpt-12000
+[OPTUNA-WORKER] trial=2 report step=12000 value=-1.2300922
+[TRAIN] saved resumable state at step=12000 reason=final: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0002/checkpoints/training_state/ckpt-12000
+[OPTUNA-WORKER] complete trial=2 value=-1.2300922
+[OPTUNA-ISO] completed trial=2 value=-1.2300922
+[OPTUNA] exported best params: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4_best_params.json
+[OPTUNA-ISO] starting stage=B trial=3 trial_id=4 params={'batch_size_train': 8, 'batch_size_eval': 8, 'learning_rate_schedule': 'constant', 'learning_rate': 0.0009643418646698049, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.05, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 1.2083509754787337e-07, 'nmse_loss_weight': 0.16251789877216094, 'grad_clip_norm': 0.5, 'dropout': 0.10909540498640775, 'residual_scale': 0.22990166745555007}
+[OPTUNA-ISO] launching worker trial=3 pid=<pending> params={'batch_size_train': 8, 'batch_size_eval': 8, 'learning_rate_schedule': 'constant', 'learning_rate': 0.0009643418646698049, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.05, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 1.2083509754787337e-07, 'nmse_loss_weight': 0.16251789877216094, 'grad_clip_norm': 0.5, 'dropout': 0.10909540498640775, 'residual_scale': 0.22990166745555007}
+2026-07-02 18:26:51.195324: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-02 18:26:51.305506: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-02 18:26:58.162309: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[OPTUNA-WORKER] start trial=3 pid=2442897 TF_GPU_ALLOCATOR=cuda_malloc_async TF_FORCE_GPU_ALLOW_GROWTH=true
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+[TRAIN] optimizer lr_schedule=constant learning_rate=0.000964342 weight_decay=1.20835e-07
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-07-02 18:32:01.475759: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783031609.779438 2444977 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.22069 nmse_prop=0.11765 nmse_ls=0.11765 lr=9.643e-04 step_time=110.794s steps_per_s=0.009 gpu_mem=0.08GiB peak=2.19GiB
+2026-07-02 18:33:43.783061: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+[TRAIN] step=00100 loss=-0.97891 nmse_prop=0.13429 nmse_ls=0.13593 lr=9.643e-04 step_time=0.369s steps_per_s=0.581 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00200 loss=-0.97035 nmse_prop=0.11375 nmse_ls=0.11453 lr=9.643e-04 step_time=0.371s steps_per_s=0.942 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00300 loss=-0.46205 nmse_prop=0.21758 nmse_ls=0.22760 lr=9.643e-04 step_time=0.368s steps_per_s=1.187 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00400 loss=-1.41205 nmse_prop=0.08773 nmse_ls=0.09023 lr=9.643e-04 step_time=0.365s steps_per_s=1.367 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00500 loss=-1.65294 nmse_prop=0.06986 nmse_ls=0.07026 lr=9.643e-04 step_time=0.334s steps_per_s=1.505 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00600 loss=-0.95415 nmse_prop=0.13803 nmse_ls=0.14501 lr=9.643e-04 step_time=0.335s steps_per_s=1.616 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00700 loss=-0.37316 nmse_prop=0.24145 nmse_ls=0.26849 lr=9.643e-04 step_time=0.341s steps_per_s=1.704 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00800 loss=-1.52429 nmse_prop=0.08155 nmse_ls=0.08376 lr=9.643e-04 step_time=0.341s steps_per_s=1.777 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00900 loss=-1.36709 nmse_prop=0.07632 nmse_ls=0.07482 lr=9.643e-04 step_time=0.357s steps_per_s=1.837 gpu_mem=0.10GiB peak=2.22GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.101829
+[TRAIN] step=01000 loss=-0.68431 nmse_prop=0.17423 nmse_ls=0.21171 lr=9.643e-04 step_time=184.710s steps_per_s=1.400 gpu_mem=0.11GiB peak=2.22GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=3 report step=1000 value=-0.99737627
+[TRAIN] step=01100 loss=-0.54172 nmse_prop=0.20559 nmse_ls=0.23057 lr=9.643e-04 step_time=0.365s steps_per_s=1.455 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01200 loss=-1.75267 nmse_prop=0.06175 nmse_ls=0.06123 lr=9.643e-04 step_time=0.369s steps_per_s=1.505 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01300 loss=-0.79929 nmse_prop=0.16202 nmse_ls=0.18827 lr=9.643e-04 step_time=0.321s steps_per_s=1.550 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01400 loss=-1.87506 nmse_prop=0.05769 nmse_ls=0.05740 lr=9.643e-04 step_time=0.345s steps_per_s=1.590 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01500 loss=-1.36371 nmse_prop=0.09454 nmse_ls=0.09927 lr=9.643e-04 step_time=0.347s steps_per_s=1.627 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01600 loss=-0.49390 nmse_prop=0.21562 nmse_ls=0.25736 lr=9.643e-04 step_time=0.369s steps_per_s=1.661 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01700 loss=-1.01475 nmse_prop=0.13189 nmse_ls=0.15556 lr=9.643e-04 step_time=0.344s steps_per_s=1.692 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01800 loss=-0.79065 nmse_prop=0.16351 nmse_ls=0.19522 lr=9.643e-04 step_time=0.368s steps_per_s=1.720 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01900 loss=-0.57933 nmse_prop=0.19682 nmse_ls=0.26039 lr=9.643e-04 step_time=0.345s steps_per_s=1.745 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=2000 val_nmse=0.0944428
+[TRAIN] step=02000 loss=-0.86453 nmse_prop=0.15220 nmse_ls=0.18992 lr=9.643e-04 step_time=179.369s steps_per_s=1.528 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=2000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-2000
+[OPTUNA-WORKER] trial=3 report step=2000 value=-1.0190429
+[TRAIN] step=02100 loss=-1.06687 nmse_prop=0.12664 nmse_ls=0.14761 lr=9.643e-04 step_time=0.359s steps_per_s=1.555 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02200 loss=-0.61485 nmse_prop=0.19539 nmse_ls=0.24460 lr=9.643e-04 step_time=0.368s steps_per_s=1.581 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02300 loss=-1.69314 nmse_prop=0.06995 nmse_ls=0.07815 lr=9.643e-04 step_time=0.336s steps_per_s=1.605 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02400 loss=-0.70329 nmse_prop=0.17830 nmse_ls=0.23457 lr=9.643e-04 step_time=0.368s steps_per_s=1.628 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02500 loss=-1.19034 nmse_prop=0.11216 nmse_ls=0.14557 lr=9.643e-04 step_time=0.346s steps_per_s=1.650 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02600 loss=-1.12576 nmse_prop=0.11884 nmse_ls=0.15107 lr=9.643e-04 step_time=0.367s steps_per_s=1.670 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02700 loss=-1.22277 nmse_prop=0.10957 nmse_ls=0.14693 lr=9.643e-04 step_time=0.344s steps_per_s=1.689 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02800 loss=-1.02957 nmse_prop=0.12859 nmse_ls=0.21467 lr=9.643e-04 step_time=0.317s steps_per_s=1.707 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02900 loss=-1.64946 nmse_prop=0.07180 nmse_ls=0.08888 lr=9.643e-04 step_time=0.341s steps_per_s=1.725 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=3000 val_nmse=0.0885591
+[TRAIN] step=03000 loss=-0.75460 nmse_prop=0.17013 nmse_ls=0.24939 lr=9.643e-04 step_time=183.773s steps_per_s=1.573 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=3000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-3000
+[OPTUNA-WORKER] trial=3 report step=3000 value=-1.0384543
+[TRAIN] step=03100 loss=-1.00859 nmse_prop=0.13258 nmse_ls=0.20745 lr=9.643e-04 step_time=0.339s steps_per_s=1.590 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03200 loss=-1.88913 nmse_prop=0.05766 nmse_ls=0.06803 lr=9.643e-04 step_time=0.376s steps_per_s=1.607 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03300 loss=-0.83699 nmse_prop=0.15700 nmse_ls=0.22895 lr=9.643e-04 step_time=0.371s steps_per_s=1.624 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03400 loss=-2.20762 nmse_prop=0.04457 nmse_ls=0.04736 lr=9.643e-04 step_time=0.376s steps_per_s=1.639 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03500 loss=-1.78774 nmse_prop=0.06461 nmse_ls=0.07800 lr=9.643e-04 step_time=0.369s steps_per_s=1.654 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03600 loss=-1.60348 nmse_prop=0.07462 nmse_ls=0.09850 lr=9.643e-04 step_time=0.377s steps_per_s=1.669 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03700 loss=-0.86314 nmse_prop=0.15293 nmse_ls=0.22301 lr=9.643e-04 step_time=0.363s steps_per_s=1.683 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03800 loss=-1.39849 nmse_prop=0.09259 nmse_ls=0.13042 lr=9.643e-04 step_time=0.346s steps_per_s=1.698 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03900 loss=-1.67303 nmse_prop=0.07290 nmse_ls=0.12137 lr=9.643e-04 step_time=0.291s steps_per_s=1.713 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=4000 val_nmse=0.077287
+[TRAIN] step=04000 loss=-2.00876 nmse_prop=0.05382 nmse_ls=0.06685 lr=9.643e-04 step_time=178.927s steps_per_s=1.357 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=4000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-4000
+[OPTUNA-WORKER] trial=3 report step=4000 value=-1.0875776
+[TRAIN] step=04100 loss=-1.17121 nmse_prop=0.11366 nmse_ls=0.16432 lr=9.643e-04 step_time=0.365s steps_per_s=1.371 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04200 loss=-1.23409 nmse_prop=0.10698 nmse_ls=0.16206 lr=9.643e-04 step_time=0.367s steps_per_s=1.386 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04300 loss=-1.06762 nmse_prop=0.12599 nmse_ls=0.23686 lr=9.643e-04 step_time=0.319s steps_per_s=1.400 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04400 loss=-0.96337 nmse_prop=0.13614 nmse_ls=0.25212 lr=9.643e-04 step_time=0.312s steps_per_s=1.413 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04500 loss=-1.93786 nmse_prop=0.05615 nmse_ls=0.07179 lr=9.643e-04 step_time=0.362s steps_per_s=1.427 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04600 loss=-1.57263 nmse_prop=0.07518 nmse_ls=0.08932 lr=9.643e-04 step_time=0.361s steps_per_s=1.440 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04700 loss=-1.95361 nmse_prop=0.05585 nmse_ls=0.06901 lr=9.643e-04 step_time=0.363s steps_per_s=1.453 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04800 loss=-0.88285 nmse_prop=0.15086 nmse_ls=0.23286 lr=9.643e-04 step_time=0.363s steps_per_s=1.466 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04900 loss=-1.92883 nmse_prop=0.05683 nmse_ls=0.07937 lr=9.643e-04 step_time=0.305s steps_per_s=1.478 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=5000 val_nmse=0.0754022
+[TRAIN] step=05000 loss=-1.07676 nmse_prop=0.12628 nmse_ls=0.22763 lr=9.643e-04 step_time=175.521s steps_per_s=1.416 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=5000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-5000
+[OPTUNA-WORKER] trial=3 report step=5000 value=-1.1263472
+[TRAIN] step=05100 loss=-1.56332 nmse_prop=0.07913 nmse_ls=0.12403 lr=9.643e-04 step_time=0.340s steps_per_s=1.428 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05200 loss=-1.64957 nmse_prop=0.07480 nmse_ls=0.10107 lr=9.643e-04 step_time=0.362s steps_per_s=1.440 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05300 loss=-1.53074 nmse_prop=0.08074 nmse_ls=0.13624 lr=9.643e-04 step_time=0.338s steps_per_s=1.451 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05400 loss=-1.03178 nmse_prop=0.13089 nmse_ls=0.22067 lr=9.643e-04 step_time=0.368s steps_per_s=1.463 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05500 loss=-1.03491 nmse_prop=0.13160 nmse_ls=0.22906 lr=9.643e-04 step_time=0.334s steps_per_s=1.473 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05600 loss=-1.31086 nmse_prop=0.09650 nmse_ls=0.15837 lr=9.643e-04 step_time=0.337s steps_per_s=1.484 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05700 loss=-1.02301 nmse_prop=0.13076 nmse_ls=0.22875 lr=9.643e-04 step_time=0.363s steps_per_s=1.495 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05800 loss=-1.60285 nmse_prop=0.07742 nmse_ls=0.15038 lr=9.643e-04 step_time=0.290s steps_per_s=1.505 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05900 loss=-1.89280 nmse_prop=0.05889 nmse_ls=0.08757 lr=9.643e-04 step_time=0.344s steps_per_s=1.515 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=6000 val_nmse=0.0749523
+[TRAIN] step=06000 loss=-0.64995 nmse_prop=0.18109 nmse_ls=0.29739 lr=9.643e-04 step_time=179.881s steps_per_s=1.458 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=6000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-6000
+[OPTUNA-WORKER] trial=3 report step=6000 value=-1.1555226
+[TRAIN] step=06100 loss=-1.53198 nmse_prop=0.08143 nmse_ls=0.12065 lr=9.643e-04 step_time=0.362s steps_per_s=1.468 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06200 loss=-1.18087 nmse_prop=0.11507 nmse_ls=0.18560 lr=9.643e-04 step_time=0.360s steps_per_s=1.477 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06300 loss=-1.83630 nmse_prop=0.06293 nmse_ls=0.08663 lr=9.643e-04 step_time=0.363s steps_per_s=1.486 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06400 loss=-2.01992 nmse_prop=0.05059 nmse_ls=0.07680 lr=9.643e-04 step_time=0.281s steps_per_s=1.496 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06500 loss=-1.76996 nmse_prop=0.06660 nmse_ls=0.10121 lr=9.643e-04 step_time=0.306s steps_per_s=1.505 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06600 loss=-1.01551 nmse_prop=0.13259 nmse_ls=0.25593 lr=9.643e-04 step_time=0.333s steps_per_s=1.514 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06700 loss=-1.35303 nmse_prop=0.09779 nmse_ls=0.14736 lr=9.643e-04 step_time=0.358s steps_per_s=1.524 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06800 loss=-0.97660 nmse_prop=0.13980 nmse_ls=0.26384 lr=9.643e-04 step_time=0.338s steps_per_s=1.532 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06900 loss=-1.40342 nmse_prop=0.09263 nmse_ls=0.14995 lr=9.643e-04 step_time=0.360s steps_per_s=1.541 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=7000 val_nmse=0.0694497
+[TRAIN] step=07000 loss=-1.32137 nmse_prop=0.09890 nmse_ls=0.19422 lr=9.643e-04 step_time=176.549s steps_per_s=1.491 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=7000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-7000
+[OPTUNA-WORKER] trial=3 report step=7000 value=-1.1730232
+[TRAIN] step=07100 loss=-1.75134 nmse_prop=0.06538 nmse_ls=0.10505 lr=9.643e-04 step_time=0.338s steps_per_s=1.499 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07200 loss=-1.98079 nmse_prop=0.05515 nmse_ls=0.06783 lr=9.643e-04 step_time=0.365s steps_per_s=1.507 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07300 loss=-1.09833 nmse_prop=0.12107 nmse_ls=0.22257 lr=9.643e-04 step_time=0.331s steps_per_s=1.515 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07400 loss=-1.33013 nmse_prop=0.09741 nmse_ls=0.15019 lr=9.643e-04 step_time=0.342s steps_per_s=1.523 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07500 loss=-2.36606 nmse_prop=0.03963 nmse_ls=0.04470 lr=9.643e-04 step_time=0.363s steps_per_s=1.531 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07600 loss=-1.62251 nmse_prop=0.07622 nmse_ls=0.13321 lr=9.643e-04 step_time=0.340s steps_per_s=1.538 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07700 loss=-1.63035 nmse_prop=0.07686 nmse_ls=0.11555 lr=9.643e-04 step_time=0.335s steps_per_s=1.546 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07800 loss=-1.78851 nmse_prop=0.06455 nmse_ls=0.08781 lr=9.643e-04 step_time=0.359s steps_per_s=1.553 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=07900 loss=-1.55432 nmse_prop=0.08089 nmse_ls=0.12708 lr=9.643e-04 step_time=0.363s steps_per_s=1.561 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=8000 val_nmse=0.066998
+[TRAIN] step=08000 loss=-1.96817 nmse_prop=0.05509 nmse_ls=0.07173 lr=9.643e-04 step_time=179.057s steps_per_s=1.515 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=8000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-8000
+[OPTUNA-WORKER] trial=3 report step=8000 value=-1.1917899
+[TRAIN] step=08100 loss=-2.14803 nmse_prop=0.05412 nmse_ls=0.07942 lr=9.643e-04 step_time=0.284s steps_per_s=1.483 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08200 loss=-1.76530 nmse_prop=0.06625 nmse_ls=0.10929 lr=9.643e-04 step_time=0.312s steps_per_s=1.491 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08300 loss=-1.21968 nmse_prop=0.11406 nmse_ls=0.20338 lr=9.643e-04 step_time=0.339s steps_per_s=1.498 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08400 loss=-2.38055 nmse_prop=0.03558 nmse_ls=0.06702 lr=9.643e-04 step_time=0.283s steps_per_s=1.505 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08500 loss=-2.03467 nmse_prop=0.05246 nmse_ls=0.07317 lr=9.643e-04 step_time=0.330s steps_per_s=1.512 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08600 loss=-1.64044 nmse_prop=0.07605 nmse_ls=0.14872 lr=9.643e-04 step_time=0.286s steps_per_s=1.519 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08700 loss=-2.04506 nmse_prop=0.05390 nmse_ls=0.08032 lr=9.643e-04 step_time=0.285s steps_per_s=1.526 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08800 loss=-1.21356 nmse_prop=0.11092 nmse_ls=0.20047 lr=9.643e-04 step_time=0.367s steps_per_s=1.533 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=08900 loss=-1.32409 nmse_prop=0.10062 nmse_ls=0.16101 lr=9.643e-04 step_time=0.366s steps_per_s=1.539 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09000 loss=-1.79401 nmse_prop=0.06382 nmse_ls=0.11291 lr=9.643e-04 step_time=176.121s steps_per_s=1.501 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=9000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-9000
+[OPTUNA-WORKER] trial=3 report step=9000 value=-1.2006389
+[TRAIN] step=09100 loss=-1.97974 nmse_prop=0.05374 nmse_ls=0.08783 lr=9.643e-04 step_time=0.336s steps_per_s=1.507 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09200 loss=-1.67338 nmse_prop=0.07094 nmse_ls=0.13767 lr=9.643e-04 step_time=0.316s steps_per_s=1.513 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09300 loss=-2.23201 nmse_prop=0.04439 nmse_ls=0.05637 lr=9.643e-04 step_time=0.364s steps_per_s=1.520 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09400 loss=-1.40653 nmse_prop=0.09321 nmse_ls=0.14660 lr=9.643e-04 step_time=0.365s steps_per_s=1.526 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09500 loss=-1.03132 nmse_prop=0.13102 nmse_ls=0.24311 lr=9.643e-04 step_time=0.366s steps_per_s=1.532 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09600 loss=-1.49079 nmse_prop=0.08538 nmse_ls=0.13850 lr=9.643e-04 step_time=0.365s steps_per_s=1.538 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09700 loss=-1.13643 nmse_prop=0.12145 nmse_ls=0.20454 lr=9.643e-04 step_time=0.365s steps_per_s=1.544 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09800 loss=-2.23959 nmse_prop=0.04586 nmse_ls=0.05794 lr=9.643e-04 step_time=0.344s steps_per_s=1.550 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=09900 loss=-1.77474 nmse_prop=0.06831 nmse_ls=0.10438 lr=9.643e-04 step_time=0.346s steps_per_s=1.556 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10000 loss=-1.36208 nmse_prop=0.09724 nmse_ls=0.19431 lr=9.643e-04 step_time=181.626s steps_per_s=1.518 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=10000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-10000
+[OPTUNA-WORKER] trial=3 report step=10000 value=-1.2044463
+[TRAIN] step=10100 loss=-1.55024 nmse_prop=0.08107 nmse_ls=0.14376 lr=9.643e-04 step_time=0.334s steps_per_s=1.524 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10200 loss=-1.58228 nmse_prop=0.07945 nmse_ls=0.11813 lr=9.643e-04 step_time=0.367s steps_per_s=1.530 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10300 loss=-2.31884 nmse_prop=0.04201 nmse_ls=0.04968 lr=9.643e-04 step_time=0.362s steps_per_s=1.535 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10400 loss=-2.14830 nmse_prop=0.04728 nmse_ls=0.05815 lr=9.643e-04 step_time=0.365s steps_per_s=1.541 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10500 loss=-2.33545 nmse_prop=0.04087 nmse_ls=0.05037 lr=9.643e-04 step_time=0.341s steps_per_s=1.547 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10600 loss=-2.01711 nmse_prop=0.05268 nmse_ls=0.07241 lr=9.643e-04 step_time=0.362s steps_per_s=1.552 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10700 loss=-2.46225 nmse_prop=0.03360 nmse_ls=0.05511 lr=9.643e-04 step_time=0.282s steps_per_s=1.549 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10800 loss=-1.15188 nmse_prop=0.11572 nmse_ls=0.23103 lr=9.643e-04 step_time=0.339s steps_per_s=1.554 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=10900 loss=-1.55969 nmse_prop=0.08361 nmse_ls=0.14887 lr=9.643e-04 step_time=0.333s steps_per_s=1.560 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=11000 val_nmse=0.0657304
+[TRAIN] step=11000 loss=-1.86533 nmse_prop=0.06159 nmse_ls=0.09962 lr=9.643e-04 step_time=174.004s steps_per_s=1.527 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=11000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-11000
+[OPTUNA-WORKER] trial=3 report step=11000 value=-1.2079727
+[TRAIN] step=11100 loss=-1.37650 nmse_prop=0.09676 nmse_ls=0.18010 lr=9.643e-04 step_time=0.331s steps_per_s=1.531 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11200 loss=-1.44398 nmse_prop=0.08957 nmse_ls=0.19113 lr=9.643e-04 step_time=0.316s steps_per_s=1.537 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11300 loss=-1.70646 nmse_prop=0.07058 nmse_ls=0.11236 lr=9.643e-04 step_time=0.338s steps_per_s=1.542 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11400 loss=-1.72256 nmse_prop=0.07084 nmse_ls=0.12125 lr=9.643e-04 step_time=0.312s steps_per_s=1.547 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11500 loss=-2.19735 nmse_prop=0.04502 nmse_ls=0.05728 lr=9.643e-04 step_time=0.364s steps_per_s=1.552 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11600 loss=-1.54217 nmse_prop=0.08653 nmse_ls=0.13081 lr=9.643e-04 step_time=0.361s steps_per_s=1.557 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11700 loss=-1.77111 nmse_prop=0.06889 nmse_ls=0.10402 lr=9.643e-04 step_time=0.337s steps_per_s=1.562 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11800 loss=-1.85608 nmse_prop=0.06091 nmse_ls=0.10698 lr=9.643e-04 step_time=0.312s steps_per_s=1.567 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=11900 loss=-1.97982 nmse_prop=0.05587 nmse_ls=0.07582 lr=9.643e-04 step_time=0.362s steps_per_s=1.572 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=12000 loss=-1.14493 nmse_prop=0.11991 nmse_ls=0.25134 lr=9.643e-04 step_time=175.530s steps_per_s=1.541 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=12000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-12000
+[OPTUNA-WORKER] trial=3 report step=12000 value=-1.2181035
+[TRAIN] saved resumable state at step=12000 reason=final: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0003/checkpoints/training_state/ckpt-12000
+[OPTUNA-WORKER] complete trial=3 value=-1.2181035
+[OPTUNA-ISO] completed trial=3 value=-1.2181035
+[OPTUNA] exported best params: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4_best_params.json
+[OPTUNA-ISO] starting stage=B trial=4 trial_id=5 params={'batch_size_train': 8, 'batch_size_eval': 8, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0004568972058255479, 'learning_rate_decay_fraction': 0.75, 'learning_rate_final_fraction': 0.02308016679308127, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 9.040091747332144e-06, 'nmse_loss_weight': 0.05813033561196787, 'grad_clip_norm': 0.5, 'dropout': 0.05667887955460827, 'residual_scale': 0.6548860289390384}
+[OPTUNA-ISO] launching worker trial=4 pid=<pending> params={'batch_size_train': 8, 'batch_size_eval': 8, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0004568972058255479, 'learning_rate_decay_fraction': 0.75, 'learning_rate_final_fraction': 0.02308016679308127, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 9.040091747332144e-06, 'nmse_loss_weight': 0.05813033561196787, 'grad_clip_norm': 0.5, 'dropout': 0.05667887955460827, 'residual_scale': 0.6548860289390384}
+2026-07-02 20:43:47.681560: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-02 20:43:47.682755: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-02 20:43:49.598505: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[OPTUNA-WORKER] start trial=4 pid=2533148 TF_GPU_ALLOCATOR=cuda_malloc_async TF_FORCE_GPU_ALLOW_GROWTH=true
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+[TRAIN] optimizer lr_schedule=cosine_decay learning_rate=0.000456897 weight_decay=9.04009e-06
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-07-02 20:45:06.977873: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783039522.979888 2534149 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.23297 nmse_prop=0.11765 nmse_ls=0.11765 lr=4.569e-04 step_time=36.262s steps_per_s=0.028 gpu_mem=0.08GiB peak=2.19GiB
+[TRAIN] step=00100 loss=-1.00316 nmse_prop=0.13284 nmse_ls=0.13593 lr=4.568e-04 step_time=0.368s steps_per_s=1.031 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00200 loss=-1.03023 nmse_prop=0.11359 nmse_ls=0.11453 lr=4.564e-04 step_time=0.370s steps_per_s=1.458 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00300 loss=-0.52098 nmse_prop=0.21308 nmse_ls=0.22760 lr=4.557e-04 step_time=0.372s steps_per_s=1.685 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00400 loss=-1.43477 nmse_prop=0.08665 nmse_ls=0.09023 lr=4.547e-04 step_time=0.372s steps_per_s=1.829 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00500 loss=-1.66144 nmse_prop=0.06918 nmse_ls=0.07026 lr=4.535e-04 step_time=0.336s steps_per_s=1.933 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00600 loss=-0.98094 nmse_prop=0.13676 nmse_ls=0.14501 lr=4.520e-04 step_time=0.351s steps_per_s=2.011 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00700 loss=-0.42162 nmse_prop=0.23636 nmse_ls=0.26849 lr=4.503e-04 step_time=0.340s steps_per_s=2.068 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00800 loss=-1.53626 nmse_prop=0.08114 nmse_ls=0.08376 lr=4.483e-04 step_time=0.342s steps_per_s=2.111 gpu_mem=0.10GiB peak=2.22GiB
+[TRAIN] step=00900 loss=-1.44162 nmse_prop=0.07624 nmse_ls=0.07482 lr=4.460e-04 step_time=0.364s steps_per_s=2.149 gpu_mem=0.10GiB peak=2.22GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.100926
+[TRAIN] step=01000 loss=-0.76139 nmse_prop=0.16708 nmse_ls=0.21171 lr=4.435e-04 step_time=235.442s steps_per_s=1.440 gpu_mem=0.11GiB peak=2.22GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0004/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=4 report step=1000 value=-1.0020181
+[TRAIN] step=01100 loss=-0.59553 nmse_prop=0.19995 nmse_ls=0.23057 lr=4.407e-04 step_time=0.372s steps_per_s=1.414 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01200 loss=-1.76117 nmse_prop=0.06212 nmse_ls=0.06123 lr=4.376e-04 step_time=0.371s steps_per_s=1.464 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01300 loss=-0.84749 nmse_prop=0.15725 nmse_ls=0.18827 lr=4.343e-04 step_time=0.325s steps_per_s=1.509 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01400 loss=-1.90040 nmse_prop=0.05716 nmse_ls=0.05740 lr=4.308e-04 step_time=0.353s steps_per_s=1.550 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01500 loss=-1.39341 nmse_prop=0.09316 nmse_ls=0.09927 lr=4.270e-04 step_time=0.326s steps_per_s=1.588 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01600 loss=-0.57136 nmse_prop=0.20449 nmse_ls=0.25736 lr=4.230e-04 step_time=0.372s steps_per_s=1.622 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01700 loss=-1.09053 nmse_prop=0.12471 nmse_ls=0.15556 lr=4.188e-04 step_time=0.348s steps_per_s=1.654 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01800 loss=-0.85482 nmse_prop=0.15717 nmse_ls=0.19522 lr=4.143e-04 step_time=0.374s steps_per_s=1.686 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=01900 loss=-0.67841 nmse_prop=0.18562 nmse_ls=0.26039 lr=4.096e-04 step_time=0.355s steps_per_s=1.712 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=2000 val_nmse=0.0918227
+[TRAIN] step=02000 loss=-0.94251 nmse_prop=0.14408 nmse_ls=0.18992 lr=4.047e-04 step_time=191.670s steps_per_s=1.488 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=2000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0004/checkpoints/training_state/ckpt-2000
+[OPTUNA-WORKER] trial=4 report step=2000 value=-1.0286951
+[TRAIN] step=02100 loss=-1.10087 nmse_prop=0.12390 nmse_ls=0.14761 lr=3.996e-04 step_time=0.370s steps_per_s=1.511 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02200 loss=-0.67421 nmse_prop=0.18678 nmse_ls=0.24460 lr=3.943e-04 step_time=0.374s steps_per_s=1.537 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02300 loss=-1.73912 nmse_prop=0.06714 nmse_ls=0.07815 lr=3.888e-04 step_time=0.346s steps_per_s=1.561 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02400 loss=-0.78390 nmse_prop=0.16930 nmse_ls=0.23457 lr=3.831e-04 step_time=0.364s steps_per_s=1.585 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02500 loss=-1.24743 nmse_prop=0.10772 nmse_ls=0.14557 lr=3.772e-04 step_time=0.338s steps_per_s=1.608 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02600 loss=-1.17480 nmse_prop=0.11507 nmse_ls=0.15107 lr=3.712e-04 step_time=0.368s steps_per_s=1.629 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02700 loss=-1.27532 nmse_prop=0.10581 nmse_ls=0.14693 lr=3.650e-04 step_time=0.334s steps_per_s=1.649 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02800 loss=-1.13197 nmse_prop=0.11820 nmse_ls=0.21467 lr=3.586e-04 step_time=0.311s steps_per_s=1.669 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=02900 loss=-1.69809 nmse_prop=0.06960 nmse_ls=0.08888 lr=3.521e-04 step_time=0.338s steps_per_s=1.688 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=3000 val_nmse=0.0854765
+[TRAIN] step=03000 loss=-0.85429 nmse_prop=0.15808 nmse_ls=0.24939 lr=3.454e-04 step_time=172.723s steps_per_s=1.553 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=3000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0004/checkpoints/training_state/ckpt-3000
+[OPTUNA-WORKER] trial=4 report step=3000 value=-1.0510438
+[TRAIN] step=03100 loss=-1.11066 nmse_prop=0.12206 nmse_ls=0.20745 lr=3.386e-04 step_time=0.338s steps_per_s=1.572 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03200 loss=-1.93123 nmse_prop=0.05715 nmse_ls=0.06803 lr=3.316e-04 step_time=0.365s steps_per_s=1.590 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03300 loss=-0.91514 nmse_prop=0.14844 nmse_ls=0.22895 lr=3.246e-04 step_time=0.365s steps_per_s=1.608 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03400 loss=-2.25358 nmse_prop=0.04381 nmse_ls=0.04736 lr=3.174e-04 step_time=0.364s steps_per_s=1.625 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03500 loss=-1.79981 nmse_prop=0.06334 nmse_ls=0.07800 lr=3.101e-04 step_time=0.347s steps_per_s=1.641 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03600 loss=-1.65289 nmse_prop=0.07219 nmse_ls=0.09850 lr=3.028e-04 step_time=0.368s steps_per_s=1.658 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03700 loss=-0.91684 nmse_prop=0.15005 nmse_ls=0.22301 lr=2.953e-04 step_time=0.367s steps_per_s=1.672 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03800 loss=-1.45358 nmse_prop=0.08935 nmse_ls=0.13042 lr=2.878e-04 step_time=0.364s steps_per_s=1.686 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=03900 loss=-1.71553 nmse_prop=0.07120 nmse_ls=0.12137 lr=2.802e-04 step_time=0.294s steps_per_s=1.700 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=4000 val_nmse=0.0759835
+[TRAIN] step=04000 loss=-2.03080 nmse_prop=0.05314 nmse_ls=0.06685 lr=2.726e-04 step_time=180.271s steps_per_s=1.590 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=4000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0004/checkpoints/training_state/ckpt-4000
+[OPTUNA-WORKER] trial=4 report step=4000 value=-1.1015747
+[TRAIN] step=04100 loss=-1.21193 nmse_prop=0.11135 nmse_ls=0.16432 lr=2.649e-04 step_time=0.364s steps_per_s=1.604 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04200 loss=-1.29884 nmse_prop=0.10173 nmse_ls=0.16206 lr=2.571e-04 step_time=0.358s steps_per_s=1.618 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04300 loss=-1.15767 nmse_prop=0.11959 nmse_ls=0.23686 lr=2.494e-04 step_time=0.302s steps_per_s=1.632 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04400 loss=-1.03810 nmse_prop=0.13213 nmse_ls=0.25212 lr=2.416e-04 step_time=0.305s steps_per_s=1.645 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04500 loss=-1.97245 nmse_prop=0.05506 nmse_ls=0.07179 lr=2.338e-04 step_time=0.363s steps_per_s=1.657 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04600 loss=-1.68861 nmse_prop=0.07517 nmse_ls=0.08932 lr=2.260e-04 step_time=0.362s steps_per_s=1.669 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04700 loss=-1.97836 nmse_prop=0.05503 nmse_ls=0.06901 lr=2.182e-04 step_time=0.354s steps_per_s=1.681 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04800 loss=-0.93474 nmse_prop=0.14694 nmse_ls=0.23286 lr=2.105e-04 step_time=0.341s steps_per_s=1.692 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=04900 loss=-1.97582 nmse_prop=0.05621 nmse_ls=0.07937 lr=2.027e-04 step_time=0.316s steps_per_s=1.704 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=5000 val_nmse=0.0741241
+[TRAIN] step=05000 loss=-1.15247 nmse_prop=0.11976 nmse_ls=0.22763 lr=1.950e-04 step_time=200.319s steps_per_s=1.604 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=5000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0004/checkpoints/training_state/ckpt-5000
+[OPTUNA-WORKER] trial=4 report step=5000 value=-1.1384266
+[TRAIN] step=05100 loss=-1.61608 nmse_prop=0.07733 nmse_ls=0.12403 lr=1.874e-04 step_time=0.331s steps_per_s=1.616 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05200 loss=-1.67224 nmse_prop=0.07660 nmse_ls=0.10107 lr=1.798e-04 step_time=0.363s steps_per_s=1.627 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05300 loss=-1.59940 nmse_prop=0.07761 nmse_ls=0.13624 lr=1.723e-04 step_time=0.323s steps_per_s=1.639 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05400 loss=-1.09752 nmse_prop=0.12558 nmse_ls=0.22067 lr=1.648e-04 step_time=0.365s steps_per_s=1.649 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05500 loss=-1.10248 nmse_prop=0.12552 nmse_ls=0.22906 lr=1.575e-04 step_time=0.339s steps_per_s=1.659 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05600 loss=-1.41958 nmse_prop=0.09234 nmse_ls=0.15837 lr=1.502e-04 step_time=0.336s steps_per_s=1.669 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05700 loss=-1.09764 nmse_prop=0.12350 nmse_ls=0.22875 lr=1.430e-04 step_time=0.361s steps_per_s=1.679 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05800 loss=-1.66760 nmse_prop=0.07587 nmse_ls=0.15038 lr=1.360e-04 step_time=0.282s steps_per_s=1.688 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=05900 loss=-1.93147 nmse_prop=0.05911 nmse_ls=0.08757 lr=1.290e-04 step_time=0.344s steps_per_s=1.698 gpu_mem=0.11GiB peak=2.23GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=6000 val_nmse=0.0735227
+[TRAIN] step=06000 loss=-0.78741 nmse_prop=0.17136 nmse_ls=0.29739 lr=1.222e-04 step_time=173.398s steps_per_s=1.627 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] saved resumable state at step=6000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/runs_1dmrs/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_mlpwide_d256_b4_r4/mlpwide_d256_b4_r4_trial_0004/checkpoints/training_state/ckpt-6000
+[OPTUNA-WORKER] trial=4 report step=6000 value=-1.1647927
+[TRAIN] step=06100 loss=-1.55886 nmse_prop=0.08040 nmse_ls=0.12065 lr=1.155e-04 step_time=0.363s steps_per_s=1.635 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06200 loss=-1.23765 nmse_prop=0.11136 nmse_ls=0.18560 lr=1.090e-04 step_time=0.358s steps_per_s=1.644 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06300 loss=-1.86198 nmse_prop=0.06241 nmse_ls=0.08663 lr=1.026e-04 step_time=0.364s steps_per_s=1.653 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06400 loss=-2.11654 nmse_prop=0.04927 nmse_ls=0.07680 lr=9.638e-05 step_time=0.280s steps_per_s=1.662 gpu_mem=0.11GiB peak=2.23GiB
+[TRAIN] step=06500 loss=-1.78873 nmse_prop=0.06604 nmse_ls=0.10121 lr=9.033e-05 step_time=0.307s steps_per_s=1.671 gpu_mem=0.11GiB peak=2.23GiB
+[2026-07-03T01:49:55.816] error: *** JOB 15051328 ON rg31501 CANCELLED AT 2026-07-03T01:49:55 DUE to SIGNAL Terminated ***

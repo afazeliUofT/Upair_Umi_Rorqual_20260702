@@ -480,3 +480,26 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [TRAIN] step=38300 loss=-1.53580 nmse_prop=0.08640 nmse_ls=0.25510 lr=9.643e-04 step_time=0.360s steps_per_s=1.774 gpu_mem=0.15GiB peak=5.38GiB
 [TRAIN] step=38400 loss=-1.76459 nmse_prop=0.06836 nmse_ls=0.15289 lr=9.643e-04 step_time=0.384s steps_per_s=1.775 gpu_mem=0.15GiB peak=5.38GiB
 [TRAIN] step=38500 loss=-1.93412 nmse_prop=0.06064 nmse_ls=0.21040 lr=9.643e-04 step_time=0.334s steps_per_s=1.777 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38600 loss=-1.86714 nmse_prop=0.06151 nmse_ls=0.13882 lr=9.643e-04 step_time=0.383s steps_per_s=1.778 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38700 loss=-1.72518 nmse_prop=0.07085 nmse_ls=0.17134 lr=9.643e-04 step_time=0.385s steps_per_s=1.779 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38800 loss=-2.65711 nmse_prop=0.03347 nmse_ls=0.05621 lr=9.643e-04 step_time=0.335s steps_per_s=1.781 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=38900 loss=-1.43951 nmse_prop=0.08934 nmse_ls=0.26980 lr=9.643e-04 step_time=0.385s steps_per_s=1.782 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39000 loss=-2.66951 nmse_prop=0.03271 nmse_ls=0.04773 lr=9.643e-04 step_time=0.357s steps_per_s=1.783 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=39000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-39000
+[TRAIN] step=39100 loss=-2.31378 nmse_prop=0.04167 nmse_ls=0.07358 lr=9.643e-04 step_time=0.384s steps_per_s=1.779 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39200 loss=-2.24738 nmse_prop=0.04758 nmse_ls=0.09416 lr=9.643e-04 step_time=0.362s steps_per_s=1.781 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39300 loss=-2.59870 nmse_prop=0.03305 nmse_ls=0.08135 lr=9.643e-04 step_time=0.329s steps_per_s=1.782 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39400 loss=-2.66639 nmse_prop=0.03052 nmse_ls=0.06957 lr=9.643e-04 step_time=0.334s steps_per_s=1.783 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39500 loss=-1.85102 nmse_prop=0.06063 nmse_ls=0.15168 lr=9.643e-04 step_time=0.384s steps_per_s=1.785 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39600 loss=-2.49912 nmse_prop=0.03728 nmse_ls=0.07780 lr=9.643e-04 step_time=0.333s steps_per_s=1.786 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39700 loss=-2.79898 nmse_prop=0.02628 nmse_ls=0.06017 lr=9.643e-04 step_time=0.333s steps_per_s=1.787 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39800 loss=-2.85732 nmse_prop=0.02689 nmse_ls=0.04683 lr=9.643e-04 step_time=0.340s steps_per_s=1.789 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] step=39900 loss=-1.56894 nmse_prop=0.08292 nmse_ls=0.20259 lr=9.643e-04 step_time=0.384s steps_per_s=1.790 gpu_mem=0.15GiB peak=5.38GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=40000 val_nmse=0.0476484
+[TRAIN] step=40000 loss=-1.50866 nmse_prop=0.08515 nmse_ls=0.27606 lr=9.643e-04 step_time=532.968s steps_per_s=1.749 gpu_mem=0.15GiB peak=5.38GiB
+[TRAIN] saved resumable state at step=40000 reason=periodic: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-40000
+[TRAIN] saved resumable state at step=40000 reason=final: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-40000
+[FINAL-TRAIN] COMPLETE deep_d256_b6_r2 checkpoint=/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/best.weights.h5 sha256=d584c4ce8566ed7b3e0e68ea94f03c101df4e4501f3e7b6eb848ca9739bd4204
+[GUARD] PASS: all 7 trained checkpoints are unchanged.

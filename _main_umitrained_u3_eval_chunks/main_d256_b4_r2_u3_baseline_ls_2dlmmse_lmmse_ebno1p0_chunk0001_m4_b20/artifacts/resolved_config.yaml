@@ -1,0 +1,256 @@
+experiment:
+  name: main_d256_b4_r2_u3_baseline_ls_2dlmmse_lmmse_ebno1p0_chunk0001_m4_b20
+  output_root: /home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks
+  training_domain: umi
+  channel_profile: umi_standard_topology_normalized
+system:
+  seed: 1821037
+  eval_seed_offset: 1000
+  seeds:
+  - 7
+  precision: single
+  graph_mode: true
+  batch_size_train: 32
+  batch_size_eval: 64
+  ebno_db_train_min: -6.0
+  ebno_db_train_max: 5.0
+  ebno_db_eval:
+  - 1.0
+  training_seed: 7
+  evaluation_seed: 1821037
+multiuser:
+  enabled: true
+  max_num_users: 4
+  train_user_count_sampler: weighted
+  eval_num_users:
+  - 3
+  dmrs:
+    config_type: 2
+    length: 1
+    additional_position: 0
+    type_a_position: 2
+    num_cdm_groups_without_data: 3
+    port_sets:
+    - - 0
+    - - 1
+    - - 2
+    - - 3
+  fixed_num_users: 3
+  train_user_count_weights:
+  - 1.0
+  - 3.0
+  - 6.0
+  - 10.0
+  require_explicit_mimo_detector: true
+  require_multiuser_detector: true
+pusch:
+  carrier_frequency_hz: 3.5e9
+  subcarrier_spacing_khz: 30
+  n_size_grid: 8
+  n_size_bwp: 8
+  cyclic_prefix: normal
+  mapping_type: A
+  symbol_allocation:
+  - 0
+  - 14
+  num_layers: 1
+  num_antenna_ports: 1
+  precoding: non-codebook
+  transform_precoding: false
+  mcs_index: 15
+  mcs_table: qam64
+  expected_num_bits_per_symbol: 4
+  expected_modulation: qam16
+  dmrs:
+    config_type: 1
+    length: 1
+    additional_position: 0
+    type_a_position: 2
+    num_cdm_groups_without_data: 2
+channel:
+  model: UMi
+  delay_spread_s: 3.0e-07
+  min_speed_mps: 8.33
+  max_speed_mps: 16.67
+  num_rx_ant: 16
+  num_tx_ant: 1
+  normalize_channel: true
+  family: umi
+  umi:
+    profile_name: umi_standard_topology_normalized
+    scenario: umi
+    o2i_model: low
+    enable_pathloss: false
+    enable_shadow_fading: false
+    always_generate_lsp: false
+    topology_resample: per_channel_call
+    min_bs_ut_dist_m: 10.0
+    isd_m: 200.0
+    bs_height_m: 10.0
+    min_ut_height_m: 1.5
+    max_ut_height_m: 1.5
+    indoor_probability: 0.8
+    min_speed_mps: 8.33
+    max_speed_mps: 16.67
+    force_los: null
+impairments:
+  enabled: false
+  train:
+    cpe_sigma_rad: 0.012
+    slope_range_rad:
+    - -0.08
+    - 0.08
+    rw_sigma_rad: 0.004
+  eval:
+    cpe_sigma_rad: 0.015
+    slope_range_rad:
+    - -0.05
+    - 0.05
+    rw_sigma_rad: 0.005
+legacy_phase_impairments:
+  enabled: false
+  train:
+    cpe_sigma_rad: 0.0
+    slope_range_rad:
+    - 0.0
+    - 0.0
+    rw_sigma_rad: 0.0
+  eval:
+    cpe_sigma_rad: 0.0
+    slope_rad: 0.0
+    rw_sigma_rad: 0.0
+rf_impairments:
+  enabled: false
+  backend: sionna_ofdm_waveform_prechannel
+  require_verified_probe: false
+  cfo:
+    enabled: false
+    distribution: uniform
+    train_max_abs_hz: 150.0
+    eval_hz: 100.0
+  phase_noise:
+    enabled: false
+    model: time_domain_wiener
+    train_rms_rad_per_sample: 0.001
+    eval_rms_rad_per_sample: 0.001
+    train_initial_phase_sigma_rad: 0.02
+    eval_initial_phase_sigma_rad: 0.02
+    spectral_mask_dbc_per_hz: []
+    spectral_mask_offset_hz: []
+  train_mixture:
+    enabled: false
+    clean_probability: 0.3
+    cfo_only_probability: 0.25
+    phase_noise_only_probability: 0.25
+    cfo_and_phase_noise_probability: 0.2
+  eval:
+    mode: cfo_and_phase_noise
+model:
+  d_model: 256
+  num_blocks: 4
+  num_heads: 4
+  mlp_ratio: 2.0
+  dropout: 0.10909540498640775
+  residual_scale: 0.22990166745555007
+  use_noise_feature: true
+  use_pilot_mask_feature: true
+  pilot_mask_mode: per_stream
+  error_feature_mode: per_user
+  error_variance_update: multiplicative
+training:
+  steps: 40000
+  resume: true
+  checkpoint_every: 1000
+  max_resume_checkpoints: 3
+  val_steps: 96
+  val_ebno_db:
+  - -4
+  - -2
+  - 0
+  - 2
+  - 4
+  log_every: 100
+  eval_every: 2000
+  learning_rate: 0.0009643418646698049
+  learning_rate_schedule: constant
+  learning_rate_final_fraction: 0.05
+  learning_rate_decay_rate: 0.96
+  learning_rate_decay_steps: 40000
+  learning_rate_restart_first_decay_steps: 2500
+  learning_rate_restart_t_mul: 2.0
+  learning_rate_restart_m_mul: 0.8
+  weight_decay: 1.2083509754787337e-07
+  nmse_loss_weight: 0.16251789877216094
+  grad_clip_norm: 0.5
+  checkpoint_name: best.weights.h5
+  memory_cleanup_every_steps: 100
+  memory_cleanup_after_validation: true
+  val_memory_cleanup_every_batch: true
+  val_sampling_mode: sampled
+  val_user_counts:
+  - 1
+  - 2
+  - 3
+  - 4
+  val_user_count_weights:
+  - 1.0
+  - 3.0
+  - 6.0
+  - 10.0
+  val_microbatch_size: 16
+  val_memory_cleanup_every_microbatch: true
+  learning_rate_polynomial_power: 1.0
+  val_snr_sampling_mode: sampled_grid
+evaluation:
+  resume: true
+  receiver_microbatch_size: 4
+  stream_eval_microbatches: true
+  compiled_receiver_error_counts: false
+  receiver_call_jit_compile: false
+  num_batches_per_point: 512
+  min_num_batches_per_point: 20
+  max_num_batches_per_point: 20
+  target_block_errors_per_receiver: 0
+  stopping_receivers:
+  - baseline_ls_lmmse
+  - baseline_ls_2dlmmse_lmmse
+  - upair5g_lmmse
+  - perfect_csi_lmmse
+  reliable_min_block_errors: 100
+  reliable_min_bit_errors: 1000
+  save_example_batch: false
+  nmse_receivers: []
+  memory_cleanup_every_batches: 1
+  memory_cleanup_every_microbatch: true
+  per_receiver_stopping: false
+  target_bler_floor: 1.0e-05
+  floor_confidence_factor: 3.0
+  log_latency: true
+  log_gpu_memory: true
+  progress_every_batches: 10
+  logical_batch_size: 64
+  force: true
+baselines:
+  enabled_receivers:
+  - baseline_ls_2dlmmse_lmmse
+  covariance_estimation:
+    cache_name: empirical_covariances.npz
+    reuse_cache: true
+    num_batches: 32
+    batch_size: 32
+    order: f-t
+    use_spatial_smoothing: false
+    use_training_impairments: false
+    diagonal_loading: 0.0001
+    normalize_trace: false
+  phase_aware_ddcpe:
+    num_iterations: 2
+    smoothing_kernel:
+    - 1.0
+    - 2.0
+    - 3.0
+    - 2.0
+    - 1.0
+    weight_power: 1.0
+    max_abs_residual_rad: 0.4
+    anchor_to_dmrs: true

@@ -1,20 +1,20 @@
 {
   "best_params": {
-    "dropout": 0.029975724725883654,
+    "dropout": 0.007700648798378345,
     "grad_clip_norm": 0.5,
-    "learning_rate": 0.0008788509854471044,
+    "learning_rate": 0.0011194142556839183,
     "learning_rate_decay_fraction": 1.25,
-    "learning_rate_final_fraction": 0.02988330276131284,
-    "learning_rate_polynomial_power": 1.8150943967789455,
+    "learning_rate_final_fraction": 0.03995121225244404,
+    "learning_rate_polynomial_power": 1.5259288638269477,
     "learning_rate_schedule": "polynomial_decay",
-    "nmse_loss_weight": 0.31622756612199476,
-    "residual_scale": 0.5875250819591711,
-    "weight_decay": 8.507887091089711e-06
+    "nmse_loss_weight": 0.06523425274380522,
+    "residual_scale": 0.6639079530952303,
+    "weight_decay": 5.778735770825256e-06
   },
-  "best_value": -1.2489161426140316,
-  "completed_trials": 3,
+  "best_value": -1.2533584291659778,
+  "completed_trials": 4,
   "failed_trials": 0,
-  "finished_trials": 3,
+  "finished_trials": 4,
   "fixed_constraints": {
     "clean_case": true,
     "dmrs_length": 1,

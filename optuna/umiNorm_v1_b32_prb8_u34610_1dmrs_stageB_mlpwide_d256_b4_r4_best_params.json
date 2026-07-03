@@ -12,9 +12,9 @@
     "weight_decay": 1.4653849050497994e-07
   },
   "best_value": -1.2397983731121787,
-  "completed_trials": 2,
+  "completed_trials": 4,
   "failed_trials": 0,
-  "finished_trials": 2,
+  "finished_trials": 4,
   "fixed_constraints": {
     "clean_case": true,
     "dmrs_length": 1,

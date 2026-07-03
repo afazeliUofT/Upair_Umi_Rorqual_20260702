@@ -1,30 +1,55 @@
 {
-  "best_val": 0.055738279081803434,
+  "best_val": 0.05463896967315426,
   "best_weights_path": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/best.weights.h5",
   "checkpoint_metrics": {
-    "last_loss": -2.5876264572143555,
-    "last_nmse_ls": 0.05567995458841324,
-    "last_nmse_prop": 0.03182454779744148
+    "last_loss": -2.242763042449951,
+    "last_nmse_ls": 0.0649152547121048,
+    "last_nmse_prop": 0.046856023371219635
   },
   "last_metrics": {
-    "ebno_db": 3.1298131942749023,
+    "ebno_db": 3.420572280883789,
     "learning_rate": 0.00048650536336936057,
-    "loss": -2.5876264572143555,
-    "loss_nll": -2.603527069091797,
-    "nmse_ls": 0.05567995458841324,
-    "nmse_prop": 0.03182454779744148,
-    "num_users": 2,
-    "step": 35000,
-    "step_elapsed_s": 0.2894555600360036,
-    "steps_per_s": 2.334591182347253,
-    "training_elapsed_s": 6150.541520320112
+    "loss": -2.242763042449951,
+    "loss_nll": -2.266173839569092,
+    "nmse_ls": 0.0649152547121048,
+    "nmse_prop": 0.046856023371219635,
+    "num_users": 4,
+    "step": 40000,
+    "step_elapsed_s": 133.2286190430168,
+    "steps_per_s": 2.0301592997093096,
+    "training_elapsed_s": 9535.704908857122,
+    "val_batch_size": 16,
+    "val_ebno_db": "multi",
+    "val_ebno_db_values": [
+      -4.0,
+      -2.0,
+      0.0,
+      2.0,
+      4.0
+    ],
+    "val_microbatch_size": 8,
+    "val_nmse_ls": 0.1111271507688798,
+    "val_nmse_prop": 0.05703405291812184,
+    "val_snr_hist": {
+      "-2.0": 21,
+      "-4.0": 20,
+      "0.0": 17,
+      "2.0": 18,
+      "4.0": 20
+    },
+    "val_user_count_hist": {
+      "1": 1,
+      "2": 12,
+      "3": 42,
+      "4": 41
+    }
   },
-  "latest_step": 35000,
-  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/training_state/ckpt-35000",
+  "latest_step": 40000,
+  "latest_training_state_checkpoint": "/lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/training_state/ckpt-40000",
   "resume_enabled": true,
-  "save_reason": "periodic",
+  "save_reason": "final",
   "total_steps": 40000,
-  "training_complete": false,
+  "training_complete": true,
   "training_parameters": {
     "batch_size_eval": 16,
     "batch_size_train": 16,

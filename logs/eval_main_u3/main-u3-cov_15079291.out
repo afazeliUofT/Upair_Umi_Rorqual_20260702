@@ -1,0 +1,7 @@
+GPU 0: NVIDIA H100 80GB HBM3 (UUID: GPU-af36ae9b-83af-99f7-7c6e-841070682729)
+2026-07-02 19:38:04.115060: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-07-02 19:38:04.115891: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-07-02 19:38:04.231391: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+[COMPREHENSIVE] loaded Optuna best JSON for main_d256_b4_r2 from /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/optuna/umiNorm_v1_b32_prb8_u34610_1dmrs_stageB_main_d256_b4_r2_best_params.json
+[BASELINES] Estimating empirical LMMSE covariances with num_batches=64 batch_size=16 mode=clean-channel
+[COV] wrote: /lustre10/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_shared_cov/u3_umi/artifacts/empirical_covariances.npz

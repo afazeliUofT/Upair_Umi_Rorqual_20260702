@@ -1,0 +1,2 @@
+receiver,num_users,ebno_db,ber,bler,nmse,bit_errors,num_bits,block_errors,num_blocks,num_batches_run,mc_stop_reason,target_bler_floor,bler_zero_error_upper_bound,ber_zero_error_upper_bound,point_elapsed_s,data_elapsed_s,receiver_elapsed_s,receiver_ms_per_batch,receiver_ms_per_frame,reliable_ber,reliable_bler,gpu_mem_gib,gpu_peak_gib
+perfect_csi_lmmse,3,-2.0,9.695620519713261e-05,0.00078125,0.0,1108,11427840,3,3840,20,global_stop,1e-05,,,269.8334367920179,98.38324846909381,136.6301456359215,6831.507281796075,35.58076709268789,True,False,0.05229716468602419,0.14459290262311697

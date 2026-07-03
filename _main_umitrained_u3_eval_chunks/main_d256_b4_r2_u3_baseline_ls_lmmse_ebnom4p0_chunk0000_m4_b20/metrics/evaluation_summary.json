@@ -1,0 +1,55 @@
+{
+  "batch_size_eval": 64,
+  "best_ber_classical": {
+    "receiver": "baseline_ls_lmmse",
+    "value": 0.05422879564292115
+  },
+  "best_ber_classical_reliable_only": {
+    "receiver": "baseline_ls_lmmse",
+    "value": 0.05422879564292115
+  },
+  "best_bler_classical": {
+    "receiver": "baseline_ls_lmmse",
+    "value": 0.6184895833333334
+  },
+  "best_bler_classical_reliable_only": {
+    "receiver": "baseline_ls_lmmse",
+    "value": 0.6184895833333334
+  },
+  "best_nmse_classical": null,
+  "checkpoint_path": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5",
+  "classical_receivers": [
+    "baseline_ls_lmmse"
+  ],
+  "curves_csv": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_baseline_ls_lmmse_ebnom4p0_chunk0000_m4_b20/metrics/curves.csv",
+  "enabled_receivers": [
+    "baseline_ls_lmmse"
+  ],
+  "evaluation_controls": {
+    "floor_confidence_factor": 3.0,
+    "floor_num_frames": 0,
+    "max_num_batches_per_point": 20,
+    "min_num_batches_per_point": 20,
+    "per_receiver_stopping": false,
+    "reliable_min_bit_errors": 1000,
+    "reliable_min_block_errors": 100,
+    "stopping_receivers": [
+      "baseline_ls_lmmse",
+      "baseline_ls_2dlmmse_lmmse",
+      "upair5g_lmmse",
+      "perfect_csi_lmmse"
+    ],
+    "target_bler_floor": 1e-05,
+    "target_block_errors_per_receiver": 0
+  },
+  "evaluation_elapsed_s": 279.53531212103553,
+  "evaluation_seed": 1636034,
+  "gpu_mem_gib": 0.0523598613217473,
+  "gpu_peak_gib": 0.14459290262311697,
+  "num_curve_rows": 1,
+  "num_users": 3,
+  "per_ebno_best_classical": [],
+  "receiver_microbatch_size": 4,
+  "seed": 1636034,
+  "training_seed": 7
+}

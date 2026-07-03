@@ -1,0 +1,36 @@
+{
+  "batch_size_eval": 64,
+  "checkpoint_path": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/UMI_training/runs_rx16/seed7/1dmrs/main_d256_b4_r2/checkpoints/best.weights.h5",
+  "classical_receivers": [],
+  "curves_csv": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0022_m4_b20/metrics/curves.csv",
+  "enabled_receivers": [
+    "perfect_csi_lmmse"
+  ],
+  "evaluation_controls": {
+    "floor_confidence_factor": 3.0,
+    "floor_num_frames": 0,
+    "max_num_batches_per_point": 20,
+    "min_num_batches_per_point": 20,
+    "per_receiver_stopping": false,
+    "reliable_min_bit_errors": 1000,
+    "reliable_min_block_errors": 100,
+    "stopping_receivers": [
+      "baseline_ls_lmmse",
+      "baseline_ls_2dlmmse_lmmse",
+      "upair5g_lmmse",
+      "perfect_csi_lmmse"
+    ],
+    "target_bler_floor": 1e-05,
+    "target_block_errors_per_receiver": 0
+  },
+  "evaluation_elapsed_s": 288.74092063400894,
+  "evaluation_seed": 3887100,
+  "gpu_mem_gib": 0.05229716096073389,
+  "gpu_peak_gib": 0.14459289889782667,
+  "num_curve_rows": 1,
+  "num_users": 3,
+  "per_ebno_best_classical": [],
+  "receiver_microbatch_size": 4,
+  "seed": 3887100,
+  "training_seed": 7
+}
