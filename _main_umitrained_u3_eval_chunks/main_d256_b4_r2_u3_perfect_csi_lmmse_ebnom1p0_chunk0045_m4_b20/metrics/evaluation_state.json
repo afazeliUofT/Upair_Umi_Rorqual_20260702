@@ -3,12 +3,12 @@
   "completed_ebno_db": [
     -1.0
   ],
-  "curves_csv": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0044_m4_b20/metrics/curves.csv",
+  "curves_csv": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0045_m4_b20/metrics/curves.csv",
   "evaluation_complete": true,
   "evaluation_parameters": {
     "batch_size_eval": 64,
     "compiled_receiver_error_counts": false,
-    "evaluation_seed": 6087166,
+    "evaluation_seed": 6187169,
     "floor_confidence_factor": 3.0,
     "floor_num_frames": 0,
     "log_gpu_memory": true,
@@ -24,7 +24,7 @@
     "receiver_microbatch_size": 4,
     "reliable_min_bit_errors": 1000,
     "reliable_min_block_errors": 100,
-    "seed": 6087166,
+    "seed": 6187169,
     "stopping_receivers": [
       "baseline_ls_lmmse",
       "baseline_ls_2dlmmse_lmmse",
@@ -38,5 +38,5 @@
   },
   "num_users": 3,
   "save_reason": "final",
-  "summary_path": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0044_m4_b20/metrics/evaluation_summary.json"
+  "summary_path": "/home/rsadve1/links/scratch/Extended_UPAIR_Narval_b32m16_portable_underUMI/_main_umitrained_u3_eval_chunks/main_d256_b4_r2_u3_perfect_csi_lmmse_ebnom1p0_chunk0045_m4_b20/metrics/evaluation_summary.json"
 }
